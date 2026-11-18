@@ -1925,7 +1925,7 @@ else
                 end
             end
 
-            local ok = pcall(function()
+            local ok, err = pcall(function()
                 local copy = item:Clone()
                 -- never run scripts copied out of the shop asset
                 for _, d in copy:GetDescendants() do
@@ -1933,7 +1933,8 @@ else
                 end
                 mount(copy)
             end)
-            return ok
+            if not ok then warn("[BodyAura] clone failed: " .. tostring(err)) end
+            return ok, err
         end
 
         local charConn
@@ -2003,12 +2004,14 @@ else
             end
             s.BodyAura.Enabled = true
             usedClone = true
-            local ok = cloneOntoBody()
-            Notify({
-                title = "Body Aura",
-                content = ok and ("Attached: " .. s.BodyAura.Selected) or "Couldn't attach the aura.",
-                duration = 3,
-            })
+            local ok, err = cloneOntoBody()
+            local character = LocalPlayer.Character
+            local hrp = character and character:FindFirstChild("HumanoidRootPart")
+            local msg
+            if not hrp then msg = "No character/HumanoidRootPart yet."
+            elseif ok then msg = "Attached: " .. s.BodyAura.Selected
+            else msg = "Failed: " .. tostring(err) end
+            Notify({ title = "Body Aura", content = msg, duration = 6 })
         end
 
         function BodyAura.debug()
@@ -2021,6 +2024,21 @@ else
                     table.insert(out, "Equipping." .. slot .. " = " .. tostring(PlayerData.storedData["Equipping"][slot]))
                 end
             end)
+            pcall(function()
+                local folder = shop and shop:FindFirstChild("Aura")
+                local name = items[s.BodyAura.Selected]
+                local item = folder and name and folder:FindFirstChild(name)
+                if not item then
+                    table.insert(out, "Selected aura asset NOT FOUND in ShopItems.Aura")
+                    return
+                end
+                table.insert(out, "Asset: " .. item:GetFullName() .. " [" .. item.ClassName .. "]")
+                for _, d in item:GetDescendants() do
+                    table.insert(out, "  " .. d.ClassName .. " " .. d:GetFullName():gsub("^.-" .. item.Name, item.Name))
+                end
+            end)
+            local ch = LocalPlayer.Character
+            table.insert(out, "Character=" .. tostring(ch) .. " HRP=" .. tostring(ch and ch:FindFirstChild("HumanoidRootPart")))
             print(table.concat(out, "\n"))
             Notify({ title = "Body Aura", content = "Printed to the console (F9).", duration = 3 })
         end
