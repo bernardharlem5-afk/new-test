@@ -1926,12 +1926,15 @@ else
         local function cloneOntoBody()
             local character = LocalPlayer.Character
             local hrp = character and character:FindFirstChild("HumanoidRootPart")
-            local folder = shop and shop:FindFirstChild("Aura")
+            local shopNow = shop or ReplicatedStorage:FindFirstChild("ShopItems")
+            local folder = shopNow and shopNow:FindFirstChild("Aura")
             local itemName = items[s.BodyAura.Selected]
             local item = folder and itemName and folder:FindFirstChild(itemName)
-            if not hrp or not item then return false end
+            if not hrp then return false, "no HumanoidRootPart yet" end
+            if not item then return false, "aura asset not found in ShopItems.Aura" end
             clearCloned()
 
+            local weldCount = 0
             local function track(inst)
                 table.insert(cloned, inst)
                 -- Anything the clone spawns later gets hidden too.
@@ -1961,19 +1964,22 @@ else
                         inst.CFrame = hrp.CFrame
                     end
 
-                    -- Weld every part to the root so the whole clone follows
-                    -- every movement. Parts are already invisible, non-colliding,
-                    -- untouchable, unqueryable and massless from hideTree.
                     for _, part in parts do
                         part.Anchored = false
+                    end
+
+                    -- Into the character first, then weld every part to the root
+                    -- so the whole clone follows every movement. Parts are already
+                    -- invisible, non-colliding, untouchable and massless.
+                    inst.Parent = character
+                    for _, part in parts do
                         local w = Instance.new("WeldConstraint")
                         w.Name = "BodyAuraFollowWeld"
                         w.Part0 = hrp
                         w.Part1 = part
                         w.Parent = part
+                        weldCount += 1
                     end
-
-                    inst.Parent = character
                     track(inst)
                 elseif inst:IsA("Folder") or inst:IsA("Configuration") then
                     for _, c in inst:GetChildren() do
@@ -1996,10 +2002,23 @@ else
                 mount(copy)
             end)
             if not ok then warn("[BodyAura] clone failed: " .. tostring(err)) end
-            return ok, err
+            return ok, err, weldCount
         end
 
         local charConn
+        local function watchRespawn(alsoEquip)
+            if charConn then charConn:Disconnect() end
+            charConn = LocalPlayer.CharacterAdded:Connect(function()
+                if not s.BodyAura.Enabled then return end
+                task.wait(0.5)
+                if alsoEquip then setEquipped(true) end
+                if usedClone then
+                    task.wait(1)
+                    if s.BodyAura.Enabled then cloneOntoBody() end
+                end
+            end)
+        end
+
         function BodyAura.apply()
             if not items[s.BodyAura.Selected] then
                 Notify({ title = "Body Aura", content = "Pick an aura first.", duration = 3 })
@@ -2015,28 +2034,15 @@ else
             local c0 = LocalPlayer.Character
             local before = c0 and #c0:GetDescendants() or 0
             replicateNow()
-            task.delay(1.2, function()
-                if not s.BodyAura.Enabled then return end
-                local c1 = LocalPlayer.Character
-                if c1 and #c1:GetDescendants() <= before then
-                    usedClone = true
-                    cloneOntoBody()
-                end
-            end)
-            if charConn then charConn:Disconnect() end
-            charConn = LocalPlayer.CharacterAdded:Connect(function()
-                if s.BodyAura.Enabled then
-                    task.wait(0.5)
-                    setEquipped(true)
-                    if usedClone then
-                        task.wait(1)
-                        if s.BodyAura.Enabled then cloneOntoBody() end
-                    end
-                end
-            end)
+            -- Always put the invisible clone on the body too, not only as a fallback.
+            usedClone = true
+            local okClone, errClone, welded = cloneOntoBody()
+            watchRespawn(true)
             Notify({
                 title = "Body Aura",
-                content = "Applied: " .. s.BodyAura.Selected .. ". If it doesn't show, press 'Respawn to apply aura'.",
+                content = okClone
+                    and ("Applied: " .. s.BodyAura.Selected .. " (" .. tostring(welded) .. " parts on your body)")
+                    or ("Applied, but the body clone failed: " .. tostring(errClone)),
                 duration = 4,
             })
         end
@@ -2066,13 +2072,14 @@ else
             end
             s.BodyAura.Enabled = true
             usedClone = true
-            local ok, err = cloneOntoBody()
-            local character = LocalPlayer.Character
-            local hrp = character and character:FindFirstChild("HumanoidRootPart")
+            local ok, err, welded = cloneOntoBody()
+            watchRespawn(false)
             local msg
-            if not hrp then msg = "No character/HumanoidRootPart yet."
-            elseif ok then msg = "Attached: " .. s.BodyAura.Selected
-            else msg = "Failed: " .. tostring(err) end
+            if ok then
+                msg = "On your body: " .. s.BodyAura.Selected .. " (" .. tostring(welded) .. " parts welded, invisible)"
+            else
+                msg = "Failed: " .. tostring(err)
+            end
             Notify({ title = "Body Aura", content = msg, duration = 6 })
         end
 
