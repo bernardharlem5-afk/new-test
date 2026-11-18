@@ -1793,15 +1793,51 @@ else
     local BodyAura = { Names = {} }
     do
         local shop = ReplicatedStorage:FindFirstChild("ShopItems")
-        local folderName, repKey = "Aura", "ReplicateAura"
+        local folderName, repKey = nil, nil
         local items = {}
         local prevFn, mineFn, savedEquip = nil, nil, nil
+        local usingBallFallback = false
+
+        -- Find the body aura folder. Never silently reuse the ball "Aura" folder
+        -- unless nothing else exists (handled as a no-hook fallback below).
+        local function findFolder()
+            if not shop then return nil end
+            for _, n in { "BodyAura", "BodyAuras", "PlayerAura", "CharacterAura", "Auras" } do
+                local f = shop:FindFirstChild(n)
+                if f then return f end
+            end
+            for _, c in shop:GetChildren() do
+                local n = c.Name:lower()
+                if n ~= "aura" and n:find("aura", 1, true) then return c end
+            end
+            return nil
+        end
+
+        -- Find the body aura replicate function. Must NOT be ReplicateAura
+        -- (that one is the ball aura and is hooked by the Ball Aura Spoofer).
+        local function findRepKey()
+            if not Replicator then return nil end
+            for _, k in { "ReplicateBodyAura", "ReplicatePlayerAura", "ReplicateCharacterAura", "ReplicateBody" } do
+                if type(Replicator[k]) == "function" then return k end
+            end
+            for k, v in pairs(Replicator) do
+                local n = tostring(k):lower()
+                if type(v) == "function" and tostring(k) ~= "ReplicateAura"
+                    and n:find("aura", 1, true) then
+                    return tostring(k)
+                end
+            end
+            return nil
+        end
 
         pcall(function()
-            if shop and shop:FindFirstChild("BodyAura") then folderName = "BodyAura" end
-            if Replicator and Replicator["ReplicateBodyAura"] then repKey = "ReplicateBodyAura" end
-            local folder = shop and shop:FindFirstChild(folderName)
+            local folder = findFolder()
+            if not folder and shop then
+                folder = shop:FindFirstChild("Aura")
+                usingBallFallback = folder ~= nil
+            end
             if folder then
+                folderName = folder.Name
                 for _, item in folder:GetChildren() do
                     local name = item.Name:gsub("^" .. folderName .. "_", ""):gsub("^Aura_", "")
                     items[name] = item.Name
@@ -1809,8 +1845,35 @@ else
                 end
                 table.sort(BodyAura.Names)
             end
+            repKey = findRepKey()
+            if not repKey and Replicator and type(Replicator["ReplicateAura"]) == "function" then
+                repKey = "ReplicateAura"
+            end
         end)
         if #BodyAura.Names == 0 then BodyAura.Names = { "None" } end
+
+        -- Always call the un-hooked original when we share ReplicateAura with the
+        -- ball aura spoofer, so the ball aura selection can't override the body aura.
+        local function getReplicate()
+            if not Replicator or not repKey then return nil end
+            if repKey == "ReplicateAura" and OriginalReplicateAura then
+                return OriginalReplicateAura
+            end
+            return Replicator[repKey]
+        end
+
+        local function replicateOnCharacter(character, target)
+            local replicate = getReplicate()
+            if not character or not target or type(replicate) ~= "function" then return false end
+            -- Different games expect the character model or a body part as the parent.
+            local ok = pcall(replicate, character, target)
+            if ok then return true end
+            local hrp = character:FindFirstChild("HumanoidRootPart")
+            if hrp then
+                ok = pcall(replicate, hrp, target)
+            end
+            return ok
+        end
 
         local function setEquipped(on)
             local target = items[s.BodyAura.Selected]
@@ -1818,16 +1881,12 @@ else
                 local PlayerData = require(ReplicatedStorage.Util.PlayerData)
                 local data = PlayerData.storedData
                 local eq = data and data["Equipping"]
-                if not eq then return end
+                if not eq or not folderName then return end
 
                 if on then
                     if not target then return end
                     if savedEquip == nil then savedEquip = eq[folderName] or false end
                     eq[folderName] = target
-
-                    -- Inventory ownership is separate from actually rendering the aura.
-                    -- Keep the local inventory entry, then explicitly ask the game's
-                    -- Replicator to build the selected aura on the current character.
                     if data["Inventory"] then
                         data["Inventory"][target] = 1
                     end
@@ -1838,18 +1897,14 @@ else
             end)
 
             if on and target then
-                local character = LocalPlayer.Character
-                local replicate = Replicator and Replicator[repKey]
-                if character and type(replicate) == "function" then
-                    pcall(function()
-                        replicate(character, target)
-                    end)
-                end
+                replicateOnCharacter(LocalPlayer.Character, target)
             end
         end
 
         local function hook()
-            if not Replicator or not Replicator[repKey] then return false end
+            -- Don't hook a function the ball aura spoofer already owns.
+            if not Replicator or not repKey or repKey == "ReplicateAura" then return false end
+            if type(Replicator[repKey]) ~= "function" then return false end
             if mineFn and Replicator[repKey] == mineFn then return true end
             prevFn = Replicator[repKey]
             mineFn = function(Parent, Name)
@@ -1864,7 +1919,7 @@ else
         end
 
         local function unhook()
-            if Replicator and mineFn and Replicator[repKey] == mineFn then
+            if Replicator and mineFn and repKey and Replicator[repKey] == mineFn then
                 Replicator[repKey] = prevFn
             end
             mineFn, prevFn = nil, nil
@@ -1876,28 +1931,31 @@ else
                 Notify({ title = "Body Aura", content = "Pick an aura first.", duration = 3 })
                 return
             end
+            if not folderName or not repKey then
+                Notify({
+                    title = "Body Aura",
+                    content = "Couldn't find the body aura folder/function. Press 'Print aura hooks (debug)' and check F9.",
+                    duration = 5,
+                })
+                return
+            end
             s.BodyAura.Enabled = true
             local hooked = hook()
             setEquipped(true)
             if charConn then charConn:Disconnect() end
             charConn = LocalPlayer.CharacterAdded:Connect(function(character)
-                if s.BodyAura.Enabled then
-                    task.wait(0.75)
-                    setEquipped(true)
-                    -- Re-run the game's body-aura replication after the new rig exists.
-                    local target = items[s.BodyAura.Selected]
-                    local replicate = Replicator and Replicator[repKey]
-                    if target and type(replicate) == "function" then
-                        pcall(function()
-                            replicate(character, target)
-                        end)
-                    end
-                end
+                if not s.BodyAura.Enabled then return end
+                character:WaitForChild("HumanoidRootPart", 10)
+                task.wait(0.75)
+                setEquipped(true)
             end)
+            local note = usingBallFallback
+                and " (no separate body aura folder found; using the Aura folder)"
+                or ""
             Notify({
                 title = "Body Aura",
-                content = (hooked and "Applied: " or "Equipped (no hook found): ") .. s.BodyAura.Selected
-                    .. ". Respawn or re-equip if it doesn't show right away.",
+                content = (hooked and "Applied: " or "Equipped (direct, no hook): ")
+                    .. s.BodyAura.Selected .. note,
                 duration = 4,
             })
         end
@@ -1914,16 +1972,27 @@ else
         end
 
         function BodyAura.debug()
-            local out = { "[BodyAura] folder=" .. folderName .. " hook=" .. repKey }
+            local out = {
+                "[BodyAura] folder=" .. tostring(folderName)
+                    .. " hook=" .. tostring(repKey)
+                    .. " ballFallback=" .. tostring(usingBallFallback),
+            }
             pcall(function()
-                for _, c in shop:GetChildren() do table.insert(out, "ShopItems." .. c.Name) end
+                for _, c in shop:GetChildren() do
+                    table.insert(out, "ShopItems." .. c.Name .. " (" .. #c:GetChildren() .. " items)")
+                end
             end)
             pcall(function()
                 for k, v in pairs(Replicator) do
-                    local n = tostring(k):lower()
-                    if type(v) == "function" and (n:find("aura") or n:find("body")) then
+                    if type(v) == "function" then
                         table.insert(out, "Replicator." .. tostring(k))
                     end
+                end
+            end)
+            pcall(function()
+                local PlayerData = require(ReplicatedStorage.Util.PlayerData)
+                for k, v in pairs(PlayerData.storedData["Equipping"]) do
+                    table.insert(out, "Equipping." .. tostring(k) .. " = " .. tostring(v))
                 end
             end)
             print(table.concat(out, "\n"))
