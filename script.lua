@@ -1896,30 +1896,64 @@ else
             local function mount(inst)
                 if inst:IsA("BasePart") or inst:IsA("Model") then
                     local parts = {}
-                    if inst:IsA("BasePart") then parts[1] = inst end
-                    for _, d in inst:GetDescendants() do
-                        if d:IsA("BasePart") then parts[#parts + 1] = d end
+                    if inst:IsA("BasePart") then
+                        parts[1] = inst
+                    else
+                        for _, d in inst:GetDescendants() do
+                            if d:IsA("BasePart") then
+                                parts[#parts + 1] = d
+                            end
+                        end
                     end
-                    if inst:IsA("Model") then inst:PivotTo(hrp.CFrame)
-                    else inst.CFrame = hrp.CFrame end
+
+                    -- Position the clone at the player before welding it.
+                    if inst:IsA("Model") then
+                        inst:PivotTo(hrp.CFrame)
+                    else
+                        inst.CFrame = hrp.CFrame
+                    end
+
+                    -- Hide only the carrier/root piece, not the aura's visible
+                    -- geometry or particle emitters. All parts are welded to the
+                    -- character so the complete effect follows every movement.
+                    local carrier = inst:IsA("Model") and (inst.PrimaryPart or
+                        inst:FindFirstChild("HumanoidRootPart", true) or
+                        inst:FindFirstChild("Root", true) or
+                        inst:FindFirstChild("Handle", true))
+
                     for _, part in parts do
                         part.Anchored = false
                         part.CanCollide = false
                         part.CanTouch = false
                         part.CanQuery = false
                         part.Massless = true
+
+                        if part == carrier then
+                            part.Transparency = 1
+                            part.LocalTransparencyModifier = 1
+                            for _, decal in part:GetDescendants() do
+                                if decal:IsA("Decal") or decal:IsA("Texture") then
+                                    decal.Transparency = 1
+                                end
+                            end
+                        end
+
                         local w = Instance.new("WeldConstraint")
+                        w.Name = "BodyAuraFollowWeld"
                         w.Part0 = hrp
                         w.Part1 = part
                         w.Parent = part
                     end
+
                     inst.Parent = character
                     table.insert(cloned, inst)
                 elseif inst:IsA("Folder") or inst:IsA("Configuration") then
-                    for _, c in inst:GetChildren() do mount(c) end
+                    for _, c in inst:GetChildren() do
+                        mount(c)
+                    end
                     inst:Destroy()
                 else
-                    -- particle emitters, attachments, lights, beams, etc.
+                    -- Keep non-part aura effects attached to the moving root.
                     inst.Parent = hrp
                     table.insert(cloned, inst)
                 end
@@ -1927,7 +1961,7 @@ else
 
             local ok, err = pcall(function()
                 local copy = item:Clone()
-                -- never run scripts copied out of the shop asset
+                -- Never run scripts copied out of the shop asset.
                 for _, d in copy:GetDescendants() do
                     if d:IsA("LuaSourceContainer") then d:Destroy() end
                 end
