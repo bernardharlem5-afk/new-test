@@ -1813,22 +1813,39 @@ else
         if #BodyAura.Names == 0 then BodyAura.Names = { "None" } end
 
         local function setEquipped(on)
+            local target = items[s.BodyAura.Selected]
             pcall(function()
                 local PlayerData = require(ReplicatedStorage.Util.PlayerData)
-                local eq = PlayerData.storedData["Equipping"]
+                local data = PlayerData.storedData
+                local eq = data and data["Equipping"]
+                if not eq then return end
+
                 if on then
-                    local target = items[s.BodyAura.Selected]
                     if not target then return end
                     if savedEquip == nil then savedEquip = eq[folderName] or false end
                     eq[folderName] = target
-                    PlayerData.storedData["Inventory"][target] = 1
-                else
-                    if savedEquip ~= nil then
-                        eq[folderName] = savedEquip or nil
-                        savedEquip = nil
+
+                    -- Inventory ownership is separate from actually rendering the aura.
+                    -- Keep the local inventory entry, then explicitly ask the game's
+                    -- Replicator to build the selected aura on the current character.
+                    if data["Inventory"] then
+                        data["Inventory"][target] = 1
                     end
+                elseif savedEquip ~= nil then
+                    eq[folderName] = savedEquip or nil
+                    savedEquip = nil
                 end
             end)
+
+            if on and target then
+                local character = LocalPlayer.Character
+                local replicate = Replicator and Replicator[repKey]
+                if character and type(replicate) == "function" then
+                    pcall(function()
+                        replicate(character, target)
+                    end)
+                end
+            end
         end
 
         local function hook()
@@ -1863,8 +1880,19 @@ else
             local hooked = hook()
             setEquipped(true)
             if charConn then charConn:Disconnect() end
-            charConn = LocalPlayer.CharacterAdded:Connect(function()
-                if s.BodyAura.Enabled then task.wait(0.5); setEquipped(true) end
+            charConn = LocalPlayer.CharacterAdded:Connect(function(character)
+                if s.BodyAura.Enabled then
+                    task.wait(0.75)
+                    setEquipped(true)
+                    -- Re-run the game's body-aura replication after the new rig exists.
+                    local target = items[s.BodyAura.Selected]
+                    local replicate = Replicator and Replicator[repKey]
+                    if target and type(replicate) == "function" then
+                        pcall(function()
+                            replicate(character, target)
+                        end)
+                    end
+                end
             end)
             Notify({
                 title = "Body Aura",
