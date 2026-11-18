@@ -1874,12 +1874,51 @@ else
             end)
         end
 
-        -- Direct method: copy the aura asset from ShopItems.Aura and attach it to
-        -- the character ourselves, without relying on the game's replication.
+        -- Direct method: copy the aura asset from ShopItems.Aura, make every piece
+        -- of it invisible and non-colliding, and weld it to the HumanoidRootPart so
+        -- it sits inside the body and follows every movement.
         local cloned = {}
+        local hideConns = {}
         local usedClone = false
 
+        local HIDE_BY_ENABLED = {
+            "ParticleEmitter", "Beam", "Trail", "Fire", "Smoke", "Sparkles",
+            "Highlight", "BillboardGui", "SurfaceGui",
+        }
+
+        -- Makes one instance unseeable and non-physical.
+        local function hideInstance(d)
+            pcall(function()
+                if d:IsA("BasePart") then
+                    d.Transparency = 1
+                    d.CastShadow = false
+                    d.CanCollide = false
+                    d.CanTouch = false
+                    d.CanQuery = false
+                    d.Massless = true
+                    pcall(function() d.LocalTransparencyModifier = 1 end)
+                elseif d:IsA("Decal") or d:IsA("Texture") then
+                    d.Transparency = 1
+                elseif d:IsA("Light") then
+                    d.Enabled = false
+                elseif d:IsA("GuiBase3d") then
+                    d.Visible = false
+                else
+                    for _, cls in HIDE_BY_ENABLED do
+                        if d:IsA(cls) then d.Enabled = false; break end
+                    end
+                end
+            end)
+        end
+
+        local function hideTree(root)
+            hideInstance(root)
+            for _, d in root:GetDescendants() do hideInstance(d) end
+        end
+
         local function clearCloned()
+            for _, c in hideConns do pcall(function() c:Disconnect() end) end
+            table.clear(hideConns)
             for _, inst in cloned do pcall(function() inst:Destroy() end) end
             table.clear(cloned)
         end
@@ -1893,7 +1932,16 @@ else
             if not hrp or not item then return false end
             clearCloned()
 
+            local function track(inst)
+                table.insert(cloned, inst)
+                -- Anything the clone spawns later gets hidden too.
+                table.insert(hideConns, inst.DescendantAdded:Connect(hideInstance))
+            end
+
             local function mount(inst)
+                -- Hide before it ever touches the workspace so it never flashes.
+                hideTree(inst)
+
                 if inst:IsA("BasePart") or inst:IsA("Model") then
                     local parts = {}
                     if inst:IsA("BasePart") then
@@ -1906,38 +1954,18 @@ else
                         end
                     end
 
-                    -- Position the clone at the player before welding it.
+                    -- Put the clone exactly on the root (inside the body) before welding.
                     if inst:IsA("Model") then
                         inst:PivotTo(hrp.CFrame)
                     else
                         inst.CFrame = hrp.CFrame
                     end
 
-                    -- Hide only the carrier/root piece, not the aura's visible
-                    -- geometry or particle emitters. All parts are welded to the
-                    -- character so the complete effect follows every movement.
-                    local carrier = inst:IsA("Model") and (inst.PrimaryPart or
-                        inst:FindFirstChild("HumanoidRootPart", true) or
-                        inst:FindFirstChild("Root", true) or
-                        inst:FindFirstChild("Handle", true))
-
+                    -- Weld every part to the root so the whole clone follows
+                    -- every movement. Parts are already invisible, non-colliding,
+                    -- untouchable, unqueryable and massless from hideTree.
                     for _, part in parts do
                         part.Anchored = false
-                        part.CanCollide = false
-                        part.CanTouch = false
-                        part.CanQuery = false
-                        part.Massless = true
-
-                        if part == carrier then
-                            part.Transparency = 1
-                            part.LocalTransparencyModifier = 1
-                            for _, decal in part:GetDescendants() do
-                                if decal:IsA("Decal") or decal:IsA("Texture") then
-                                    decal.Transparency = 1
-                                end
-                            end
-                        end
-
                         local w = Instance.new("WeldConstraint")
                         w.Name = "BodyAuraFollowWeld"
                         w.Part0 = hrp
@@ -1946,16 +1974,16 @@ else
                     end
 
                     inst.Parent = character
-                    table.insert(cloned, inst)
+                    track(inst)
                 elseif inst:IsA("Folder") or inst:IsA("Configuration") then
                     for _, c in inst:GetChildren() do
                         mount(c)
                     end
                     inst:Destroy()
                 else
-                    -- Keep non-part aura effects attached to the moving root.
+                    -- Keep non-part effects attached to the moving root.
                     inst.Parent = hrp
-                    table.insert(cloned, inst)
+                    track(inst)
                 end
             end
 
@@ -2046,6 +2074,52 @@ else
             elseif ok then msg = "Attached: " .. s.BodyAura.Selected
             else msg = "Failed: " .. tostring(err) end
             Notify({ title = "Body Aura", content = msg, duration = 6 })
+        end
+
+        -- Finds where the game keeps aura assets and lists the effect pieces
+        -- currently sitting on your character. Output goes to the console (F9).
+        function BodyAura.scan()
+            local out, n, cap = { "[BodyAura] scan: instances named *aura*" }, 0, 80
+            local function add(line)
+                if n < cap then
+                    n += 1
+                    table.insert(out, line)
+                elseif n == cap then
+                    n += 1
+                    table.insert(out, "  ...truncated")
+                end
+            end
+            local roots = {
+                ReplicatedStorage,
+                game:GetService("ReplicatedFirst"),
+                game:GetService("Lighting"),
+                workspace,
+            }
+            for _, root in roots do
+                pcall(function()
+                    for _, d in root:GetDescendants() do
+                        if d.Name:lower():find("aura", 1, true) then
+                            add("  " .. d.ClassName .. "  " .. d:GetFullName())
+                        end
+                    end
+                end)
+            end
+            local ch = LocalPlayer.Character
+            if ch then
+                table.insert(out, "[BodyAura] scan: effect pieces on your character")
+                local m = 0
+                for _, d in ch:GetDescendants() do
+                    if d:IsA("MeshPart") or d:IsA("ParticleEmitter") or d:IsA("Beam") or d:IsA("Trail") then
+                        m += 1
+                        if m <= 60 then
+                            table.insert(out, "  " .. d.ClassName .. "  " .. d:GetFullName())
+                        end
+                    end
+                end
+                if m > 60 then table.insert(out, "  ...truncated (" .. m .. " total)") end
+            end
+            print(table.concat(out, "\n"))
+            Notify({ title = "Body Aura", content = "Scan printed to the console (F9).", duration = 3 })
         end
 
         function BodyAura.debug()
@@ -3033,20 +3107,8 @@ end)
         end,
     })
     PrivacyTab:CreateButton({
-        Name = "Reset body aura",
-        Callback = function() pcall(BodyAura.reset) end,
-    })
-    PrivacyTab:CreateButton({
         Name = "Force aura onto body (clone)",
         Callback = function() pcall(BodyAura.force) end,
-    })
-    PrivacyTab:CreateButton({
-        Name = "Respawn to apply aura",
-        Callback = function() pcall(BodyAura.respawn) end,
-    })
-    PrivacyTab:CreateButton({
-        Name = "Print aura hooks (debug)",
-        Callback = function() pcall(BodyAura.debug) end,
     })
 
     UtilityTab:CreateSection("Anti Moderator")
