@@ -1874,6 +1874,68 @@ else
             end)
         end
 
+        -- Direct method: copy the aura asset from ShopItems.Aura and attach it to
+        -- the character ourselves, without relying on the game's replication.
+        local cloned = {}
+        local usedClone = false
+
+        local function clearCloned()
+            for _, inst in cloned do pcall(function() inst:Destroy() end) end
+            table.clear(cloned)
+        end
+
+        local function cloneOntoBody()
+            local character = LocalPlayer.Character
+            local hrp = character and character:FindFirstChild("HumanoidRootPart")
+            local folder = shop and shop:FindFirstChild("Aura")
+            local itemName = items[s.BodyAura.Selected]
+            local item = folder and itemName and folder:FindFirstChild(itemName)
+            if not hrp or not item then return false end
+            clearCloned()
+
+            local function mount(inst)
+                if inst:IsA("BasePart") or inst:IsA("Model") then
+                    local parts = {}
+                    if inst:IsA("BasePart") then parts[1] = inst end
+                    for _, d in inst:GetDescendants() do
+                        if d:IsA("BasePart") then parts[#parts + 1] = d end
+                    end
+                    if inst:IsA("Model") then inst:PivotTo(hrp.CFrame)
+                    else inst.CFrame = hrp.CFrame end
+                    for _, part in parts do
+                        part.Anchored = false
+                        part.CanCollide = false
+                        part.CanTouch = false
+                        part.CanQuery = false
+                        part.Massless = true
+                        local w = Instance.new("WeldConstraint")
+                        w.Part0 = hrp
+                        w.Part1 = part
+                        w.Parent = part
+                    end
+                    inst.Parent = character
+                    table.insert(cloned, inst)
+                elseif inst:IsA("Folder") or inst:IsA("Configuration") then
+                    for _, c in inst:GetChildren() do mount(c) end
+                    inst:Destroy()
+                else
+                    -- particle emitters, attachments, lights, beams, etc.
+                    inst.Parent = hrp
+                    table.insert(cloned, inst)
+                end
+            end
+
+            local ok = pcall(function()
+                local copy = item:Clone()
+                -- never run scripts copied out of the shop asset
+                for _, d in copy:GetDescendants() do
+                    if d:IsA("LuaSourceContainer") then d:Destroy() end
+                end
+                mount(copy)
+            end)
+            return ok
+        end
+
         local charConn
         function BodyAura.apply()
             if not items[s.BodyAura.Selected] then
@@ -1887,12 +1949,26 @@ else
             s.BodyAura.Enabled = true
             ensureAuraHook()
             setEquipped(true)
+            local c0 = LocalPlayer.Character
+            local before = c0 and #c0:GetDescendants() or 0
             replicateNow()
+            task.delay(1.2, function()
+                if not s.BodyAura.Enabled then return end
+                local c1 = LocalPlayer.Character
+                if c1 and #c1:GetDescendants() <= before then
+                    usedClone = true
+                    cloneOntoBody()
+                end
+            end)
             if charConn then charConn:Disconnect() end
             charConn = LocalPlayer.CharacterAdded:Connect(function()
                 if s.BodyAura.Enabled then
                     task.wait(0.5)
                     setEquipped(true)
+                    if usedClone then
+                        task.wait(1)
+                        if s.BodyAura.Enabled then cloneOntoBody() end
+                    end
                 end
             end)
             Notify({
@@ -1915,7 +1991,24 @@ else
             s.BodyAura.Enabled = false
             if charConn then charConn:Disconnect(); charConn = nil end
             setEquipped(false)
+            clearCloned()
+            usedClone = false
             releaseAuraHook(false)
+        end
+
+        function BodyAura.force()
+            if not items[s.BodyAura.Selected] then
+                Notify({ title = "Body Aura", content = "Pick an aura first.", duration = 3 })
+                return
+            end
+            s.BodyAura.Enabled = true
+            usedClone = true
+            local ok = cloneOntoBody()
+            Notify({
+                title = "Body Aura",
+                content = ok and ("Attached: " .. s.BodyAura.Selected) or "Couldn't attach the aura.",
+                duration = 3,
+            })
         end
 
         function BodyAura.debug()
@@ -2890,6 +2983,10 @@ end)
     PrivacyTab:CreateButton({
         Name = "Reset body aura",
         Callback = function() pcall(BodyAura.reset) end,
+    })
+    PrivacyTab:CreateButton({
+        Name = "Force aura onto body (clone)",
+        Callback = function() pcall(BodyAura.force) end,
     })
     PrivacyTab:CreateButton({
         Name = "Respawn to apply aura",
