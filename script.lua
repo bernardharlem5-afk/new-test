@@ -1,3 +1,2743 @@
--- This file was protected using Luraph Obfuscator v14.4.2 [https://lura.ph/]
 
-return({Vq=function(v,p,a,S,u,L,X)if p==81 then p=v:Wq(p,X,a);elseif p==0B1111100 then(a)[4]=(L);p=(0X2b);return 0X7916,p;else if p==0X2b then p=v:Xq(S,p,a);return 30998,p;else if p==0B1110 then a[0X5]=(u);return 56701,p;end;end;end;return nil,p;end,P=function(v,p,a,S,u)(S)[26]=(nil);S[0B11011]=(nil);p=(0X6A);while true do if p==106 then for L=0B0,0xff do(S[0B1])[L]=a(L);end;if not u[16760]then p=-0X2__c+(v.ub(u[32049]+u[12605]+u[0X313D]<u[4201]and u[27275]or u[0X3E9a]));(u)[0X4178_]=(p);else p=u[0x4178];end;continue;elseif p==0X41_ then(S)[0x19]=v.s;if not(not u[5751])then p=v:Z(u,p);else p=-0B111110_01+((v.vb((v.gb((v.Lb(u[21724],(u[21376]))))),(u[0X5004])))-u[4201]);u[5751]=p;end;else if p==0X2c then(S)[26]=(function(a)local L=({S});a=L[0X1][0B001010](a,'z','\x21!!!\x21');return L[0X1][0B1010](a,'.\..\z  \46\u{02E}',L[0b1][0b10001]({},{__index=function(a,X)local r,s,C,E,R=L[0b1][0B10101_](X,0B1,0X5);local w=((R-0x21)+(E-33)*0X55+(C-0X21)*7225+(s-0X21)*614125+(r-33)*0X0031C84b1);C=L[0X1][18]("\62I\u{034}",w);(a)[X]=(C);return C;end}));end)(S[0B10_011]([=[LPH]r6tlM>lXj)!!!!U5^!?=?Z^R4ATe*!>lXj)!!!!j5[=?i!!$COlTfUo@<MZF>lXj)!!!!Z5dLJsz!8qc\Fp`&(@:XG$EbTE(FobZf!d8a1!`!o^!C_/:F(KH*ASuZsz!!"]=>lXj)!!!#g5o9_)z!!!j=z!!!"B!G\q@Fob3Y!I%fLz!!#8izJ<@r=Fob'U!DR_@@VKp?13N\<FphYaD.RftFCAWpATe)QFol?#>lXj)z!-SE3G'3mqFolo3FobH`!H&_^z!!!"B!G?QV:j)kAFocZ-#]t!+FE2)5B6FDs@:O(r!c<+("Cc7eFER_)G'4(1@<Z?qFERk/F(f9"FER\1FoamP!Gl$Az!:W3r"D;du@Whbp(^U0Bz!-SQhDK'#oCN]`!FokchFoc)r!IA#Oz!,t2H!blh$!^V!Q!c)sbz!&/[`Fok!RFolZ,Foc].!APG9z!!!!9#64`(zFoc<#!D++6z!!!"B"^bVRDe+"mA9N,!@X3',Fob6Z!DdkB?XI5PA9J#]G'3mVFoc2u#@_UiCh7$mFocc0"CGMPFER[UFob?]"*.sl(]sa<z!-SE<G'3mtFp;i,D.7'sFp<#0EbTE(FobrUz!!)LRFoc,s#%qd]FCT!-"a"0^Ch7bj=Vq>Cz!!$:)z!$FOM!CV)49QkR`Bl8!'EccI+@s3"rF^4tIz5X9JoDg$:4B4Z1%ATV@&@:F%a(^0m>z!-SEaG'3mRFokZeFok$SFobci!EO@EBQaGUG'3mc(]aU:z!#P\9z!!%0D7s9%VD\rNUz!!%0G?XI>XFr1L:!'pSas8Q@)z!&[#I!!!!aS3p[MFpDYkFCo*%G'4's?XmM\Cg@#@J1jellp4nWz!,t50z!!&ZX>lXj)!!)eT5[=?iz5<rKS!!"\j!,t50z!!"]<FprG'FDYT2@<>peCh6lPz!)Pq("^bVRF_l4,?XI;]DI[*s>lXkt\<A/q6$<9,>lXj)!!!!Q6X9Zlz&3tC?89T.^Ap&!$FD5Z2(f;[m#ljr)s'5U)5`HOdk!<8Qz!#.\A"CGMPATe9"H#R>5AmGB:!)UhL`BeYO@<6L$EcbRe!.\!4Drs?/!H!",=`8G'+A?od+D#G6Bl\-0D.RU,+CoD%F!,@=F<GXIE,]`9F<GC<@:UL!EZf1:@:XG$EbTE(/0K%JATD?oDfTD3H#IgJ@<,p%F`(VsCh4`2D]j1DAKXZhEa`p#-Z^CX9Me8e:/>4s:f]kU<CKh6+DkOsEc3R9!!'h33,IM=Fpql!DKKH7FC0-8E+N;Tzr1?5[!!'fW.O=1CFou2lEcqJ!>lXji#fP]M6$<8RFobTKz!!!9iFp)YjFD,h#@q]:kFp2hp@;Kb'#]t!&F_tT!Ea8YF_#OH7ha)DiG]7/$Ci!AW!!&d>^!K%^(B=F8z>lXkTl`urA6!XHj!3clkm6P"X!9!Ct9&W'Z!-SH.BfL8=?XIAa>lXj)!!!#g^DM7sz!!%0M3[c:b.k+[`%16Ba#'+-rF(KH:!CC&l!!!!C%>R5m#AeF!FCB9&>lXkt_U_fT6$<HEDfT]'FBnkH!4WZ=U-Wr+?XIbjGBO5lz!!!US"*8To>lXkT#%/D"6!XHj!!!#6[m44!!!&[FUW5ZD#BFj'FCB9&Fp2GtEc5uA#\dFY<^TT,;-a/%!,e<QfKg>cS)BJ0s8W+B$=@.XATqj+A7^"/#@ChPDId='Foj9\FocQ*"E%dqFERgp?ZU@!Fp)DkDIdp0+ED%8F`M@BF(KH*ASuZ>Ap&!$FD5Z2-n[,).3NYBFEMVA+=2(W/hSb*+D#G$/0K"FFDYT2@<>peCh5#A+Bp$9F!=m44Wl@0/g,Qn+F>5<?YOCgAU#=\+D58-An>k'-n$]#/h&4lI46TfFp)o4E+O1rD..NrBQa_i?Z^4-FE2)5B3bK;!(L%1ZpAj>@rH6p@<?Ys9QbAaE+jFe'ac'++<VdL+<W6f>?_FA+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+>,o*-nd&$/hSb//hSb!+<VdL+>,9!/1`8(-mL#b5X6q/+<VdL+<VdL+<VdL+<VdL+<VdL+=J]^+<W3g-mL#a-71uC5X6YB-n$`%0/"_%-mKr_,9nE]-nd&"/1`Cr+<VdL/2&Y)-8#WJ+<VdL+<VdL+<VdL+<VdL+<W<e+>+s*5X7S"5X7R\/0H&f-mh2E5UIg)-71')5X7S"5UI^(.P*2)/hSb//hSV"5X7R_/g)8f,;'<G+<VdL+<VdL+<VdL+<VdL.PDns-9sg]5X7S".Nfi^,qL/]+=\cd-9sg]5X6YB-n6c#+<VdL+<VdL+<VdL+>,2p-mL#d.R66G.Nfi`/.*LB+<VdL+<VdL+<VdL+<Vm[+>5uF5X7S".Ng2f-m1&f-8-u&0-_bi-9sg]-7C3+5X7S"5X7S"5X7RZ.P*2)/hSb-0.&qL5X7S"5X6_?/gUiI+<VdL+<VdL+<VdL+<VmO+<s-:5X7Ra00gg+/gDYp0.8A(/2&J(0/"e+/hAY(.R66a5X7S"5X7S"5UAZ\5X7S"5X7RZ/gEVH5X7S"-8$De$6UH6+<VdL+<VdL+<Vd[+<W!r5X7S"5X7R_,sW[t.OHJl-9sg]5U.p/5X7S"0-qns/1!PH5X7S"5UA'K5UIm1+<W3d/1rP-+<W-[5X7RZ+=[^@+<VdL+<VdL+<VdO+<W9`5X7S"5X7S"5X7Rc-n$B,5X7S",;()]+<W3^5X6PZ5UIs'/g`hK5X7R]/1r/45X7Rf-9sgB-pU$_-7CMu-mgJf0.[GQ+<VdL+<VdL-nc\c+=KK%-71#c5X7R]0.\4s5U.[B5X7Rc+<VdL+<VdL,="LI/1*V/+>5uF5X7Rc,pO^$5X7S"-m0WT+<W.!5X7S"-7gGh/g)bR+<VdL+<VdL0-DA^0.\>55X6Y@-nd4u5X7Rf+=09<5UJ`]5U\6-+<VdX-9sgE/h/M(+<Vsq5Umm!+=09<5X7S",p4<Q+<VdL-pU$E-n6i%/gVhs$6UH6+<VdL+<W<j00hcL/0H&`-9sg@/0H&X00h05/1Mu35X7RZ-9sgB,:+`d,sWe,+>5uF5X7S"-8$Dc5X7RZ-9sg]-7's'5X7S"5UJ$8-n7J8,75P9+<VdL+<VsV/g`h.+>,!+5X6P:00hcf5U@aB5X6YL/g)8Z/2&D"0.JLq+>,;o5X7S"5X7S"5X6kM-7CK",sX^?.OIDG5U[j*/hSb//1)Sk5VEHe+<VdL+<Vdl,q^Mk+>,!+5X6YG+<VdL0.&qL5X7S"5X7S"5X7S"5X6Y]5U.p1,sX^\5X7S"5X7R]/0H&`5X7S"5X7S"5X7S"0.]@R5X7RZ/g`%T+<VdL+<VdL-718i,p4fe.NfiV+>5uF5U\6-+=np+5X7S"-8-c#0/"t'-m1/i5X7S"5X7S"5X7S"5X7R_+<W3^5X7S"5X7S"-7g8f5X6YG00gp=$6UH6+<VdL+>+ri,=!Y"00hcf5U[a)5X7S"5X6tF+<VdL.O@>F5X7S"5UJ*75UIU),:jri-9sg]5X7RZ+>+lg,pk8r,="LZ5Umm!+=]WA-8-hq.LI:@+<VdL+<VdZ-8-tr5X7S"5X7Rc+<VdV-9sgB/hA>75UIm1+<VdL/1;f0,pklB5X7S"5X7R_/h/Cp+>5uF5X7S"5X7R]/0H&X+<VdQ5X7S"/hRJR+<VdL+<Vdl.Ng>i5X7S"5X7S"-m0WT+<VdL/g)8Z-pU$_5X7S"5U[`t+<VdL+>,,l,pklB5X7S"5X7S"5X6YE/0H&f0.n_>,p4<Q00hcK+>,;S+<VdL+<VdL+<Wp!+>,!+5X7S"5UJ*++<VdL+<VdL+<VdL/h\P:5X6eO-9sg]5X7S"-7g8j.Olu%+<VdL/hAJ#-7CJm5X6P:,sWq&+=ocC,p4``$6UH6+<VdL+<VdL+=8W^00hcf5X7Ra+<VdL+<VdL+<VdL+<VdL+<VdL/gEVH5X7S"5X6eO,sX^\5X6_K5X7S"5X6Y=/0u\s+<VdL+<W9`5U@O(,75P9+<VdL+<VdL+<VdL0-D`05X7S",9S*O+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL,sWe0/0bKE+<VdL+<VdL+<VdL+=JW\/g`hK5X6eA+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<s,u/hA4S+<VdL+<VdL+<VdL+<VdZ-8$Dl-9sg]/0H&X+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<W't-8$ho$6UH6+<VdL+<VdL+<VdL+<VdO/g)bm5X6eA00hcU+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<Vd[5UJ*7-jh(>+<VdL+<VdL+<VdL+<VdL+<W9i+<Vmo,q^;d5UJ$5,:jr[+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL00hcR/h[PS+<VdL+<VdL+<VdL+<VdL+<VdL+=\c^+<s,t/g)bh-pU$_5X6VK/0H&X+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+>5uF/1rCZ+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL0/"Fj,sWe.+=]WA5X7S"5X6_?-pT(3/g)8Z+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<Vmo5V+$+$6UH6+<VdL+<VdL+<VdL+<VdL+<VdL+<VdO.Ng>j5X6PH+=KK?5X6YK.R66a5X7S"5UA$*.PECs+<VdL+<VdL+<VdL+<VdL+=\ur,q:Mo5X6kC0+&gE+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<Wp!+>+s*5X6VH+=o/g/jMZe5X7S"5X7Rc/gWbJ5X7R\+>,!+5X6eA,=!S./g`h5/1Mbg5X6YK+=[^@+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<W<[+=\^'5X7R\/0H&X.OZW/5X7R]/g)B(5X7S".Nfs$5X6V<-pU$I+=o,f+<W=&5X7Ra+=IR>+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL5U.m(/gEVH5X7S"-7CDt+<VdL+<VdL+<VdL+<VdL+<VdL+<W9f.OZSi5X7S"5UJ*9-jh(>+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdR-nZVb+>,;n5X7S"5X7S"5X7S"5X7S"5X7S"5X7S"5X7S"5X7S"5X6_M+=JWF+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<VdL+<W3[0.JRs+<VdL+<W9h/1`>'/1`>'/hSb/+<VdL+<VdL+<W3g,74c#+<VdL+<Ve4>qIW8$6UH6+<VdL+C+sIJ>uiYej4H`F(K0!@rrQcz!!!!9>:BU's8W-!S8^Us":5ML+Vbk8mQCT1%MJjDKanash'N.oi;s%n(D?hc!gP):aT;Jp'*0N_E5;Ud!Wd8^!Wg+=.07Nl]ECS.!@&6Y!Mof1!U0ZU!B2/&V$@Y7JHInr!<E4#JHGr/!YYS8`?GZ"!s-@R'*/,j"&J;%!Q>Zb!QbE(!^d7pd/l]:!RUsEr>ktc'*56:!DKa"AcYT9!e(/D_#aX&'*/-Y*>8GSklOZ:$N[@1'*6J^!Ecl6%':c\d/j?n*"r>R!AFPr!r2j`_#h^[!=k),!PKQg!LX#j?rWg%!FWPBobmiQOTQ2P")e3s!s*A7!Q5D""BUE^OTPVlPQCkN'*/+70ED45!c7ts!W`]1.>\.F!JpmZE+&cL'*43s!H<kt!<H/V!s+Yo'*4L.W?#cB#6=iZ!@4WFBDieNV&g9NErekk!WdNZ!<KS=$D@P&[2K\Zq#[&e2^*_SPQs,jklN"b!<FJ[!<M]l.095Ge,qWQnH/Lf;Xjeh5SF1_!gErjklUAV!FWPBGQAoF!r2oI"?.KT"7-1M+o)1j"&eprJHP6A2^.tuJHIe*!WcsJ!<E3T!T=(\@(ZU+!i,ue$1S)(#=Adu=;(_'!s*AO!s,A'CB;6Q!H>"?!F6?><WPmN",R*\E017]!Wd8.!s+Md.058-!H=G/!K@*n!J(=RE2`p?T`Z_E_#aXVW<87b!H>:G!I,7YR0*J/Ylg[%!H>RO!N?0:!Png<E2`r5!s*AG"-EZdE4H&OW<6o:f`IZH6OD]Q!FV,nklLlnbQ758!FWPBKbOP0i<&NN!H=_7!LX$=!JpmZE1m@7Vu[P4OTGQ&i;s#\<8dlZ]cIgfT`a'R6O=>*,,#,/!<I/5"$ls,W<9C-!DNTg"7lU<!<E3T!MKSr9`Z[D,,#)>:_Nlo!W`f($3?,''*5??!DNTg"-j!4!>Y]0W<8OjT`Z.2"7ZBmE1mB-!<I/=!s(@p!<E3T!B'sPOTPUb?C:nh"1/5!#m!j9!<JGu$HW>MRfX6(8HEep!mq&ME:Eu1klN:7nH&_c!V$6U!\C_t!W<cI!T=+@#[>+Hi<%s>,a8>g!Wd8V!Wc[B!Pnhs('a")!K@[)!Png4!Z7%%W<**>R0/9J!H=_7W<30/liNRW!@%W5"-EZe/E$U1E1$fb!s*A7"/uB]"@EKX!Wd8F".967-NO5o'*3pk!H>"?q#US9YlgBr!H>RO!DO4.\H2eNR0/iZ!=T"F!LX$,OTU^H!H=_7!D!k)!<HMh",R,B!s6sQ_#]Ap(m+n$a8lqTT`ZGc!<L.M'*43s!H<kt!<H/V!s.uo'*3Xd0g5U=!E=UP!S%Dg!KdB`E.J,U!<I.r"8N!!E015?JHGoj!J(>Km1'/d!>>J7XVqiRPmRO`i;s&A&/,'F]a+t=!s.<_'*5oNSJ)4\!WdfR'*7n1U]aod!f7#T"C(BtOTU7>>Nl3G"-E[CM$&kBS-E2S"-E]]!]?)B!<j,;OTU^J,a8=l!s*AW!WfM.'*5oNklN-##4VcZ!`Hi9nH/4^A=Ni)E"`6Qq#X@@"TeQ8'*5?==[K@o\H1al6OC:(=[KY"!<HNC!QbB'"%*@q]`JiJ!=98;+TYu8!\)n+6O<bo?84I9#"&[t!FA&`X91fr!Smhk!I7g7H%?"G#"&]J!Eha?!JpiA#"&]R!EhaG!KdDY#=Afc!Q5./$(1fs6C@iT]`SoKq#Ri1C*`TUe.$.<q#TggC*`TUU^1]\!S%2a!GP\'BlWbG6O@a86?.:(!^d7pQiRj$nGsUs#lt'5q#U9lljRVsq#RQ(C*`TUr!R6bq#S\JC.&)Y!>>Kj!^&gV[K-D&OTGOa?C:k_!pg&)S,iZ0!>>LU!Ehb2!RUqt"[`UT!NZGl$0_Kg#=AduL]J.iW<19F6OE8`!H>:FklCg(\H2fn!>>M0!R(jb,l%J2$u.'`!L*q+,l%JZ$>Lge"VUq4!L*t,,l%K5%;I0a!W37=,l%JR$u.'`!NZZD,l%J"$u.'`!PA\Q,l%J:$Ygq^!DJ%G!U'Ot!LX#-!c$3fR0&$IC=E?Z!rN-f#m%O:'*/,2#M]DaX9(`q@GD#R$#//t6O<dT!tt^/!SdiG$)mq+@$C_t!V?I]#m$+k'*5WF!=T"F!Wc!rYl_<H+T_*7KEsL[klU)N<Ug+kklOYO!s.cm'*7V(!H>ROYlb#G_#qd]!DNU*",d1'!Up<p8`9^OMZjap!<FkT!V6C,!@\%gOTUFB!H=G/!KdI5!LX%c!^d7p"VUp!"8)j&R0*JT"qq$b".TBZYliAU\H;nt!mq,""@KErd0%2e!gEc6"4RE?YliAUaTDU/!hfYrE7"ag72#^<!s*Ao".95lE8^m"d0".b!DO4.\HD1$6a6a0"2k7.Yli)MKEsrM!s*oQ'*5WG!H?]oR0*J/i<',.")@q2!Wd8f!s*'K!MKPqE7"d0!s*Ao".95lE8^m"d0".b!O)kD!<E3T!RUrLE8^j!!EA"Z!=]\CkQq83i<%s>!FV,nklLlnbQ758!FWPB!@ST^klLkqSH],V%hetp"2P")q#USJ"&Gj&!EBd6T`^5V6OB^o/44sjOTQaS!<Fbc!JpmZE2`r%"!K#mi;isuOTUFB!H=G/!D!k)!ItOk!Jpp.!CMD?OT>K%OTUFA!H=G/q#US9T`Y<t'*/+70EL,6!FWPBklRXa6OE8aZj/r)q#YA"$%W3F#"&[t72#\&nH(-?q#Z3T2^*_Se-%]RklN"b!<E?;!U0[(#ls2knH&`!]E<rn!?^8%M$)602^+:cKEsL[M$&kB;MbL<!s)fr#CusX,6<W'!FVE*q#URA!<I]O'*7>!e,qWQ!U'Ru!U0[U!`J7anH.bV2^.DenH(T4!q??A"#hA(4VIkT![0`.i;s$^i<&6Fe,qWQnH/%[2^.DenH(T4!q?>F#WEn-?kWS*!q?=LklUAV`!/.DklUAV;X"8I!fRThklU)Ni;tR\$N[:5'*43t_#ZlZ"-EZd%a>%URgTl1.04D0!kA@5E7"^faT<mlN!?Zp>0-gHI1lY/)6jZ$_#`d%f`E_J!<MQj'*7t<!D25O!N6/8!SIOj!_)&Li;s%!_#hgdZOI2V!Wg1F'*5'5aT=?A!m(KEE2`lN"3CU&+iscdE$6AM-J]"0V$dq;OTGQ&aT;JD<651BSH]`.Ylb#GM$!dd!>>L=",R*oKFV\sE4H(-!s*AW!s,q7.020.!uSQNU]I_&8r3Yo"L/%eYlh65Ylc8)"9DU<!V$6P#<*gj!q?=iklU)NoF(`a!W`H<!V$3l@(ZRT!?^8%OTWE#6AYf\!Vld6OTPWO!YYS8!AFQ5![0`.!T=)UWs8\#!tt^F!<GcS!s.-^'*5??+Z'5)"0hqmf`J\dquT4l_#rHr6O<c>'*5WGS-MCf_#oVu6OCj:MuuER!D!k).A6hE)$-E5:ULH//JA-c!AFP:!<I/5"47,ME2`qr!<I/E!s)dC!<MQm'*5oN!FV,unGrZ0aT;JD?I8go!H?]n\H2eNi<&6F!FWPBnH&`!e-dGQ!W`>L!Wcs8f`D1K!QbCq#pB<u!H?]nd/j>fi;s&5!\"-N"VUpq!i,lb$/#A[#2oUaP6hm'OTGQ&nH&^l<:L"jb5i7Wd2L+A'r_H^!@"KFi;s%!Ylb$3"'blk!gEpK+T\eV'*43s!H?]n!<H0Q!Weho'*43r!H>:F\H9\S6OCR1A4$Y@YlXqD!<HNC!m(Mn!^d:A!fR:M$,H\b!Z9;d!<j,;YlXq9\-2p#"VUnc!H>:GW<30?\H;l;""=8]"7ugc$+U/C""_4g!NQVB!KdEaE/=Yt!E=mX!Rh2c!QbBD@$C]na9E:YOTGQ&YlXq,<3ZK*a8lqT!<HNK!hfYrE7"a/!Wd8n!Wc:7!<LjT.076d'PcD2.04DH!m(KEE9RE)i;tG/8HEep!m(KEE:Eu1klN:7d/oC3#2oUa72#^<!Wd9!!Wg[MCB5jbE7"a/!Wd8n!Wg[M.03!@E7k<7!Wd9!!WeA`'*/-_$kiZ`"5F&I$*aTK!uT,^!K-sl!MKPqE7k<?!Wd9!!pKdA"[`Rsf`Gpi/ceYn!Wb_'!KdB`E9RGo!YITs&a9>t)3Fq#E;9Qd!uX9'&buJ/)$/Cl:\+Sf2%p#<!Wd8n!W`=$f`I9:!H?]ni;s<L!>3ud!>toW'*/-W$PNPl!s)fr#Oqir,6@TAMul?Q!?DgSklU)N<Ug+kklOYE#Q\3E!J(?S"@EKP".TE[$2FW',6@$1!@%X8!lP:%+TY+I!T=(\@(ZU+!n7HB$1S)H#=Agn!pg(L+T[Z*'*/,D'*7>!e-%]R!T47t!<Ft`YlXsL!tt\9W<5p*!O)_@!BpNXYlh65!H>"?!T4.q!J(>%4okZb<.P,P',(BIb6&CY!P&8-YR:Ka$kiXbJJ\a)!rrT/0Za>!N&^nR'*/+C'*6K"knY)o'*/[U!?%+'6O=VJ64j5%'*/+O:CR=>'*093"ZI"o+^>$K)(m']!DNRq).k<H#sJA5!H9bB!AX[)#so4).9llR%KNOi!@8B[!?DgSko,Bn>H%]2PQE2.!<Kk7'*/+G%fmOK@(ZRb!FV,n!<j,;!?2[Q$'YK<I0%Rn'*/[GE!ZOf'*/Cg,g69$0dOsD0e"[(!?i=<3B7+Z+T]7W'*/+a'*06o2)-fdE$56>'*2#<5S4$,'*06WE%(f:>QGG$![];rEt\R/.8gI,0kAK/6-K@6)$'mS!AOUo#seT2)$*YL!=:2#bQ0/W![^G=QiRj$8HEcB=TNIZ!?2[Q3@Ri43B:Wo!D,"D&P5Q)bQ1kj!F$F%!H8>G:_Nj0$NQJQ!F6?>!EBd68HEd-;#q(+!DuW-!A+rcq%VKn;Mc:m!F5^t!H:m:!E;ns',(BI+;4bV!>bb;#mZCn$%rIL#ltVCN!9mT"[`k6!H91_"VUnc!FX+R0`b\+"sF!l!?M88.;f/[0m3Rk3K=+@9L6An!DH&c"VUn;',(BH&-N/n!KdDV!Ll+N`<$\R.Js<-!AP`a.3U,W0enmq2ZWrE";:eZ!H:UR!H:mR5lgue!<k2<_uVdt!@_db!=KPA+hRk8!?!$t#pGN:2ZWsX";:er+[R=q!H:=Z!@%V*_uVdt.01Xo+X%[O.2b;M&HQi*+TZOBQ2q"[5libT!?hJ_@0'L[!?hJ_@0p?C!<GIe!<E3)0fd/Q2ZWq.CB4G>'*0O"4ol5rE%rL:E&ds<";:g-!<Gk#?3*_3!<HLE!VHO.!?j9Y!?!$t#pJ()2ZWre";:f=!=SuP!H;Hj!H;`RFV=cn+W)XO&O$3r!F@2m!H9aoN<Ksr=Wp"4+[H,0!<E?Y3Q(qW!<FWb!@\mM!>,?O0d-R:3<@q<'*/,B.01RmE+pHrE,d$%E-VI1'*0fgE%*7."ucQ;g]]V;!NcJ<!?#SP!<GIe!<E3)0fd/Q2ZWq.CB5k%4ol5rE%rL:E&f'BE'XMI'*06WE(M2RE)@bZE*35%!>>Jg!@%V*!FSS%.;Jr5)*S'5!H9aoXTB.:)'Kh'+hS"<!?!$t#m$S!'*0fg,69gC!B1$.!@%Ug+W)XW)*S'5!H9aoMZFIl+nPst!@\==!?!$t.3[IO2ZXd>(^U4Y'*06WE'[&=59Wo%"?-?Y;*Q4,queqZ!Rh,a!?!$t#pJX;2ZXd>(^V@m"ZHH"+W(M/ZiW/e!NcA9!?iUD5tN4Q+\<hJ8PpWH+]1f_8O5pG5loU>'*06WE&f'BE'YWJE(M2RE)@bZE*34"!tt\Y!@%Uo)*S'5!H9b:!H:%B!H:=*fE2cf)(?CW!<HI,)'Kh'+ac3L.:b@<!NQ;9!?o)V2ZXd>(^V@e!B1#s+W(M/]E^@r)'Kh'+oDL&!?!$t#m'>n'*4d7fbeMH)$.n^'*/(D"Vh2$)3"[E3<ALM'*/-q";:eZ]EC/")9i0d+T\,9'*06WE"N-4!YYU>*/Of!W>3)I!D+F8o`Gj.PQDS0&J5%_+TX),!<EdM+TX),!R([D2Gm=K,_Q:t!H91_o`5^,;#qmB+]1[*;,I]=.8`;YU]F=b+TYCQ!DsFm!>,?O=\/X5@0'1<!?q(=2[L@u!<s\JeH-Bb5m]k<]E:_`3CsND8^%342E=V@6;[au'*26-(h!G4'*26%6;^lW(_KnJ$R&Y=6<RaP"ZH_g5SF/!!AFO'!H8VO'b^Vk!<GbH!@ST^+TYu`""=7Q#r)Hgg^4&c'*1H$+!Dd>4ol5rE%*LB@(ZS%!FWPB!<j,;+X&ZCU]Do:+j:'<2CU((,_Q:L!H922queqb0`b\+!BC0_&HN%K!C6`o]E>YE!?X#s!AFNT!F5^,;\K04+^u$,!H8VOfDuWd!=98;&X3>a#oNb-!<E?;!>,?O+TWH0!?nNL2[KKg'*/sa"sF"\'*/(8!i5o$JN3`O'*/+K'*/+C'*6c"i=Quj&.&A$!>0ti2[Kck1'%CV>lap-!>teq!=98;!=:4V!<HI,!<Wu9\HAf:3r'Tm!s"?A!GrJN!G)oF!F6?>koQf)=+Lhj!D*k('b^TK.2W?l,81(Y#SR4>!F?'E!FWPB)$*h?+TYu`"![gg&LINP#lt'+#lto'!<E3D!=8d7e-Q-V64!Zc'*/(F$=*g<9o/m:2*!gn!VAAQ4VIhs2%p!F!=k(l!VHO.!D+Fu!<E4#8HG(]'*/-)!>>J7#nI%K!BpMj!H8o"F>jL,2%p!6)*S'-!H9JBF>jLD+TWH(!=jMY4VIi.!@%U_&O$4%!H922F>jLD!@%U_!=Su0CD-^LK`Vng8Kg7u!<H.k!R1c]!D+Fu!<E4#8HG(['*0N_%Q+:C!>>K:F>jLq!DHon+X[:&!=jee!L3[!!AW@52[MJn4okrjE'XL.'*5`J8N%a)"&VQ;3?^3[5qtP(8NAs8!<j,;#m#!B]E;:p+hRnc7k#TQ!<E3%"[P^G4okrjE)?YG!>>J73thWL+[,o-!E:cSkQ)=t0d/^]!<H.S!QY9T!SIOr*X]^r8Kg7u!<H.kPQFE7)3b2"2A)/T=Z/"!!b!uI!M'9*!FZ"JH"d:uJH5dkCB4G^'*2MBE.J#jEGGSp8Nm.U5SF0<8Nm/h!H<<e!H<Sj!Mof1!>toWGrYnEJH5dkCB8EH4omYEE-VHf'*1B"E.J#jEGGSp8Nm/@!H<<=!H<Sj!HDlUECi=p;#tW]8HEd]!<E?;!<I1U!HC[p!D*<2Glch('*/,RCB795E,bnu>QL&jBf87s8Nm.e!H<<%!H<Sj!HDlUECi=p!Up+'!C6_r'1j?2!<E4#8HBJ<!>tnJ%07[e!BC/j3!&UO'*/(;!<Rp7!>Q7K!=]\Ci>n$`)>P3P&J"mC!F?WMZiL7H+iFC?!>uId+W2.a#ltoK!<F,Q!<<<*OTCjNLcGJN'*/+C'*4d4_$X96!=8cj!<E4-&K(U5!<E?;!?hb5!?hIP!@\==!<E?;!=:1U!<F&=!=8d"!<F,Q!<<B*RlLNB!>>J7m/[k$!@_7S]E9<I&Kr;<bQ/"n80J!S'*07*,eO4..8h;i.9lnd""?_X]E9lY&LfG4.00Sc!PAL`2CU((*R"O5+Y=i<3thY-"!L/H+X%lM!?iUD.4H\t#pC`(.00Sc!<FWF*@V"s]E80D'*3Y&nHKcV!\"-['.EriPQCk!'*/+O%fl\K:NumZ'*/(>!sK8OSN-^>'*06W@&sYX#luJ(&O$3rSH0B).5<\/0bHSM#m#!*!F6?>#m!3j&ICW%)$+-X!s&cC!@]`\.5;Du!>,?O3C*[Rlj,<H,69NP"C!S].h_qL!FX+U0``L".5<\/!@_7S+TZO:3<<Oc#Uod!!@bqm>:D9=4olN%E&g2b@/L3`!@%V"S-E1P!G`>L!D=(,nJT^n.IdfH$3M:PM#ic"!GrJN!G)oFi?,<.'Y,.`!AFNt&O$3r!E:3C!F5^,2%p!V)+$=i'a?ri_uVe'!C9rk-ilm_!?2[Q#m!Kr!<HLE!?l7[)$+CO+TYu`""=77!AUq`2[KLFC]OP;"Xu/,@(ZSO!?WHb!s&?\!<Eu;V?$]k#ltWS!=8d"!<E99!Pnef&TGi.!"&cJ)7V[-XTK4;!Mol3!QbT2)(:m`5p9d7#oQ#d5rh4a3<;-F!RqB87k$GY*R"OE3A3)f)\W64PQG&D3B:W7!WhZi'*0N_@(ZRZ!FV,n!BUqq3P5Gu0f_7)PQCkC'*/+;'*4=!5[trtPQG&D!BFBcU^B1n.05\8'*1)o%YXrb>8%$'!FYg00``L"0ej]]!s&Q=!<Fom0pD`9@jqGl!>>JG!H9JB!FWPB3<<Lr+X&ZC+d<"3+TWl&!>,>@!>toG]E9;`4ok[\'*06_2'FCT4ol5rE%s?R@%7Kg!FX[g.3UMK0aU#E&HQi2!RLi\!=8cj!=8c8!>,>r!<IuW'*/-/!>>J73EuSFPQDaH!BEs)!<J)Z'*/(;!>0oD!>Q7K!=]\CW?'q*,l&,\!Cd(j)%lrn!BpMb"VUn;),V7P)\W5P"9<s4!?DgS!>Q7K!=]\CW>!Ya?GRZ`!>bb;&SqI[!E0"!%KM2D!PJaP!<KS6'*5?N\J\e3"TbG*'*2NE!iuH+X9!)."BiqRC@hQ.@0c]>!W<08!<HU6KE5La!^'WX"_r\p=hFlPN!<F<!c#XU!FZ4t!s,5%'*2NE!k\kCoDr]["^0meC;^P^@0bj#@9EZ=$!FV:CA\J@"VUo>`!'nW%9]J.C:"1J]EW,(#m"H>liCPE$q"H3=T[(X=k!XjZjZuS!>>K:A88IP=mQ6*N!TMn#ODh,=TYZ.=hFuSU^R9p!YYT;PQbft%9^%AC4m#s@0__q@GCrP@:<:?Muj#g#NQ2"=TY*"=o8D;]F+aK#P8<'SH9H*@C-A/@:<:?U]jnk!c"eF=el.7bQ@lS#P8:1=T\L'!FZ57#Q_mI'*28.#&;?k=hFcMN!NSA!G^Br!@8B[=bI#pN!`^H"D[9)=c<N!S-f;D!>>K:g]VBY$3=Q?]FA:P!o*i[N!!hU$ipMF!Em>AC.r%:9`\[*!o*q[XTB.:%KT73@9EZe"p&-;oEo#0!i-'(S-Nf9%9_0^C(sh3")?m#!FZ5'%:NB@*!)$$'*2NE!lP<E@0bQr@9EZm!a2#rC?uC4KF2JL%09lBliCOJ$q"H3=TWDBoET-D$!F>4C;^K_quUWo%9\o)C>8mlqZ.?2!FZ6"!F_K#6XaD+!pg*l@0__q!@&6Y@9EZU!Wc^7>[^b:e-,kY'*2NE!i-$'qupiZ$NXZ@r!Hk8!n7PXO96-s=l]^#N"&ps")?$e=d0,*PRL\t:>?$S"VUo>!FGk1X9WLQ"T`$:N!Eco!iuK,Zik.)#$LR#C9.VBHtrQ[!FZ6"!F^W`6XaD+!ji28PQYa>"BiA=C7GG.J-$Ab@9E[0#?fgeC:"6I@0_`!!J:Cd!EjMZj9kus#IF\D=T\4'!FZ6"!<N'!'*/,2%fl\3?<LDfC<Qh^9+q=+"Tnpb!?mml!JLOf!<Ed;!=9>T)%dHE!>,?7&\J2X2A$N--kQadE"N*Y'*/CO(`<q@#<)Z$#sJ@jFV=c^&JuAtHoD'DA2aMi',(BI!F?'EZirAh)$rJ-#n\!l&[VTu!>u2-!=9>T)%lcM2ZXd&4ok[W'*/CO(`<qX"ucQ##sJ@jCD-`J#E]0$kn!lG!>>J6#R:E^!D-!s"Y#cu!Mof1!AWX<2^p`f@#P+0+TVTM!Aa`_&O$4-0g5U=!F?We!FV,n!=]\C#m!0i.03h0$OJ70!=9&r!<FS^!@afH2^pH^@#P+(+Z'3C&O$4E+[,o-$PNOI#sJ@j#q>r^&O$4-)*S'=&O$4=+[,o-BG1EW$%X0Xi=#`X'*/(G"<A4#)>,uj4VIhs2%ouk!AFO/!FWPB3<;;E3<9Nh5lkB+"-j)l+#+'&@(ZRR!BpMr!=SuH!FWPBo`P:;#q9j2H#WjK!HA,K!<E?;!I58@!I4\S!<IIA2$*(H'*5cL!D-,heHHTeE</6(E<-IK!Q>0T!@`"*H#X]c!I58@!I4\S!<G=s!J(7`4op38!=T!c!<G@b$&JZ`!I4]Z!@`"*Gl`^%'*3Xb!BpMjJH5cP!<E@D!I7KJ!FQQA;#t'h!a,P3<+,f8]E>28!?Y09#sJAm!BpNe!=Su0>n[6I!=T!C!BpMjB`S58!<lUT;&EF::_Nj9@0$B0!<l>'#sJAu!BpMb=;(^D!BpMj@0$B0!<l>'#sJ@j/JA.^#sJAm!BpNe!=T!;!BpMbGS:*d!BpNm!=T!C!BpMjB`S58!<lUT;&EF:`;pVQGnE4@Gl\<S!Rh&_!<F;V!I4u8!J(7`4op38!=Su0"VUon!>.Kr$&JZ`!<E3)Gl_[o!PJL78I5E/'*3(b4ooX($ipBK:DEoB!>>M0$&KU/JJEGB4oop0$itW&6@!hW%Vl*<!>>L4!WbkI!>?+I!<FkT#micr&J72-&HN:@)$)o%!<j,;#oNaE#m!["!<FkT!Bh(s!<HLU0`b[H!]^9h<'^Om]E<rj!?X#s!AFNT3"l>I!WbkI!?`$V!"]S-fd>.^`BQlu-Jgo,`';b6d#u>Mf0>C_EMK-Lks(!0nBGeC^d#lPOWeZ7lp#C?fgNuPm6?V2f)cjii]hD$HE+#3k<Bh"`go)#*&5bN3ZUBb,p)5e*Ws2RK*n(^D[C!!.l?c!+=#=c"V5b^)4FKL1][Dc>lXj)!!'f5^ig#bElM?e\&:LrFphW;;@Z:G;3[`>`a&QEz,/A@,Q!U*%30:aq#Wu]alORb9$[)da%%OS)%UdIcz!.[eZ>lXj)!!'f8^ig#G^/VNLP/uY!>lXj)!!!!9^g-p?!!!"L:r$?:zJ5X0gz!!#j2>lXj)!!!!M^g-p?z2S`Suz!%u'1"eY_u/-0#Vz!&233$5$b&TKO`+U7$",z!!#m3>lXj)!!!!i^p=&b"_B1BQ4%jH9liTpEjpJQ5tSE#2jLmr&&!H)^#F_C*QLSL/Z4=e>lXj)!!!!p^g-p?z42>,%zJ3gtVz!!#=#>lXj)!!!!1^g-p?z!!%0Mrql8h[XI*ga<u:W"bB'6MQ_10e+n3-^Za:a79olnzn@r6/zJ4ICu"n>hTL)dN">lXj)!!%OJ^g-p?z,f![czJ477s"V9,W(uTQGWD2Uh6P^+X+B1Ck>lXj)!!!![^g-p?!!!"L:;C-8z!#34Sz!'jAr>lXj)!!!!=^ift&<5)2MNiu^gzJ5!aaz!!#I'FpCg;ZIOI8OBhhdz1r+8GURjrsXM-)'Mq&!HfYR@i>lXj)!!%O7^ifpu&IV-Bs'5U)z._p3;:(L6i7nl]eZ?=#c:Q\o_z!(+J,z!!#U+FpE`sO1ZnFWEfK(!!!"L9>Fg5zJ3q%p#QQ'bgsaXbi*?<_z35B\D:U@UK]c3H(hH^*]z0u.&pz!(4P-z!'jQ"Fp\SM^FDCA^^\uA>lXj)!!'f4^g-p?!!!"L;8?H;z!&D>qz!!!#7Fp_?6..k1RAV_OT>lXj)!!!!]^g-p?z.)9*gz0S.#_"a2$RC2%hmkqR>eV;%hKg*U.5Fp&dMXP7"\z5Z5C'z!!"sn>lXj)!!!!)^ig'V,SelUM*"XG$XE`4z;SZQ<zJ69U1#QQL(cGJT^i-#9Xl]8G7>lXj)!!!!Z^ifp[/umh1ol^^Hg]W,_mt404(6itJN496Og8Ml7>lXj)!!'f2^ig'<>EEpB>=jOp4*Ci/.GD_aj?e"r8!kq5TZ%;i_fcS-.W3AtNbPa*SB^-Z&14?!%=qDCMh=%^M$Iga1N-P!zJ4%+q"R]jn$XE`4!!!!a=MS2Bz!(=V.z!!$*9Fp6KB[f\Wrz!!"@]FqL<F!nS]`*)C-hOKCOiRN-`]z!.[JQFp1MlIkiT]z!8qe2>lXj)!!'f3^g-p?z:;C-8z!'e8B"WU^Ehe[HAL5bh\#_:2jFpDO4U`[GHCL$o?z1Vd8rzJ4@=[z!'jW$Fq*Q&Bc`]<"1A,_Tt+*F#/B1E^aO80z!!$-:>lXj)!!!!V^g-p?z4hu4E0CG/QS6Z*pz8&/C1z5_6^o'>SGr*&BN@+KZXi?B=JmE])B1>lXj)!.\\25[=?i!!!!QEPQ`)qGFGb8e=2c^oA6:rr<#us8W+)z!!$<?Fp3Xpn%a0k$%9(,lSA#_AHuK@z^jEk&z!.\RpFqd@heaHs4iW=Q6#n81H24YNs;j%t#iW&rXs8W+B#Y6*R?_"iH<F#S)!!!!qJ%umRo`+sks8W+B#IEDq?^\qrFp3f>-1p78kl:\_s8W-!FpT,<]9[l_-dsbTz!$H9sFp7D]0od#m(0OlT2YbD-F&`N^Wrh@B^F'Ajdfmd8':5Tr96V#o23\_BA9XKH46`+?Fpit"QtFKL=G#?jMd6;_!!!!a>eh2heGoRKs8W+B(N/YQWIAc*)5J2:7W5Qnc)Fu[57@@'Fp3Do<'a5az!5NlqFq69nKR`qFeGsb)R6bu_b]XFtJNr7b)Jm#<A2,Gg(d$@Ls8W-!s)nYcS5OMi$2o'Rz^fB8W>lXj)!!$DK^_l)1s8W-!s8Q@)z^hLT-#oS:6=?H]OG-YBRz?t6uq%GMNf`4A0C+DnDL_N\=+z:isKYz!2[b%>lXj)!!'f7^ifp3&8;ShXVaXms8W-!s8R6V)o8kID!!+i%<3#J<*&J.D1KrfFqO0Df5fcI+>RN)RT^@dp"/M8z!+99O>lXj)!!!!m^g-p?!!!#7?GICYrr<#us8W+B%`&8T?=;`g)t+n8jX&kkz!+9rb)#=12s8W-!s'5U)z9u($7zJ4dV#$!kntn-LlX>&\Wl+9MK0l^BesBBEJ"z?u<\bz!,0;9(s)^Vs8W-!s'5U)!!!#/JA>Fjz^gk0'$V&K(g0#XWU4tiGFqp'WF.[F2>tBUn*/pg`'l3b:K<L@RN;rqXs8W-!>lXj)!!#94^g-p?z<krk^igLKPD-[,A!!%P\b<T@C*eioW\?<R`#QOi(s8W-!FpcPL2+'*U*'-N?>lXj)!!$t^^g-p?!!!"LB#%[Pzd!NQ6z!3gjd>lXj)!!!"7^ig0N*4N3G-jnduTlW[d>lXj)!!'N]^g-p?!!!#'EPQ`-^+V88^q1s@-"3cGc@pEK%AA<0[G&2!JW="9z&;.c(z!/@O>>lXj)!!!"0^ig"j4[\j*kMbfj>lXj)!!!!u^g-p?!!!"lI)'"fzTROZn'`\45s8W-!>lXj)!!'fY^g-p?!!!!1JA<#srr<#us8W+B$\&1q#&L>[`JM8hFpT7;PH9Jcm:7Jc%V5Y)L^e0N.r.3u/Akq&z!$Hp0(n/hOs8W-!s'5U)!!!#WH,*\czJ4[NngrKHps8W-!Fpjd<1D]k8W)',bQ<aIj!!!"lEPQ`(qr4s59Yh#b!F5[*!!!!9JA>Fjz3P%J!'ZdnTh?7ZMaIch<*MC=Cck\14F'SbG!!!!AA&*7%=7.c0^0;[Fh*mC!JaDr:0AT:5>lXj)!!&+0^g-p?!!!#7E55`ZzaFV-4z!!n.kFqcCl@YVslNNg.RTI-1sfa*)Po7^HMzn9i#Wz!!$$7)#!t/s8W-!rtn)+s8W-!s8R6NMoIC>bjh)EOC72A(khqhs8W-!s'5U)!!!!ABY[mRz@"H+:=9>]SEY3NW%>'bS3Cg-q*o5Ygir\aVdF'(C],)l`RHdeB$m5jUDWnDtJL*bL0DbP1Q[G3/n?O6U==TO7^P%!mC!7lH%)R(3prl$Y`0?=;Un>.8P?e.g!!%OMa$=fN\"egt$m_L'pE=/b._&.)Lor9K^VUi=a3ETXqHKKH+%Gc64kc%_?,.1m#Zbd*Y=Zb_!U;!*Vt#s0LEQHg0lKd0dIso)2odPh.=*Y+:3u0KI`]T[M09KN7Cu%hM7b/UMq&!HfYR@i>lXj)!!$DV^ifj,h'*DR#f=A^TLZKfQ<aIj!!!"L@)*V+s8W-!s8W+)z!5MaQ(af7^s8W-!rtnK1s8W-!s8R6TLu?nc8%0C"_k5n'`sFO*=D)d^)o9.CD>#h(@IjHus8W-!(mk:&s8W-!s)n\`miPl?*AuN@Fop%N>lXj)!!"FI5^!bZg9m#Xp&rl!CCPn.=Q7,7N-5S6/S9SjGWI*'dpmP4(%;f/YT,'X^?eM5#;6<c>lXj)!!#i@^ifp@P70._P?n$6C:nYPBYRgQzTOtuFz!.\7g>lXj)!!'f:^g-p?!!!#7AADINzi,uhY$O.A]%),/EpqUg"Fq`8e!TniVPN:**<H&6Eqe**-Wa,T)!!!!AF2/XTs8W-!s8W+)z!'jDs(a]1]s8W-!s)ni0E?V['r%9f#S%4#G>r+8m1G^i9^Kgg>!!!#WI_^+5d=a[;I<rBcgKadZ!!!#GIDC".r19p3#7aIga-VRJ(mG""s8W-!s)nc'_M05$G/j(UC0Yokg1Q<;9j/CT#*9`qATeD>!uq#qUNf$aVd09&!!!",AAE?i-!+@Pzi+p,6z!!#s5Fq#F=XP[L$>%US8YQNiiz!.\Ln>lXj)!!(Ae^g-p?!!!"<K"tXlz5ZtmG#q>(OKB&GgQD/O5#M<WZrWYpp%1sCV0T$WOz!+96NFpJb?4YLr:Mf;r%z@"#grz5RuL5Fp2Fo`0(3>^Ae04s8W-!>lXj)!!)M@^_gbas8W-!s8R6K`u;R\,BSN@?Zld`O\W@WOWD:5CL$o?!!!#WF2/XSrr<#us8W*9f)G^Ls8W-!>lXj)!!'fH^g-p?!!!#WGJIJaz!(Ob0z!5N`m>lXj)!!'fc^_gR5s8W-!s8Q@)z+C`,lz!)RjSFp?iVa6;(_>lXj)!!'fU^_fQ>s8W-!s8R6JkpWLO(u*<T>lXj)!!%OT^g-p?!!!!a>JPCg)rn>aD>kg!2Ad#)s8W-!s8Q@)z^fnNs$<m-)En0'7<iQL4z!5MgS>lXj)!!&b.5^!=PU7B(BFpQ9Ejg_gp<TRKdz^f8*Tz!2*f:>lXj)!!!"&^ifpkT9jC+10jk[z9>G]RIAhGW>lXj)!!&['^ig4Y*%]K\fW#fKBrRGC(j61[O&!oO^'>)a\c2X/s8W-!>lXj)!!'6D^g-p?!!!"L<PTIJrr<#us8W+)z!!#:">lXj)!!'fM^g-p?!!!!aG//82%S;N#Q\:+er3Zg#R)F.XSGXp)j"KTMpQHbRCA(p5z!*m<_&)^/949s>Ef;^qnEM\P-Fqt>>?qB\n:K8qM+BUR[;D(4fnR$PF>lXj)!!%OK^ig*VLDbWejNnnlTknlW>U*p?.;pA8z!'kV@>lXj)!!"F05[=?i!!!"tK"r5Mrr<#us8W+)z!"a.cFph3\L9AL])MX++"^M*.!!'g'fg&gCz5ZGOB#\m9NN9(5Bm2/b#s8W-!s8R6HW;c?8DG4=9z!$K'_z!6B]+)"3mms8W-!s'5U)!!!"\JA>Fjz!+*Ha%G',r^sa$$N#4P2O7m`'mDJ>[R51=[lZNF]K2fuE?(.1LR@0Jb^Kgg>z?bdL[s8W-!s8W+)z!:Y*G>lXj)!!%ON^g-p?!!!#7@_c7Lz5]skc%/]^`j@POf1^5%NX^(o,z@_d-l9m9*)Eg10Az!'k&0>lXj)!!&[-^_g;Us8W-!s8R6T5+93!5V0S>K'YD>=Tp7TRQ).Err<#us8W+)z!$G^c>lXj)!!&[+^g-p?!!!"<J&#=iz^g4_mNW/tXs8W-!>lXj)!!(r(^ifsCjVLQ0)A$0SzJ4RI]z!!%\f>lXj)!!%OR5[=?i!!!"<F22r)a]X-@F"fX/G#Uu<3ZYl_:n!0epBJ3"gW::=]F6IALuqdp&gRfW/FK]BJKmnS+o1NpKmoD$r:iL%=#c?=[>-^",KD_s$A^utrJ"a8_je]M^XK%iJ:sL!CY3e@g38SBBl4dE0Ui;cDaKO&)?9a:s8W-!FpA+3-_kc)S9>+=#!XTVGo2O/s8W-!s8Q@)zE-oB+z!!$0;(iB<Qs8W-!s)nf=RbkL`SupcTBADnlGQ.XBs8W-!>lXj)!!!#W^Kgg>!!!!a>/5:g8n2r2gMMW#OIBIDR@0J2RAmrE#PqApOFJ!!FpKtV20++'f^`;Jzk^pTn#`/8s*F#uh4*D464br,!PPDM^YX\+O._NL[>lXj)!!#8_^g-p?!!!#/K"tXlz5]+<+E!Z\JI;jIRhDkVU"VUn;]`f&M!OW(E!<F'6`<?:%!tt^*#8(UV"T\c?!<E355sa9.C;^?C!GMR#PQP[u"@3&_!<KS0q#LL&!BpMj#u8tN)$+.;"pk;T!=8c:bl[tM'*/+7&OA_L"_ts\5lk[#6,X"CS-2+Y9`Y80@f`),_uWm^!S%2a!<E4,#lt2C!C6`I!C?>YC4l[T!GMR#r!.!7!C6`\!KdQe4om)U!e_9hK`Mhf!<j,;!<Ecu6*p].j8hOIB`UN,"DZ]n5lj[\+W3HE+TVuP+e/mS_u_)"\,cUR!=Su0Vu[P4i=OrV/`@0?[/q!BFN";!&HRC_'*/+7>las0'*1B"B`UNt!c$d!5lk[#6%fAUS-M=\9`Y:*##G0u!@nfa!?l:l!?k8#!<Kk7'*/+;'*1B"3WVOj"_t[R5lk[#6#:;##=/Ab!V$U",68qg9`Z+T@2T)Z'*/+;'*1B"3WVO"(M^#Q5lk[#6%fnde/(CO9`aJe#sJ@r#u2HP#ltn]!BpN%),AZ^.03h8(BM#H'*/+Q'*/C?4okZj:YPmNCD-^L"VUn;!>.U`bRnTS'gVk7!C>3?C=EDQ!DNRq+Wqp/+]%k7!QtKW!<<B-<II<i3<ALM'*/-q";:e:h#nAl!<j,;3<;/A3Re+FX9(B_B`U5I!bs8H!DNU2"UR?n#mj?H&IAIU!>/,p"9ArF!<E4,$(M54B@R+cr;mW5OTYCm,hWe2]`\uL!<j,;3<<gp3Q)\JKE;07,lp$M")<Jj3<;/A3QqS?KE;/T&NMkq")<c!3<<gp3P5H/U^&m\9`Y9G%L9'?i="]J.DZ6<!FW8H+TX>!+li_a&K)_n]E\H<>las0'*/+7&NMkY!c!Yu3<;/A3OAj&KE=.7B`U6,#&9)&3<;hTR0hpUj8gDQ!FVE1+TX>!!@8B[)<:lY&K/4d6Q#nJ#HS.2J,p;a!<j,;3<;/A3W&qnKE=.7B`U5I"DXG33<;hTaU&8;!?iU]X8sIF1'%EF!>>J7"VUns!GMQpPQtsa"??Ks!BH)@C=EAH!DNT:=WXLB!<j,;!<Ecm3QqP>`!8:'B`U6<"_t+X3<;hT!L!Ok!<E?;!BC0A!BIdqC9.Is!GMQp'Pb8k3<;hT\I/F%!=9'-e,^Ef@#Pm.!@%UO!=g%LEt\QT"VUn;!>.=PbQ_h3#<;g!!BF+olj#NO9`Y7qK)lhi"U:1l6&YhEO9%eJ3<=g7'*/,^'*/,V'*/+;'*/+W,lo1=!c!Yq+TZ9X+bTo3/0P$g!=8d$_$'iG.KKR`!>>J7$#K\L#u8\S#lud^!?2[QTb`Il8"g4i"VUn;!>-Iulih,<+TZ9X+l!38ZiqTR9`Y8$D#jYDlN'ud@hSkD:_Nj1"VUn;!>-IuquLQ6"!I\Z!?q(<C<Qc'!DNRq$%W*X!<HI,!<j,;!<EcU+fkc\KENG!B`TCD")@`<+TY:<$02`b!=9&=:(1/(9Gn-;,67h4!>>J6"9E=o3<:-6!<EoK!<EWC!SIpU'1C4h!<j,;!?!0a);G=/MujjtB`T*)")?<e)$*G4!=98;!=:4V!<HKr!s'V[!<<<*"V@(^!@8B[!?DgS!>Q7K$%Wped22lb>las0'*0N_3WU\2"D[!#.04,`.J*j[X9&D'&Lf1$#ATJ*.04,`.:d1X!@\%D!<EK3S/I_(!BpMb)/T['!FUif#pCYs!GNs`#79Gm6O<bs'*/[G@/LoL!AXZV#mZt<&HP&r!?#_\+TYuP!XU"t!<FDY!<F\a!<<<(e2[Q+!YYS8SH9H*!L3^"!LsB,B+4lI'*7.p&SKVq!A+rcCkVor&K(UW9E?#9!R(_\!XKA=o`>d-I%:<E&HQ/N!>toGquQm:>QFj/'*/+_,loI%"`!*$.04,`.BEYeMub@.9`a;U.gV7E)$+-p"9BBF!>toGMus(u>QFj/'*0N_3WU\r")>IP!<Ec].?"CEg]f2.B`T[T"D[Q0.03-DJHGp\bQIqaJcPlQ&J"o<!tf/b!K@0p!<E?;!@\%`!@bAWC?,LH!GMQ`r!$np#UodK!Go:RBC,^#eH$<aHkC!^!BUqq!<j,;.04,`.AR&\j9-n4B`TZq%VhLA.03-DbQ[57B.X/7!>>JO!FUig!?#,C)$+-P!Wa0D!>toGMuj"t>QG]C@+5;[)-d1C"VUnc!GMQ`X9EA""=X@c!@`s3C<Qi1!DNUE"R,r"\,cV/'*5H@%1!OHJ,p;a!<j,;!<Ec].GPYQ]FZLmB`TZa)et$B.03-DZiLcg!JgaW'b^VL"h4R=&HQqd!Rq7N!=08<^]>)L_$o!&%J^U+#9*p\!S[Vg!<<<*FB,A%!Ta@r!<M!X'*/-a!YYS8$#K\D$![K3"VUn;.4#!Dqugc9!\".a!@_Polinm>9`Y:%'c$6FU`8A5<WVOmX9)E'#micr!<j,;!Ls5p#lt?L!<EL3!<E?;!@\%1!@d@9C?,LH!GMQ`]E;p8"XsIH!==D`6ODEJ!FUif)$+-(#9a+UMuj;/1][V-'*/+?#@%S2"[`S.!FXsr!<j,;!<j,;!<Ec].Ei$3`!7^lB`T[L")@`<.03-D!=:1U!=:4V!=9"$"p(1oaT2DC$#K\D#u?'P!?2[Q!?`$VaVV2p%&"441&ukh!Hf%V!GrJN5li228\>*l3Cue;N"?#D&eb9H+U@oK!@\8t!@]HmPQWuI@.XsI.00GM!<jVi!=Su0.0n&t!K@j.!<E3;!<Ec;qum*=#L!2d),?D!!M']6!I5PXli\bo!C=X-!I8G]Gp,rL"=]0.6,Wp-H#!E]XTT:<!Jpg^bQ3P$M#gA9!gs&i@#PeV!<FDG!KdBfbQ3h,OTA4A!hfVq@"\mgPlh[#!<j,;M$!c>!Jpok!G_6C!<Edh",R,m!G]g[M$!cm!Jpok!GZ/%!s**:M$*)HC<Qp>!s)*s0``L"!<HLekmkN73OAlc!FYO+5li225rf"Z!Wei!'*/+;'*/+7&W$UH"&*Hg#)NE_B`X%me-g$8$]+rd9`\\H'A!7n@9EZ%!s)g8>QLr0'*/,J#Fl!4KEaeXE<0Is!WfD3'*2fU!osOdBa=86Bqto"B`ZHf'*4L%!@%W=!Rr#TH)Ui:)FL2!W<!#0N?/,f',(BI=U/27U]j+g@0'ck$j$#&'*3(R@,)4mBdj&`E<i!<EJ+N`EHqRmN!BCV$53F@"VUn;!>1.jM$)N;C@hO`!s**:M$(+#C/g#l!DNTW!<J/\!<JSh#L!4:!LWs`PQIfb!FXCg!RLi\!<E?;!<E35M$&S:ll'W_!f7![3WY'>ll'W'!JpmZB`X%mbQ_hK'o<"n9`_4&+]dqAM#fG#3<=D@!I5PXe.RT=1da8(H#!E]GmBi@!Sn5!!GPsDN!j(\$#6ga!GMe/#&/_p6YUN@@#P>9!FUikJH5dZN!F&?1]_<!!gF+%N!3t'#6ANDS-!Ec"[cu)m0jX/!EgiP=e#M-X:eZp'5GGd!FZ5'!b'jb6X^"d%hesE"VUn;M$#%)M$&tUCA\3k!s(F`M$&tUCA\3k!s**:M$'gjC;^dB!s)*sW=,L*6bs(C!FWh^!F[DX!K@U'!I8YdS/?5H@)N+lN"JEcH$N-n!L4!*!<E?;!JpmZB`X%mbR/*L",R*\B`X%mj:uE_)2SFr9`[OG!]33U!^et65u,?#;#t(C&ciXZ!<E?;!Q5QI'3Y,4q#]U`!;Q]o&,?8bq#^'f!BL8W!q?<n]Fjr@U^7U6$i'l%'EIq1U_ih.2YdCT!>4i'q#^'f!k]-8!Wd!9nH-W<C5`qu!Wc!r!D*Og"\GKn6V1,U@#P.i!FUQa@0'bp!bh[Cg_!+,1]]m.aT:H,!Lj-(!Eih4S-&e+#@(u="[cu)qZIQ5!I4q2'7$AW6[=4`!FUifM#dWbe,jmr,67h$!tt\9"VUp\)>O=Qe-lBR!`':$!Wc]9&GZA.%Lr48!FX\$q#^I$!;Q]_%f$/aq#UTe![RmC!q?<n]F+01!GMT)!osl,Zl/B8!DNSTS/+KN%k.N(!@aN>6Ra`%:5fM\!FA&@8O;\[8O3FM'g\W6C;^0>KG81>!Wg(='*/+;'*/+7&W$UH"8idHU]ZGU!GMRk",%+uN#@HS!DNRq"VUpT$i'jLg^aG]!`':$!Wc])'_qe2%Lr48!FV]3q#\bN!;Q\l#l+N[q#UQt&b,qu!q?<nljN=b!GMT)!mDEp]GpAB!DNS\1!]m-"&T),KH!2X,67hl"VUoVB`do6BrhbYX9&EB#Fkj8X9M%3EVpY@EH,[oX9N*I!h9>nE<f_LV#_51.03h8)AsCn!<E3)&J5$P!<F&Cqum*E#L!2l+\n7)0`b[8&/cVl!<E3))&WG`!<Fti!J(7P@#P>I!<HSe#B:nD!<L7B'*3@Z@+57/!<HTX!bif7!<IfX'*/+;'*3pl!BL7<"0;cCZiZ'd!GMRk"-a=2]GHD,!DNRq"VUpI#g=1uU_`b-oEYHm!lPiL!]KiU!V$4;!Vlfe!Wnl$nH&`*!V$5u$#7s"nH&_c!HFn=6cfja!FX[j@0(=u!HA,b!<K,''*3(R@&sET!FYO;JH5dZMunh:!FXCYBdkk>Bjh(="9J)r'*25:@%7]u!@%VB]E1G\!<j,;!<j,;M$!c>!JpoK(M`jN!<Edh",R,M(M`:AM$!cm!Jpo[(2EIRM$!cQ!Du]h_unBq!WE+a(Jt2X!<LpX'*/+;'*/+7&W$UH"-aL7U]H;S!GMRk"8j$OoG!,a!DNRq"VUq4!k\f6!JCsY!lPQKq#\JCq#WJM!W`<6nH/LfnH&cn$Ln/uB`[`*S.fYm$Ln/u9`^O\!=4M_!I8G]Gp,p.&HQj-!<FJ[!GSVP6YU7C!osMne-KfB!<KtB'*/+;'*3pl!GMRk"2#"V]EO,o!GMRk"3_Tsj;<^U!DNRqH#!G+q#aA;&HQj-!<II]!I5h`oF?-I1'%EN!>>J7"VUq4!pg@-]GC;EPR7Ed!qZlr!]KiUnH&_P!Vlfe!WqEsnH&`*!V$60'Pc,5nH&_c!RV%/)aemrN"/4#GnC+B('/[cbQ3!7:6Yg:!<HS])L2?.!<I`P#L!4"!J(8HPQHsJ!FXt#JH5cr!<LpU'*0O2:6Yf?!FX+X.01Xo.4J#V)?Di'bQ.aK$PNOA"VUon!s(F`M$(+!CA\3k!s**:M$)fIC@hsl!s)*s@GDYd@@7I*!o*eW@0b!W!M]`1!<Hm>oEAs)"[d!D!FUifGl_=&"G$RS@#P/D!<HU#")02@!<JAe'*/+S'*6c.JJfke%`nnM#Z6E^M$'.c-IDqs]akbWT`WmK!o*t4!q[%=X9.&Ve.l`:!JUUU9]6'3!ndVVU^"X:+X[9kN=-C#!<j,;M$!cm!Jpoc%Vi?RM$!c>!Jpoc%Vj2iM$!cm!JpoS&Sh4MM$!cQ!O2]b"_shBq#dl1!o+?L!jMe.g]aqaX:]3c!O`"09Xt58!jMe.U^!4g+X[;Y!Wc]I!<L.B'*6J]!H>">!MKQD!MKR_!Wq-\R0&<NC;^Hk!DK0gT`UV`!i-$O![/olJH>j[_uTmq!`0bs!Wc]A&coBH'*3XcJHART('.*k!WdiRCB8tf5u,?$OTGPke-Z5Q"VUn;"VUn;!>1.jM$)6FC.sHd!GMRk"2#Oeg^&`=!DNRq"VUp,)RKj<!Vlfm!iuk3q#]Uaq#WJM!Whfm,m!fCnH&di%/Btk&.k'Dq#]Ug!;Q]/%J^&`q#UQt&b,qu!q?<nr!`)s!GMT)!qZn9g^WcT!DNUj!J(;Yq$)BOj;(+6!J(<'!_s.)V$[k:!<j,;M$!c>!Jpp.'5H;(M$!cm!Jpoc%r/0SM$!cQ!SIO5"_sP>OUmrnC9.Ki!e_>(g_^(E";:g(!_H/:&#fU2@#PNq!FE#4!PegO!<E?;!MgV/!ZU2:!Vldm%J^&+@-eR&!W`c?q#US)lj`alN!TL[!e_0]!]KiU!V$4;!Vlfe!WqElnH&`*!V$5u&o*@9nH&_c!U0Uc:"]V4!DN"a!<HO&!<J_p'*/+;'*/,j"!mu)"2#LdZiU7/&W$UH"2#LdX:pEm!GMRk"/HQEKF*J;!DNRq"VUp\'!rGufa7cU!`':$!Wc]Q&GZA.%Lr48!FYg;q#]%[!;Q\l$Ma`]q#UQt&b,qu!q?<nj::\]!GMT)!gF72r!i/t!DNTg!Wg(;KEJ1T!DNS9!DKa"!NcA9!KdEa@&+>7!FD/q!MKQ"bRFTO"qq"<!FD/qR0&<NC:"B%!LWujg]]#*9VDN]!gs)kU]uAO+X[9kh$"Gm!<j,;M$!c>!JppV(M^#RM$!cm!Jpo;(i"^4M$!cQ!Pnh7::(;3$isah$3:06f`D3<";:g5!<Gm)!l4q8:;d:_!Wc\n&ci#>f`D2^";:e:"VUn;M$#%)M$&tJC<Qd:!s**:M$'OaC4lbI!s)*sScJjcM$!JRJH?[^"b?^U@&sBP!DJ=O!N65:!<E?;!MgJ+!]g/d!Vldm%J^&+@#P`o!W`c?q#US)S.tc#Zl/r?!o+Ib!]KiUnH&`*!Vlfe!Wnl&nH&`*!V$6X%r0<&nH&_c!O2[I$VoIi_#XREPRar!!@%UG"VUpa!<HT0"5*\U@)N-*!<HTH!Wequ'*3Xc!FQmR!DJ=Oq#Q$J(l8<F!Wc[k!PJLI!<E4,!LWui@$Ctk!Wc\n&W$Pi.iFHN!FWPQR0#rT`!!%@!FUQk!<j,;!<j,;M$!c>!Jpoc)eu__!<Edh",R,e)f!;'M$!cm!JpoS'5FTbM$!cQ!<E4-Yla.uN!8SLr"ahbYlY!^"\o(l\H9;CYlY!&#+5N9-NO7@#SR4>"VUon!s**:M$'O`C;^mE!s**:M$&t]C:"G,!s)*s2??L.!r2jg(l8<F!Wc])!WfM.'*6bfN!3tO(7>6W!Wq-\NWB/Si<%s>f`D5N#/L?a-NO8#"VUof!^TT""H``d@&sk>!FD/qR0&<NC;^G;!LWujg][^)'*/RD9T]AWJHBTfJHD>\6a6XmYRD0G!<j,;M$!c>!JppF)/AL?M$!cm!JppF)/AdEM$!cm!JpoC%;PMKM$!cQ!Ib&CT`XHaklCj]#(Zh!-NSc"5u+d#!U'b%!<L7F'*5'5]G!Z+!N?+!!D^iE!N?)K!<FS^!<<9*J,rB#!L,SFFV=cVD%cpNAJ5(F!F5^,"VUn;!>-IuKE5i+#9a+^!?m*uC=E;.!DNRq&I7A%D?3EK&HOWf!<lX-!?2[Q!<j,;!<EcU+cHG:PQ;p.B`TBQ!G_63+TY:<!==J]!<EKV!<EdL!<Ed.)Z_/s!V$Ve"9=Pn!"B&<%MBQQ3<@q='*/-a";:e:ble[\!<HI4!AOi?#;-$N3ACOi!<Kk:'*/+;'*/,B,lqG]"_qRV!BL6iZit4*"CV<l!FbU*C:j^Y!GMRC/8ErC@0'('&Krt3)&YU=q$J!7S-URV#=AfK#6AeK%N-EH!?hJ<!<FWd&HN%K!<Fn[g_gt1E&eLb!?j2"![.RNoEI5\!>,R,"VIO66P0>&'*/+OD%QdlD%QdtD%Qe9'*/+;'*2MB3WWZr!bs8p!GMRCe-9[3#@RX-!D/d^6U>]`:@&bt8LX\Q%%RE/8HHd3'*/+7>mX('E%+'RE$57)'*/+;'*2MB3WW[M!G\\;@0('C@>"buS-NI'9`YP$,6>mh!=nu-!@8B[#micr#mjAV!>toGoEG>0'*/,q!>>J7"VUn;@3kq_bQMZk@0('C@>#8.FC>2E!<Mio$LnE',ng:[$#K\L!=m'L!?2[Q!<HI,!<j,;!<Ed@@C-GX'O_#V!FaIoC:"ab!DNRq!AFNT+c$.i!@&6YM&5t";#).5"VUoF!BL6ibQ_f5@0('C@8q".#@RX-!KdM\"@GIPU]a$k8PrAW8X'EH8P+^>0e!-m!tt\A#sJ@j#u?`e!RLl]!<GJ^YQ=h/'*/+7&Rf,'$#7B`@0('C@B:2YlkX"19`Y80L]IMW8PegW!G)oF!<j,;!<Ed@@D!FlbQ;2R3WW[%(htU1!GMRC`!C+R$Xj'1!Pnn)2T,f&!FVu88HC%:!H8\Q!P8CH!<<N0<CQ15!UTn$!<M9_'*/-i!>>J7"VUo>!BL6ae,jAq=TN4;=bHik/6N!J!T=O\"ucQ;U]a%>3MZdF.5<h\0`_Fk!ATfC6SUU^"@Eb10gI`"r<*c7!M'?#)$.tc'*/+;'*/,:,lq08!G[Pp=TN4;=nDr6oE&.r9`Z+49u.,:+U<Z++bU(f+TWHX)$'mS!<H=L!EmVOC4lWh!>/I;bQhmA"p"`:=]rBOC6Sg'!GMR;U^(Ya#$Ct$!<EK;!<Ed/&K(UD!<F>RKEr`S#7B,j&HOBo)$)o%!?"\.!<Kk7'*/[g!<E3=!?i>E!?hIE)$fLB+UL=5+X'VQ('-B.!AU)F6ReN3P6#/J!>Q7K!?`$VT`UVi%ac!l"VUo>!BL6ae-'NN"'GY=!EnIaC5`@"!DNST.8J@n8HE5#)MnY!,67g*:Qke[)\W5Q"VUn;!>/I;'Pc\0=TN4;=f_dAbQ:oJ9`Z+4l2^o'),AZ^.03iK"rRFd!>tnJp]1Dj!>>J70i*u6!EBd6!<j,;=TN4;=k![kKEG?XB`VB'$>S?#=TM4t0prGF`!/L.@*B??!@%UG?kWPAYQ>I=!<j,;=TN4;=mQl<PQP%hB`VAd"_t[]=TM4t!LX<l&Lda"5qrCZ8N?f%&NKl2&HS'r'*/+70EE&m!^dPCj9.g^!?"`P!!WI;Q8nsd'*/+K'*/+C'*/+;'*/+;'*/+7&Lf1,"DX/'.04,`.>.e<e,h'"9`Y8$%fl\C31L]i!H8nW"VUn;&Ld_m!=g+N%2/c!!kB9Vq%=8?@#P-f"VUn;!>-b0r!-ud#6?8"!@dpOC5`3C!GMQ`]E;p8!@\%D!<Ec^!<E42km.7m!X9"13<A4B'*/-i!>>J7eH$<a!<j,;+TXV)+oDIXX9&D'&Kr=q"DWSm+TZ9X+bTo3linU69`_L+6sBZuliKN\#mjAV#lt2C!<E?;!<E35+X)dFC6TGV!GMQXU]G6&#9a+B!<F'0#lt?J!<KS/'*/+['*447nIRjO"pk;T!<EL&PlUn3'*/C?4okrr:=K:^!FS:r3"l;n"VUn;!>-Iue-9Z@"<de[!?q@AC:j`o!DNS$7)/g(#mjAV!>toGliIIo,67fK'*/+?:CR=D'*/+7>lap<#(9?K77h1"3WYKI'*/,n!YYS8K`VngZiP:T)$.DX'*/+;'*3pj!BL7<!W3(8KE?u2!GMRk!G#s3#)N?]9`abf&O$4=+\pMf0`b[p#pB<o!?hIRK`hG$$53F@!F6kU!?#N#!Smbi!Mff8B,CXg'*/+;'*/+7&W$OF!W31;]EX2n!GMRk!ON#FoE:!O!DNS<+mT.0!@nfa+UL=5+X'Uf"u--de,q]3@(ZUCBG1CI"VUn;!>1.hM#j[[C6SaU!<Hm8M#lrFCA\9m!<Gmq!=9MB&HP&r&J7bX&J5$]&HNB:!<J)Z'*32*#T3Z1!>>J7"VUon!<G4^M#j+SC:j_,!<Hm8M#m5NC4l_H!<Gmqq#pe<=[=2f!<GasS-8qY!YYS86#A&25rCYgj9%=Y!R1WY!<E?;!<J#X,lri'X9EA*"p"`:M#iG6X9EA:'o;qlB`X%kHtnlNM#dWO!EfFJ!K7(_,nXPd@#P.Y+Z'3c8Mrdg!@%V".0@-e.3UkU!VHI,!@d(32]2WN#J:9rU]j+?3MZdF+[H,m!C9"HU]ODh"@Eb%\,m<E6/2]45sbD[6U="(AE3lP!^S_1!Moi2!<E?;!JpgX3WY'<`#<AAM#dWk!Jpj,(i%8,M#dWO!U0]^"[bjY!FUif=TL\e=]nK^)$+\j!RLl]!C9"^j91DC5rM##!FUif;#t(C!Wi6$'*/+;'*/+7&W$OF!L+F9KEM;V&W$OF!Q5jjbQ<V%!GMRk!PB.^N"q0M!DNSD.FS<f$p!ANNWC"Xg]p2,3Ks\73B9*1j9,KLD(.J22*!t`"#h)`g]p2462V9]5lnb%'*1Z*@#P.a!FWhH!EfZO!FZ":Muj"`'*0OJ-NO5K>las0'*/,j!@7c'!L*t,PQ:dc&W$OF!L*t,Munh:!GMRk!N[/RoGEDc!DNRq"VUo^`#''(%s`gFWWDo+bSPO_H#WjG!I8Ydj9T`+B`W5/'PdOUE</c73SXj,3B<<-6TOrD3Fq1R!S[\i!<E?;!<E35M#iG6e.HH.#)N?]B`X%kN!sIf&r?Vi9`Y8t#L!3W!FUif.7$9$.3UkU.4J#^$p!AN2]2XX!YYSX+X[9k.h_pa"VUn;!>1.hM#j[lC<Qa9!<G4^M#j[lC4lYF!<Hm8M#iPNC?u@c!<Gmq+UL=5OU**4Zj&5c@+59=!FXCd!I,7YYm%r_&[;TB!F7,S!s*@l3<:E>!<F2S!<EoK!LXte(_=_%!<j,;!=98;!=:4V!<HI,!!EFd!K7&M!LWtS3<:E>!<F2S!<EoK!<EWC!V$>m%3jI8!<j,;)$+FP);G=/X9'7?B`T)^C?u-B!DNRq#nI%;Bds,a&T%gT&Pii:*>8GS!F5^,!E9X3(_ZoN"VUnS!BL6!oE&dg";q5S!?&NPC?u*A!DNUj!YITs!<H.3&K*b5!FQQA!!EC_!LWtZ!LGeII1lV^FV=cVD%cp^&O$3r!E9X3!F5`:"7[6tM%Kal'*/+7&K)I>!G^Zr)$+FP)>"_[g]JDp9`Yh4f`;*S!E9X3.h_pa"VUnS!GMQPoE&d/!W`<6)&`&JC9.LT!GMQPX9<:.";q57!<EK;!<L:E(]aXLD#jY@'*/+G:E'<r'*/(:!spqAZ8hs!!>>J7[/gpA!NcA9!MK_.$Vp42!<j,;+TXV)+m]DJX9'OGB`TB1")?<e+TY:<i=>rsr!3<L'*/C?@'g.>"VUnC!=fP>,81(Y"VUn[!BL6)Zit3G![.SY!?nNIC5`0:!DNUZ#S@N)"Ta;Y'*/C?4okZj:\=_heH$<a!<j,;+TZ9X+oD@UX9'OGB`TCL"DZ-_+TY:<!SJ!##lt?.Ergsq'*/C?4okrr:Ab2#!AXZV"VUn;"VUn[!GMQXoE/j0!W`<6+X-I[C=ED1!GMQXr!$oK!?hJ<!<ELD#m'i1iW0>d#q?5^a8lqT!FlcD$2ala!<EL&%0<+&'*/+7>lap6!EHBb!>uCK+TXb-!?k78!<GV&!<E?;!EfFa!EnanC4lXk!GMR;KEGu=!a,Ou!LX)l%a>%U>n[5>"VUn;!>/I;]E;om!a,P<!En1[C>8qp!DNS<!BpN-+V`E,0`b\S"sF!l!<FDY!>,?O+TW`k!Po,J(N8O?!<j,;=TLPa=c<Ju/-,b`=]p[dC?u1.!GMR;liCl!!EfFt!BHqZ6TIGs"[b$7$3=k"!`AS&6SUSE1]\1K2)t[@'*/+o>QFj/'*25:3WWCE)/<\b!GMR;g]D6'!EfFt!P&=^0-N'o$p66F3<u&X!Rh&_!?q(>2ZY(t(dfGq).`@A!H8\Q!!NCf!L,SFN<'[n!JLOf!<IT^!<E?;!?hJX!?oqoC9.I[!GMQXKE>m>+TY:<!RV<m!=9'-bROp[1'%[^9`Y7u'*/+?.KKPR'*/+7>lgW*W<-Ia%flhI!?hJX!?pe5C9.I[!GMQX`!:%I"<de?!<KG+D#jYD:J_'2'*/(:!X]"+3<:E>!<F2S!<EoK!<EWC!<E4,!<E?;!<E35+X,VCC<Q`&!GMQXA8:H8+TY:<#m!3j#mhO"!>toG6idH)!=8cO!<EL&,6<K!'*/+;'*/+W,lo1]!c"e<+TZ9X+iFV#S-0u99`YPg2ZX6O!^j4&#mjAV#lto\#lt?J!<FDY!LXU`%T9PD#lu7O!=;OH!EBd6!<j,;!<EcU+l!-6lj"[7B`TCL!G^*g+TY:<#t-]Q#mjAV!>tpB!UKjgBG1CIP5u<t!!NI\!It2FS2gU%'*/+['*/+S'*4d6YoaM0&ciS?AH>dE!<E?;!<E35+X)L>C9.L\!GMQXPQP[u"<de?!<EK;!<EN%!<E35D$^4f'*/,&'*/+7>las0'*/+7&Kr=a"_ts\+TZ9X+iFV#S-0u99`Y8N495Hd'*/+7&Kr=A")<K&+TZ9X+nPhNU^&%D9`Y8,#NQ,m!<F_h&HOWf!K-sl!<<B*]=],0x5));if not(not u[0X16a])then p=v:A(u,p);else(u)[0x41c1]=-0X57+((v.gb(u[12605]-u[0X67__d0_],u[9000],u[0X00__2F9]))+p+u[761]);p=-3945997960+((v.vb(u[11367]-u[0x1e06__]-u[0X003A83],(u[15982])))-v.c[0B111]);u[362]=(p);end;continue;else if p~=27 then else v:Y(S);break;end;end;end;end;return p;end,Db=function(v,p)(p[0X1])[0x1d]=v.J;end,s=string.unpack,xb=string.unpack,aq=function(v,p,a,S,u,L)p=nil;S=nil;L=nil;for X=0b1__001011,177,102 do L,p,S=v:sq(p,X,L,a,S);end;(p)[0X1]=(L);u=nil;return u,L,p,S;end,k=function(v,p,a)p=0B101000+(v.Lb((v.ub((v.ub(v.c[0X5],a[0X1069],a[0X23_28]))))~=a[21376]and a[0x30DF]or a[7860],(a[21376])));a[12605]=(p);return p;end,Bb=bit32.countlz,C=function(v,v)(v[0B1])[6]=v[0b1][6]+0X1;end,Fq=function(v,v,p,a)a=p[0X1][0X5](v);return a;end,c={60996,1193525507,1707070889,3193122151,485324185,3262468792,348968740,1515607467,1830835005},Nq=function(v,v,p,a)a[0X1][0B111][p+0b1_0]=(v);end,sq=function(v,p,a,S,u,L)if a<0Xb1 then p=v:hq(p);else if a>75 then(p)[3]=u[0b01][0B100010]();L=u[0X1][0X22]();S=u[0B1][0X5](L);end;end;return S,p,L;end,vb=bit32.rrotate,h=string.char,x=function(v,p,a,S)a[0B1110]=nil;if not(not S[21724])then p=(S[0X54Dc_]);else p=-4294967250+(v.Vb((v.Vb(S[21376]+S[12511]))<=v.c[0b1000]and v.c[1]or S[11367]));S[0X54__dc]=(p);end;return p;end,uq=function(v,v,p,a,S)if v[1][0Xd]~=v[0X1][24]then(S)[9]=(p);S[2]=(a);end;end,Tq=function(v,p,a,S,u,L,X)local r;if u<0x76 then(p[0x1][0B111])[S+0b001]=a;return X,0XE03A,u;else u=0X5d;if p[0X1][28]==L then if not(p[0X1][30])then else r=v:xq();return X,{v._(r)},u;end;if not(-209)then else X=v:yq(X,p);end;end;end;return X,nil,u;end,L=function(v,p)p[0X1__3]=v.O;end,o=bit32,J=nil,rb=bit32.lrotate,Ob=function(v,p)local a=0x65;repeat if a==0X65 then a=v:Jb(p,a);continue;else if a==0X0 then(p[0X1F])[0X00D]=v.a;a=95;else if a~=0X5F then else v:Ib(p);break;end;end;end;until false;end,Cq=function(v,v,p)(p[0X1])[0X23]=v;end,jq=function(v,p,a,S,u,L,X,r,s)local C;if s==0B100 then v:Bq(r,L,p,S,u);else if s==0X3 then(X)[r]=(L);elseif s==0x5 then(X)[r]=(r+L);elseif s==0x0 then(X)[r]=(r-L);else if s==0B110 then C,a=v:wq(s,u,a,r,L,S);if C~=nil then return{v._(C)},a;end;end;end;end;return nil,a;end,Xb=function(v,p,a,S,u,L)local X,r,s,C;S=99;repeat if S==0X63 then r=function(...)return(...)();end;s=({});if not(not u[0x6da6])then S=v:Gb(S,u);else S=-1101844994+((v.Vb((v.vb(u[12605],(u[12332])))+v.c[0X4]))+u[0X1677]);u[0X6__DA6]=(S);end;else C=v:ib(L,p,C);break;end;until false;S=0b1000000;repeat if S>0X29 and S<0X7_2 then(L[0X1f])[0B110]=v.o.bxor;if not(not u[0X028cD])then S=v:hb(S,u);else S=-1707070844+(v.gb((v.nb(u[16833]))-u[0X4178]+u[28070],u[0x1554],v.c[0b11]));u[0X28CD]=S;end;elseif S<0X29 then(L[0B11111])[0XA]=v.Q;if L[0B11011]==L[0Xb]then return{L[0X1E]},S;end;if not(not u[0x33c8])then S=u[0x33c8];else S=v:sb(u,S);end;elseif S>0x40 and S<0x74 then if L[0X1C]~=L[0x18]then else X=v:ab(L);return{v._(X)},S;end;if not u[0X004487]then S=(-0b110+((u[0XA3]+v.c[0x7]+u[0X1e06__]>u[0X18EF]and u[362]or u[0X016A])+u[5460]));(u)[17543]=(S);else S=(u[0X4487]);end;continue;else if S<0x40 and S>0X01f then L[31][15]=v.vb;if not(not u[14394])then S=v:Qb(S,u);else S=v:ob(S,u);end;continue;else if S>0X72 then(L[0X1F])[0B111]=v.mb;break;end;end;end;until false;S=0b1110010;repeat if S==0X29 then v:Wb(L);break;else S=v:_b(L,u,S);continue;end;until false;(L[0X1f_])[0b01011]=v.Bb;C=L[38](C,s)(p,v.b,a,r,L[0x21],L[0B11100],L[30],v.c,L[27],L[0X26]);return{L[0X26](C,s)},S;end,hb=function(v,v,p)v=p[0X28CD];return v;end,mq=function(v,v,p,a)a[p]=v;end,z=function(v,p,a,S)S[12]=unpack;S[0XD]=function(u,L,X,r)r=({S});if not(L>u)then else return;end;local S=(u-L+0X1);if S>=0X8 then return X[L],X[L+0X1],X[L+0x2],X[L+0x3__],X[L+0X4],X[L+5],X[L+0X6],X[L+0B111],r[0X1][0xD](u,L+0X8,X);else if S>=0X7 then return X[L],X[L+0X1],X[L+0B10],X[L+3],X[L+4],X[L+0B10_1],X[L+0x6],r[0B1][13](u,L+0X7,X);elseif S>=0X6_ then return X[L],X[L+0X1],X[L+0B10__],X[L+0B11],X[L+0X4],X[L+0X5],r[0X1][0B110__1](u,L+0X6,X);else if S>=0X5 then return X[L],X[L+0X1],X[L+0x2],X[L+0X00__3],X[L+0X4],r[0x1][0Xd__](u,L+5,X);elseif S>=0X4 then return X[L],X[L+1],X[L+0B10],X[L+0X3],r[0B1][0B1101](u,L+4,X);else if S>=3 then return X[L],X[L+0B1__],X[L+0X2],r[1][0b1101](u,L+0x003,X);else if S>=0x2 then return X[L],X[L+1],r[1][0Xd](u,L+2,X);else return X[L],r[0b1][13](u,L+0X1,X);end;end;end;end;end;end;if not(not p[11367])then a=v:r(a,p);else(p)[0X3E9a]=-2698406143+(v.vb((v.zb(p[23981]==v.c[0X06]and v.c[0x3]or p[7860],p[0X3A8__3],v.c[0X04]))-v.c[0B100],(p[21376])));p[32049]=-485324123+((v.nb((v.Bb(p[7686]-p[0X48B2]))))+v.c[5]);a=-1362287217+((p[14979]~=v.c[0X7]and v.c[0B100__]or v.c[0X7])-v.c[0X9]-p[0X05380]+p[0x30DF]);(p)[11367]=(a);end;return a;end,Wb=function(v,p)p[31][9]=v.F;end,X=function(v,p,a,S)(S)[0B110]=0B1_;if not(not p[4201])then a=(p[4201]);else a=-0X5A565550+((v.Vb((v.ub((v.Vb(p[21376])),v.c[5],p[0x5380]))))>v.c[0x6]and v.c[7]or v.c[0X8]);p[0X1069]=(a);end;return a;end,O=string.sub,D=table.create,mb=bit32.lshift,T=function(v,v,p)p=v[0X002F9];return p;end,Q=bit32.lrotate,yq=function(v,v,p)for a=0B111000,0x61,0x29 do if a==0B111000 then v,p[0B1][0X001C]=p[0x1][0x3],(46);else if a==0b1100001 then(p[0B1])[0B10010_1]=p[0b10];end;end;end;return v;end,qq=function(v,p,a,S)if S>0B1111 then(p)[0B100010]=(function()local u,L,X={p},0,0X1;repeat local r;r,X,L=v:fq(L,X,u,r);u[0X1][6]=(u[0b1][6]+0B1);until r<0b10000__000_;return L;end);(p)[0b100011]=function()local u,L={p};local X=u[0X1][0B100010]();if u[1][31]==u[1][0X020]then L=v:Sq(u);if L~=nil then return v._(L);end;end;for r=0X0,187,0B1000__110 do L=v:Eq(X,r,u);if L==nil then else return v._(L);end;end;end;if not(not a[17663])then S=(a[0X0044FF]);else S=v:Zq(a,S);end;return 0XB_369,S;else p[0x25]=function(...)local u={p};local p=u[0X1][0X9]('#',...);if p~=0X0 then else return p,u[0X1][0Xb];end;return p,{...};end;if not a[22921]then S=v:Aq(a,S);else S=a[0X5989];end;end;return nil,S;end,d=function(v,v,p,a)a[0x1][0X6]=(v);return{p};end,Fb=function(v,p,a)a=(-4294967145+((v.Vb((v.zb(p[0X18Ef]-p[0B10__100011]))))-p[11367]));p[0X6a51]=(a);return a;end,G=coroutine.yield,Gb=function(v,v,p)v=p[0X6dA6];return v;end,I=string,Jb=function(v,p,a)p[0X1F][0x8]=v.ub;a=(0B0);return a;end,e=function(v,p,a,S,u,L)if L==40 then L=v:l(u,L,p);return L,34775,S,a;elseif L==0B1100111 then a=function(...)return(...)[...];end;(u)[0b10110]=v.G;if not(not p[20484])then L=p[20484];else L=v:w(L,p);end;elseif L==0x1__A then(u)[0X17]=(getfenv);if not(not p[0X1b93])then L=(p[0X1B93]);else L=v:j(p,L);end;else if L==0x31_ then L,S=v:S(L,p,S);return L,0X87d7,S,a;else if L~=92 then else u[0X18]=(9007199254740992);return L,0x834_A,S,a;end;end;end;return L,nil,S,a;end,Nb=table.move,kq=function(v,v)if v<0B10010100 then else if not(v>0b10__00_100)then else end;end;end,cb=function(v)end,Bq=function(v,v,p,a,S,u)if S[0X1][0xE]then local L=(S[0B1][0B11101][p]);local X=(#L);L[X+1]=(a);L[X+0X002]=v;L[X+3]=2;else(u)[v]=S[0X1][0X1d][p];end;end,Qb=function(v,v,p)v=(p[14394]);return v;end,Ub=function(v,p,a,S)local u,L;S=(nil);for X=21,0X3C,0x00d do if not(X>34)then if X~=0B10101 then L=(p[0X1][0X22]()-92571);else v:Yq(p);end;else if X~=0B1_01_111 then S=p[0x001][0X1C]()~=0;else p[0X001__][0X1d]=p[1][0B101](L);continue;end;end;end;if p[1][0X1e]~=p[0B1][0x00B]then else if not(p[1][0X20])then else v:Pq(p);end;end;for X=0B1101111,0Xe__2,0X71 do u=v:bb(S,L,X,p);if u==0X54F5 then break;else if u==0X7C8__B then continue;else if u~=nil then return{v._(u)},S,a;end;end;end;end;u=(p[0x1][0b100010]()-0x3805);a=p[0b1][0X5](u);for v=0X2,0X78,0X44 do if v==0X2 then(p[0X1])[0b0111]=p[0X1][0X5](u*0x3);continue;else if v~=0B1000_110 then else for v=0X1,u do(a)[v]=p[0X1][0X27]();end;break;end;end;end;return nil,S,a;end,bb=function(v,p,a,S,u)local L;if S<0xe0 then(u[0X1_])[0XE]=p;return 31883;else if not(S>0B1101111)then else for S=0X001,a,1 do local a,X,r=52;repeat if a<=0X3 then r=v:Kq(u,r);break;else a=3;X=nil;end;until false;if r<=0X5d then a=0X40;repeat if a==0b11111 then break;else if r>=93 then X=v:dq(X,u);else X=u[0X1][32]();end;a=(0X1f);end;until false;else local a;for s=0X45,0X9B,0x14 do if s>0X0059 then break;elseif s<0X6D and s>0B1000__101 then if a==0B1_110011 then L=v:pq(u);return{v._(L)};elseif u[0X1][0X23]==p then while a do for C=0X1F,116,0X41 do if C~=31 then L=v:Hq(a);return{v._(L)};else v:Cq(a,u);continue;end;end;end;else if not(r>=0B10110_011)then X=u[0x1][0X24_]();else X=u[0X1][0X1c]()==1;end;end;continue;else if not(s<0B01011001)then else a=(100);end;end;end;end;for a=0X6_f,0X0106,0X73 do if a==0B1__1100010__ then if p then v:Mq(S,X,u);else u[0X1][0X1d][S]=X;end;break;else if a==111 then v:cb();continue;end;end;end;end;return 21749;end;end;return nil;end,Rq=function(v,p,a,S)local u;p[0B100000]=nil;S=0x5;repeat u,S=v:Dq(p,a,S);if u==21411 then break;else if u==0X7454 then continue;end;end;until false;p[0X21]=function()local v={p};local a,u=v[1][25]('<\100',v[1][0X1A],v[0X1][6]);for L=0b100,0X20,0X1a do if L==0B100 then v[0b1][0X6]=(u);continue;else if L~=0X1__e then else return a;end;end;end;end;p[0X22]=nil;(p)[0X2_3]=nil;p[0x24]=(nil);(p)[37]=(nil);(p)[38]=nil;return S;end,oq=function(v,v,p,a)p={[0B10]=v%0b100,[0X1]=a-a%0x1};return p;end,t=function(v,v,p)p=v[7686];return p;end,vq=function(v,v,p,a,S)(p)[v]=(S[0X1][0X01D][a]);end,p=function(v,p,a,S,u)local L;if S<75 then S=75;p,u=a[1][25]("\60I4",a[0X1][0X1A],a[0X1][0x6_]);return 30354,u,p,S;else if not(S>0X1C)then else L=v:d(u,p,a);return{v._(L)},u,p,S;end;end;return nil,u,p,S;end,ub=bit32.bor,S=function(v,p,a,S)S=v.h;if not a[0X313__D]then p=v:k(p,a);else p=v:f(p,a);end;return p,S;end,bq=function(v,p,a,S)(a)[0B11101]=nil;if not(not S[28059])then p=S[28059];else p=-0X6Fae+(v.mb((v.nb(S[0x2328__]))-S[16833]+S[23981],(S[0X54dC])));(S)[0X06D9B_]=p;end;return p;end,fq=function(v,p,a,S,u)for L=0B1000100,0b10010100,0X50 do v:kq(L);end;u=S[1][0X0015](S[0X1][26],S[0x1][6],S[0X1][0x6]);p+=((u>0X7F and u-0B10000000 or u)*a);a*=128;return u,a,p;end,ab=function(v,v)return{v[0B100101]};end,Kq=function(v,v,p)p=v[1][0B11_10__0]();return p;end,Uq=function(v,p,a,S)(S)[0B11111]=({});if not(not p[0X5020])then a=(p[20512]);else a=0x52+(v.Bb((v.Vb((v.Vb(p[0x1e_06]-v.c[0X6]))))));(p)[0X5020]=(a);end;return a;end,_=unpack,Jq=function(v,v,p)v=p[0XA3];return v;end,Zq=function(v,p,a)a=0Xf7+((v.Lb((v.nb(p[11367])),(p[17982])))-p[0X5004]-p[16026]);(p)[0X44Ff]=a;return a;end,Lb=bit32.rshift,iq=function(v,p,a,S)if S<111 then p=v:Oq(a,p);else if S>61 and S<161 then(a[0X1])[0X6]=(a[0X1][6]+p);return 0X576E,p;else if not(S>0x6f)then else return{a[1][0X13](a[0X1][0X1A],a[0B001][6]-p,a[0X1][6]-0b1)},p;end;end;end;return nil,p;end,Dq=function(v,p,a,S)if S>32 and S<0X5_4 then(p)[0B1_1__110__]=(function()local u,L,X,r,s={p},(0X1C);repeat X,s,r,L=v:p(r,u,L,s);if X==30354 then continue;else if X~=nil then return v._(X);end;end;until false;end);if not a[0X46_3E]then(a)[14469]=(54+(v.Bb((v.gb(a[0x3e6e],a[0X54dc],v.c[0x1]))-a[29429]+v.c[0B10])));S=(-1048567+(v.vb((v.Lb((a[7686]>=v.c[0B111]and a[0X16a]or a[27275])<=a[0X302c__]and a[362]or v.c[0B10],(a[15982]))),(a[21724]))));(a)[17982]=S;else S=(a[0X463_E]);end;return 29780,S;else if S<0X9 then p[0b11100]=function()local u,L,X=({p});for r=0x7b,0X10d,16 do if r>0x7b and r<0b010011011 then v:C(u);elseif r<0X8b then X=u[0B01][21](u[1][0X1A],u[0b1][0B11_0],u[0X1][6]);continue;else if r>0x8b then L=v:H(X);return v._(L);end;end;end;end;if not a[0X302c]then S=-1707070513+(v.gb((v.gb((v.gb((v.rb(a[21724],(S))),a[0X2f9],v.c[0X3])))),a[0X03e6E],a[21376]));a[12332]=S;else S=a[12332];end;return 29780,S;else if S>82 then p[0X20]=(function()local u,L,X,r=({p});for s=0B0,0B1100010__1,0X5d do L,r,X=v:cq(X,s,u,r);if L==9118 then continue;else if L~=nil then return v._(L);end;end;end;end);return 0X53a__3,S;else if S>0X9 and S<0X52 then S=v:bq(S,p,a);else if S>5 and S<32 then S=v:Uq(a,S,p);return 0X7454,S;end;end;end;end;end;return nil,S;end,xq=function(v)return{};end,_b=function(v,p,a,S)(p[0B1111_1])[0b1110]=v.zb;(p[0x1f])[12]=(v.o.countrz);if not a[27217]then S=v:Fb(a,S);else S=a[27217];end;return S;end,rq=function(v,v,p,a)a=(#v[0X1][0b111]);p=(0X9);return a,p;end,Vb=bit32.bnot,_q=function(v,v,p,a,S,u,L)if v==0X16 then v=0X7__d;L=S[0B1__][0X5](p);return v,u,L,0X4F79_,a;elseif v==0B1111101 then a=S[0X01][5](p);v=0B111000;else if v==0B111000 then u=S[0X1][0X5](p);return v,u,L,12932,a;end;end;return v,u,L,nil,a;end,gb=bit32.bxor,lq=function(v,p,a,S,u,L,X)local r;if not(u>0B110011__)then u=0X76;L=(#a[1][0X7]);return u,0X02c8e_,S,L;else S,r,u=v:Tq(a,p,L,u,X,S);if r==57402 then return u,34300,S,L;else if r==nil then else return u,{v._(r)},S,L;end;end;end;return u,nil,S,L;end,Oq=function(v,v,p)p=v[0B1][0B100010]();return p;end,Gq=function(v,p,a)p=(15+(v.mb((v.mb((v.ub((v.vb(a[7860],(a[12332]))),a[0X3e9A],a[0x44Ff])),(a[20484]))),(a[21724]))));(a)[0Xe52]=p;return p;end,f=function(v,v,p)v=(p[0X313_D]);return v;end,Wq=function(v,v,p,a)v=0X7c;(a)[0X007]=p;return v;end,Mq=function(v,v,p,a)(a[1][0b11101])[v]=({[0x0]=p});end,pq=function(v,v)return{v[0X1][0X3]};end,A=function(v,v,p)p=(v[362]);return p;end,E=function(v,p,a,S,u,L)local X;u[0X17]=(nil);p=nil;u[0X18]=nil;a=(0x28);while true do a,X,p,L=v:e(S,L,p,u,a);if X==0X834__A then break;else if X==0x87d7 then continue;end;end;end;if u[0X1_0]~=u[3]then else for v=122,0X87,0B1101 do if v==0x7a then while L do u[3],u[24]=u[0x1],(u[0B1011]);end;continue;else if v==0B10000111 then if not(0X1__7)then else return a,L,{u[1]},p;end;end;end;end;end;(u)[0X19]=nil;return a,L,nil,p;end,eq=function(v,v,p)if not(p>=v[0X1][0X3])then else return{p-v[0b1][0B11000]};end;return nil;end,gq=function(v,p,a,S,u,L,X,r,s)if S==109 then if r==u then return{},X;else if X==0X67 then if not(-0XB9-(0Xa1==0B1000_1000))then else return{},X;end;else if not(a[1][0B1110__])then v:vq(s,p,L,a);else v:nq(L,s,u,a);end;end;end;return 0X43a0,X;else if S==0B111001 then X=0B1011100;end;end;return nil,X;end,Eq=function(v,p,a,S)local u;if a==0x0 then u=v:eq(S,p);if u==nil then else return{v._(u)};end;else return{p};end;return nil;end,Lq=function(v,v,p,a)p=nil;v=(nil);a=nil;return a,p,v;end,Y=function(v,p)(p)[0B1__1011__]=(function(a)local S=({p});v:q(a,S);end);end,j=function(v,p,a)(p)[0X6B__D6]=-0x67bfd6A6+(v.ub(((v.vb(v.c[0B1001],(a)))<=p[0X2c67]and p[0x72f5]or v.c[3])+p[32049],v.c[2]));a=0B1_01111+(v.zb((v.mb(v.c[4]+v.c[0X4],(p[0X54DC])))+v.c[0B100],a));(p)[7059]=(a);return a;end,v=function(v,p,a)p[0x72F5]=-2936865236+(v.ub((v.ub(p[0X4__8_b2]+v.c[0x7],p[7686]))-v.c[0X3]));(p)[26576]=-0XA3+(v.mb((v.ub((v.mb(p[16026],(p[21376])))-p[32049])),(p[21376])));a=(-1270606753+(v.Vb((v.gb(p[0X48b2]+v.c[0X2],p[18610]))+v.c[9])));p[0x3e6e]=a;return a;end,hq=function(v,p)p=({v.J,nil,v.J,nil,nil,nil,nil,nil,v.J,nil,nil});return p;end,W=function(v,p,a)p={};a[0X1]=({});a[0B10]=v.U.wrap;(a)[3]=(4503599627370496);a[0B100]=(nil);(a)[0X5_]=(nil);return p;end,q=function(v,v,p)local a=(0b10100);while true do if not(a<=0B10100)then(p[0B1])[0X6]=0X1;break;else(p[0X1])[26]=v;a=0b1100011;continue;end;end;end,U=coroutine,Pq=function(v,v)for p=0b1_001111,0xB4,0X65 do if p==79 then v[1][0x24]=(-204 or-0B1111111);else if p==180 then v[1][38],v[0X1][11]=-v[0X1][11],(0b01100110);end;end;end;end,g=function(v,p,a,S)(a)[0X10]=function(u,L,X)local r={a};u=u or 0b1;X=(X or#L);if not((X-u+0X1)>0X1f3D)then return r[1][0b1100](L,u,X);else return r[0B1][0B1101](X,u,L);end;end;a[0b10001]=v.tb;if not p[15982]then S=v:v(p,S);else S=(p[15982]);end;return S;end,dq=function(v,v,p)v=p[0x2]();return v;end,Sq=function(v,v)while v[0X1][0B11_000]do return{};end;return nil;end,a=bit32.rshift,Hq=function(v,v)return{218==v};end,cq=function(v,p,a,S,u)if a==93 then S[0X1][6]=(u);return{p},u,p;else if a~=0X0 then else u,p=v:M(p,u,S);return 0x239E,u,p;end;end;return nil,u,p;end,y=function(v,p,a,S,u)p=0B11101;while true do if p>0B100101_0 and p<88 then a[0xb]={};if not S[0X2328]then p=(-3262407722+(((v.Vb(v.c[0x8__]))+v.c[0X4]==v.c[0X6]and S[4201]or v.c[0b11__0])-v.c[0x1]));S[0X2328]=(p);else p=S[0X2328];end;continue;elseif p<0X7b and p>0X5__8 then v:L(a);break;elseif p<0B100001 and p>0X1D then a[0x12]=v.I.pack;if not S[6383]then p=v:m(p,S);else p=v:n(p,S);end;elseif p>0X0__065 then p=v:g(S,a,p);elseif p<0X65 and p>87 then(a)[10]=v.R;if not S[0x1_e06]then p=v:N(S,p);else p=v:t(S,p);end;elseif p>0B1__00001 and p<87 then p=v:z(S,p,a);continue;elseif p<29 then(a)[0B001111]=v.J;if not S[27275]then p=(-2147483526+(v.vb((v.Bb(v.c[0X7]-S[0X2c67]-S[9000])),(S[0x5380]))));(S)[27275]=p;else p=S[0X6A8B];end;elseif p>12 and p<30 then p=v:B(a,S,p);continue;else if not(p>0X1E and p<0b1_001010)then else p=v:x(p,a,S);continue;end;end;end;(a)[0X14__]=v.gb;(a)[0x1__5]=(nil);u=(nil);a[0b10110]=nil;return u,p;end,w=function(v,p,a)p=-0X1ce__D75EB+(((v.Vb(a[0x48b2]))-v.c[0X1]>a[0X1E0__6]and a[0X5daD]or v.c[0X5])+v.c[0X5]);a[0X5004]=(p);return p;end,zb=bit32.band,m=function(v,p,a)a[0x7182]=-60816+(v.c[0X1]+v.c[2]-a[11367]-a[14979]-v.c[2]);p=(-3193122050+((v.Vb(a[0x2328]-a[0X7D31]+v.c[0x1]))<a[4201]and a[0x05Da__D]or v.c[0X4]));(a)[0X18EF]=p;return p;end,F=bit32.bnot,tb=setmetatable,Ib=function(v,p)p[31][0x10]=v.xb;end,i=string.byte,Xq=function(v,v,p,a)p=(0xE);a[0XB]=(v);return p;end,ib=function(v,p,a,S)S=a();if p[33]==p[0b10__11]then else v:Ob(p);end;return S;end,nq=function(v,v,p,a,S)local u,L,X=(0X2);repeat if u~=121 then L=(S[0b001][0X1D][v]);u=(0X79);else X=(#L);break;end;until false;(L)[X+0X1]=(a);L[X+0b10]=p;(L)[X+0B11]=8;end,H=function(v,v)return{v};end,u=function(v,v)v[12]=nil;(v)[13]=nil;v[0b1110]=nil;v[0B1111]=nil;(v)[0x10]=(nil);(v)[0B10001]=(nil);(v)[0X12]=(nil);(v)[0X13__]=(nil);end,Iq=function(v,p,a,S)p[0B100110]=(function(u,L,X)local r={p,p[0X14],p[0b10],p[0B1000]};local p,s,C=u[0B11],u[11],(u[0X8]);local E,R,w,t,q=u[0X7],u[0X9],u[0X5],u[2],u[0X4];X=(nil);X=function(...)local G,Q,y,m,J,z,H,F,W,N,_,M,A=r[0x1][0X05](p),0B1,0X1,0b1,0X0,(r[1][0b10__111]());while true do local p=(w[Q]);if not(p<0B111__00__0)then if p<0x5__4 then if p<0b1000110 then if not(p>=63)then if not(p>=59)then if not(p>=0X39)then for c=R[Q],E[Q]do(G)[c]=(nil);end;else if p==0X003a then(G)[q[Q]]=q;else G[E[Q]]=(C[Q]>t[Q]);end;end;else if not(p>=61)then if p~=0B1__11100 then(G)[R[Q]]=C[Q]+s[Q];else local c,Z,i,B,n,D,g,h=0X8,(0X4e);repeat if Z<0X4e then g*=D;Z=-3377+((r[0X1][0b11111][7](R[Q]+Z,q[Q]))-Z+Z);continue;elseif Z<0X55 and Z>0X4E then D=r[1][31];Z=(0B1100__00_0+(r[0B1][0X1f][0Xc]((r[1][31][0X8]((r[1][0X1F][0XC]((r[0b1][31][0B1011](Z)))),p)))));continue;else if Z>0X30 and Z<0X4F then i=(0X1c);Z=(0X42+((r[0X1][31][0Xc](p-Z))-p+Z));else if Z>85 then n=12;break;else if not(Z<0b1100010 and Z>79)then else g=(0);D=4503599627370495;Z=(-0b100_101+((R[Q]+Z>=Z and p or Z)-Z~=Z and Z or Z));end;end;end;end;until false;Z=(0X3b);repeat if Z<0X5e and Z>0X25 then D=(D[n]);Z=(-4294967266+((r[0X1][0X1F][0B110]((r[0X1_][0X1f][0X9](Z)),Z))+R[Q]+Z));continue;elseif Z>0B111011 then n=r[0x1][0X1f];Z=-6005+((r[1][0B0011111][7](Z,R[Q]))-Z+p+p);continue;else if not(Z<0X3B)then else B=(13);break;end;end;until false;local o;Z=(0x8_);while true do if Z~=0x8 then B=r[0X1][31];break;else n=n[B];Z=(0X31+(((r[0X01][0b11111][8](Z,Z))==Z and Z or q[Q])+Z+R[Q]));continue;end;end;B=B[c];c=(r[1][0X1F]);Z=83;while true do if Z==0X53 then h=(0Xb);Z=(-0X26+((r[0X1][0x1f][0Xf]((R[Q]<p and R[Q]or q[Q])-q[Q],q[Q]))+p));else if Z==0X16__ then c=(c[h]);Z=0B1000__1101+(((r[0B1][0B11111][0B110_](Z))+Z==p and R[Q]or q[Q])-Z);elseif Z==0x7d then h=w[Q];Z=(0B101011+((r[0x1][0X1F][0Xb](Z-q[Q]))-q[Q]-R[Q]));continue;else if Z==56 then c=c(h);Z=-125+(R[Q]+Z+Z+q[Q]+Z);continue;else if Z~=55 then else h=R[Q];break;end;end;end;end;end;Z=0B1000011;repeat if Z~=70 then o=(q[Q]);Z=(0X46+(r[0B1][0X1f][0XE]((r[0x1][0b11111][0B1110]((r[0X1][31][0X7](R[Q]+Z,R[Q])))),R[Q])));else B=B(c,h,o);break;end;until false;c=(R[Q]);Z=(5);repeat if Z==5 then n=n(B,c);Z=32+(r[0b1][31][0Xa]((r[0x01][0X1F][0X7]((r[0x1][0B11111][0XC](Z-q[Q])),R[Q])),q[Q]));else if Z==0x020 then B=(p);Z=0X4c+((r[0b1][31][0x6](Z+q[Q]))-Z==p and Z or R[Q]);else if Z==0x52 then n+=B;Z=(-0b1001__11__1+(((r[0X1][31][11](Z))+R[Q]>R[Q]and R[Q]or q[Q])+Z));else if Z==0B10_01 then B=q[Q];break;end;end;end;end;until false;Z=0x37;repeat if Z<55 then B=(R[Q]);n+=B;break;else if Z>0X2A then n+=B;Z=(0b1010__111__+((r[0X1][31][14](Z<Z and Z or R[Q],Z,p))+q[Q]-Z));end;end;until false;Z=114;repeat if Z<=0x43 then if not(Z>0X29)then D+=n;Z=0X60+((r[0B1][0B11111][0Xb](p+Z<R[Q]and R[Q]or p))-R[Q]);continue;else i+=g;Z=-4294967164+((r[0x1][31][0x9]((r[0X1][0B11111][0XB__](Z))<=Z and Z or Z))+q[Q]);continue;end;else if not(Z>0X46)then w[Q]=(i);i=G;break;else if Z~=0X74 then D=D(n);n=(p);Z=-4294966972+((r[0X1][0B11111][0B1001](Z))+q[Q]-Z-p);continue;else g+=D;Z=-4294967168+(r[0B1][0b1__1111][0x9](((r[0X1][0B11111][0Xe](Z))<p and R[Q]or Z)==R[Q]and q[Q]or p));end;end;end;until false;Z=0x42;while true do if Z==66 then g=(q[Q]);Z=0X33+((r[0x1][0X1__f][12](Z-Z==p and q[Q]or q[Q]))>=Z and R[Q]or q[Q]);continue;else if Z~=0B111001 then else D=(G);break;end;end;end;n=R[Q];Z=0X31;repeat if Z==49 then D=(D[n]);Z=92+(r[0b1][31][0Xc](q[Q]-q[Q]-Z>=q[Q]and p or Z));else if Z~=92 then else n=s[Q];D*=n;i[g]=D;break;end;end;until false;end;else if p~=62 then if W then for c,Z in W do if not(c>=0X1)then else(Z)[0b10]=(Z);(Z)[0X3]=G[c];Z[0X1]=0X3;(W)[c]=nil;end;end;end;return G[q[Q]]();else G[q[Q]]=(L[E[Q]]);end;end;end;else if p<66 then if not(p>=0B1000000)then(G)[q[Q]]=G[R[Q]]..G[E[Q]];else if p==0X41 then G[E[Q]]=(t[Q]..G[q[Q]]);else if not(G[E[Q]]<G[R[Q]])then Q=(q[Q]);end;end;end;else if not(p>=0B1000100)then if p==0X043 then(G)[q[Q]]=(G[R[Q]][s[Q]]);else G[q[Q]]=G[E[Q]][G[R[Q]]];end;else if p==0X45 then G[R[Q]]=(r[0X2](G[E[Q]],G[q[Q]]));else G[E[Q]]=G;end;end;end;end;else if p>=77 then if p>=0B1010000 then if p<0X00__52 then if p==0X51__ then if not(W)then else for c,Z in W do if c>=0X1 then(Z)[0X2_]=(Z);Z[0X3]=(G[c]);Z[1]=(0X3);(W)[c]=(nil);end;end;end;local c=E[Q];return r[0X1][0B10000](c,G,c+R[Q]-0X2);else(G)[E[Q]]=r[0X1][0B101](R[Q]);end;else if p==83 then if W then for c,Z in W do if not(c>=0X1_)then else Z[0X002]=(Z);(Z)[0B11]=G[c];(Z)[1]=(0b11);(W)[c]=nil;end;end;end;return r[0x1][16](q[Q],G,y);else G[q[Q]]=G[R[Q]]-G[E[Q]];end;end;else if p<0X4E then(G)[q[Q]]=(nil);else if p==0X4F then if not G[E[Q]]then Q=(R[Q]);end;else local c,Z=q[Q],(G[E[Q]]);(G)[c+0B1]=Z;(G)[c]=Z[t[Q]];end;end;end;else if p>=0X49 then if p<0X4B__ then if p~=0X4A then local c=(false);A+=N;if not(N<=0X0)then c=A<=M;else c=A>=M;end;if c then(G)[R[Q]+0X3]=(A);Q=q[Q];end;else G[E[Q]]=(C[Q]*G[R[Q]]);end;else if p~=0B1001100 then if W then for c,Z in W do if c>=0x1__ then(Z)[0B10]=(Z);(Z)[0X3]=G[c];(Z)[0X1_]=(0x3);(W)[c]=nil;end;end;end;local c=(q[Q]);return G[c](r[0X1][0b10__000](c+0X01,G,y));else local c=C[Q];local Z=(c[0X1_]);local i=#Z;local B=(i>0 and{});local n=r[0X1_][0x26](c,B);r[1][4](n,z);(G)[R[Q]]=n;if B then for D=0B1,i do n=(Z[D]);c=n[2];local Z=(n[1]);if c==0 then if not(not W)then else W=({});end;local i=(W[Z]);if not(not i)then else i={[0b1]=Z,[0B10_]=G};W[Z]=(i);end;B[D-0X1_]=i;else if c==0b1 then B[D-0x1]=(G[Z]);else(B)[D-0X1]=L[Z];end;end;end;end;end;end;else if p>=71 then if p~=0X48 then(G)[E[Q]]=(G[R[Q]]-C[Q]);else(G)[R[Q]]=(G[q[Q]]/G[E[Q]]);end;else J=q[Q];H,F=r[0X1__][0B010__0101](...);for c=1,J do G[c]=F[c];end;m=J+0X1;end;end;end;end;else if not(p>=0X62)then if not(p<91)then if p>=0B1011110 then if p>=0X60 then if p~=0b001100001 then(G)[q[Q]]=t[Q];else(G)[q[Q]]=(G[R[Q]]~=G[E[Q]]);end;else if p==95 then if W then for c,Z in W do if c>=0X1 then Z[2]=Z;(Z)[3]=G[c];Z[0x1]=(3);(W)[c]=nil;end;end;end;local c=q[Q];return G[c](G[c+0X1]);else G[R[Q]]={};end;end;else if p>=92 then if p~=0X5d then if W then for c,Z in W do if not(c>=0B1)then else(Z)[2]=(Z);Z[3]=(G[c]);(Z)[1]=(3);W[c]=(nil);end;end;end;return G[E[Q]];else if W then for c,Z in W do if c>=0X1 then(Z)[0x2]=(Z);(Z)[3]=(G[c]);(Z)[1]=3;(W)[c]=nil;end;end;end;return;end;else G[q[Q]]=G[R[Q]]*s[Q];end;end;else if not(p>=0x57)then if not(p<0B10__10101)then if p~=0x56 then(G)[q[Q]]=(G[E[Q]]<=G[R[Q]]);else local W=(L[R[Q]]);(W[2][W[1]])[C[Q]]=s[Q];end;else y=R[Q];(G[y])();y-=0x1;end;else if not(p>=89)then if p==0X58 then G[q[Q]]=#G[R[Q]];else(G)[R[Q]]=(C[Q]%s[Q]);end;else if p==0x005A then if G[R[Q]]~=C[Q]then else Q=E[Q];end;else local W,c,Z,i,B=0B1001110;repeat if W<0B1001110 then i=(4503599627370495);break;elseif W>0B1001110 then B=(0b0);W=(5+(R[Q]+W-p+W-W));continue;else if not(W<0X55 and W>0x0030)then else c=-0x4D;W=(-0B100__0111+((r[0X1][0B11111][0B1000](W+W))+W-W));end;end;until false;local n;B*=i;local D,g;W=0B1111011;repeat if W==0b1__111011 then i=r[1][0X1F];W=(153+((r[0X1][0X1f][0B1001]((r[0B01][31][9]((r[1][0b11111_][0X6](W,W))))))-W));continue;elseif W==0B011110 then n=0Xd;W=0x47+((r[0X1][0x1f][0Xb](W+W-p))+W);else if W==101 then i=i[n];W=-0X19+(r[0X1][31][0Xb]((r[0B1][0X1F][0B0111_0]((r[0B1][0b11111][0XF](p-W,(0X1C))),W))));continue;elseif W==0X0 then n=r[1][0B11111];W=(0X6+(R[Q]-R[Q]+W-W+p));continue;else if W==0b1011111 then g=(6);break;end;end;end;until false;local h;n=(n[g]);W=88;while true do if W==0X58 then g=(r[0B1][0X1f]);h=(6);W=-4294967095+((r[0B1][0x1F][9]((r[0X1][0b11111][0XB]((r[0B1][0X1F][0B110](p,W,p))))))-W);continue;else if W==0X57 then g=(g[h]);W=-4294967221+(r[0X1__][0B11111][0X8](W+W-p-W,p));continue;else if W==0X4A then h=r[0X1__][0x1_F];W=(8+(r[0X1][0x1f][0XB]((r[1][0x001F][8](R[Q]+W-p,W,W)))));elseif W==0X21 then Z=(6);W=(-0X639B+((r[1][0X1F__][15]((r[1][0X1F][0b1011](W+R[Q])),(0x16)))-p));else if W==12 then h=(h[Z]);break;end;end;end;end;end;W=(0X35);while true do if W>0B111001 then if Z then Z=w[Q];end;W=0xa+((r[1][0X1F][0XC]((r[1][0X1f][0x08]((r[0X1][0B11111][0XA](p,(3))),W,R[Q]))))+R[Q]);else if W<47 then D=(p);W=0xf+(r[0B1][0B111_11][0Xb]((W+W<=W and p or W)-W));elseif W>0B10000 and W<53 then Z=Z==D;W=-0X1C+(((r[0X1][0B11_111][10](W~=R[Q]and p or p,(r[0x1][0x1__f][0X10]("\x3Ei\z8",'\0\0\u{00}\0\0\0\0\11'))))>R[Q]and R[Q]or W)+W);else if W>0B101111 and W<0X39 then Z=R[Q];W=-49+(r[1][0B11111][0Xe]((r[0X1][31][0XA]((r[0B1][0B11111][0b110__](W,R[Q],W)),(0X6)))-p,p));else if not(W>53 and W<66)then else if not(not Z)then else Z=R[Q];end;break;end;end;end;end;end;W=0x57;while true do if W>74 and W<0b1111011 then h=h(Z);W=-0X8400D+(r[0X1][0X1f][0X6]((r[1][0X1f][10]((r[0X1][0B11111][10]((r[0X1][31][0X6](R[Q],p,W)),(0X3))),(r[0X1][0b11111][16]('>i8','\0\0\0\0\x00\0\0\v')))),W));else if W>33 and W<87 then Z=R[Q];h-=Z;W=(0b100001+(r[0x001][0B11111][0x007]((r[0X1][0B11111][13]((r[0B1][0b11111][0B1110](R[Q]-W,R[Q])),(0X17))),(0X8))));continue;else if W<0X21 then D=(R[Q]);W=-4294774661+(r[1][0X1F][0X7]((r[0B1][0X1F][0Xd]((r[1][31][0X8](W,W,p)),(W)))-R[Q],(W)));else if W>0b1010111 then g=g(h,Z,D);break;else if not(W<0X4__A and W>0b1100_)then else Z=(w[Q]);W=(-0b111+(((r[1][31][0xf](W,(0X1__7)))<=p and p or W)+W-R[Q]));end;end;end;end;end;end;h=(p);W=(0B1101001);while true do if W==0X69 then n=n(g,h);W=-0x1fFfFf_cc+(r[0X1][0X1f][0x7]((r[1][0X1f][0B1110](W-W+W)),(29)));continue;elseif W==0X3__4 then g=r[0B1][31];h=0B10000;W=-0X31+((r[0B1][0X1f][0B1111]((r[0B1][0b11111][7](W,(0X3)))==R[Q]and p or W,(r[1][0B11111][0B10000]("\u{03C}i8",'\16\x00\0\0\0\0\0\0'))))==W and p or W);continue;else if W==0X3 then g=(g[h]);h=('<i8');Z=("\31\0\u{0}\u{0}\0\0\x00\0");W=0X1d+((r[0X1][0X01f][7](W,(W)))-R[Q]+W-W);continue;else if W==0X06 then g=g(h,Z);break;end;end;end;end;i=i(n,g);W=(92);while true do if W>0b1011100_ then n=(R[Q]);break;else if W<0X5c then i+=n;W=-4294967170+(r[0X1][0X1F][0X6](p-R[Q]-R[Q]-W));else if W>0Xb and W<0B11_01110 then n=w[Q];W=(-0X24+((r[1][0X1F][0xB](p+R[Q]))+W==R[Q]and p or R[Q]));end;end;end;end;i+=n;B+=i;c+=B;w[Q]=(c);c=G;B=R[Q];i=C[Q];W=(0x30);while true do if W==0X30_ then n=s[Q];W=0X10+(r[0b1][31][0B001000]((r[1][0x1F][0xD]((r[0X1][31][0X8]((r[1][0X1F][0X8](p,R[Q])),W,p)),(0x2))),W,R[Q]));elseif W==0X4f then i+=n;W=(-0x7_D+(r[0X001][0b11111][8](W+W+W-W,W,W)));continue;else if W~=98 then else(c)[B]=(i);break;end;end;end;end;end;end;end;else if not(p>=0X69)then if p<0x65_ then if not(p<0x063)then if p==0x6_4 then(G)[q[Q]]=(G[E[Q]]/t[Q]);else if G[R[Q]]~=C[Q]then Q=(E[Q]);end;end;else G[E[Q]]=not G[R[Q]];end;else if not(p>=0X00_67)then if p==0x66 then local W=L[q[Q]];W[0X2][W[1]][G[E[Q]]]=(G[R[Q]]);else(G)[R[Q]]=(s[Q]<C[Q]);end;else if p~=0B1101000 then if not(not(C[Q]<=G[E[Q]]))then else Q=R[Q];end;else local W=(q[Q]);local c=G[W];local Z=(E[Q]);(r[0X4])(G,W+0x1,y,Z+0x1,c);end;end;end;else if p>=0B1_101101 then if p<111 then if p~=0B1101110 then local W=(L[R[Q]]);G[E[Q]]=W[0B010][W[1]];else(G)[R[Q]]=-G[E[Q]];end;else if p~=0x7_0 then G[E[Q]]=r[0X1][0X1F][q[Q]];else(G)[R[Q]]=G[q[Q]];end;end;else if not(p>=0X6b)then if p==0B1__101010 then G[q[Q]][s[Q]]=(t[Q]);else(G)[q[Q]]=(E);end;else if p==108 then local W,c,Z=H-J-0X1,E[Q],(0X0);if not(W<0)then else W=-0b1__;end;for J=c,c+W do(G)[J]=F[m+Z];Z+=0X1_;end;y=(c+W);else local J=E[Q];G[J](G[J+0X1],G[J+0b10]);y=J-0X1;end;end;end;end;end;end;else if p<28 then if p>=0Xe then if not(p>=0x15__)then if not(p<0X11)then if not(p<0X13)then if p~=0X14 then Q=E[Q];else G[q[Q]]=(r[0X2](G[E[Q]],t[Q]));end;else if p~=0X12 then G[R[Q]]=(w);else G[E[Q]]=F[m];end;end;else if p>=15 then if p~=0X10 then local m={...};for J=0X1,E[Q]do(G)[J]=m[J];end;else G[q[Q]]=t[Q]-s[Q];end;else if not(G[q[Q]])then else Q=(R[Q]);end;end;end;else if p<0b11000 then if p<22 then local m=L[q[Q]];(m[2][m[0X1]])[s[Q]]=(G[R[Q]]);else if p~=23 then G[q[Q]]=(G[E[Q]]^G[R[Q]]);else H,F=r[1][0x25](...);end;end;else if p<0B11010 then if p==0x19 then if not(G[R[Q]]<=C[Q])then Q=E[Q];end;else(G[q[Q]])[G[E[Q]]]=G[R[Q]];end;elseif p~=27 then(G)[q[Q]]=(G[R[Q]]==s[Q]);else(G)[E[Q]]=t[Q]>=C[Q];end;end;end;else if not(p>=0B111)then if p<0X3 then if not(p<0x1)then if p~=0X2 then local m,J,H=E[Q],q[Q],(R[Q]);if J==0X0 then else y=(m+J-1);end;local F,W;if J==0X1 then F,W=r[0B1][37](G[m]());else F,W=r[0x1][0X25](G[m](r[0b1][16](m+0B1,G,y)));end;if H~=0X1 then if H~=0 then F=m+H-0B10;y=(F+0b1);else F=F+m-0X01;y=(F);end;J=0b0;for H=m,F do J+=0X1;(G)[H]=(W[J]);end;else y=(m-1);end;else(G[E[Q]])[t[Q]]=G[q[Q]];end;else(G)[R[Q]]=s[Q]+G[q[Q]];end;else if p<5 then if p~=0B10_0 then(G[R[Q]])[G[q[Q]]]=s[Q];else local m,J,H,F,W,c=-4.294967239E9,4503599627370495,0X0,0X7_;H*=J;local Z,i=0B100;repeat if Z==0x4 then J=r[0B1__][0X1f];i=(6);Z=2+(r[0X1][0X1F][6]((r[1][0B11111][0Xa](Z+Z,R[Q]))+Z,p,R[Q]));continue;elseif Z==19 then J=J[i];Z=82+((r[0X1][0B11111][0x6]((r[0B01][0X1F][0X008](Z,p)),Z))+Z-Z);continue;elseif Z==0x56 then i=r[0X1][31];Z=(0b11101+(r[0x1__][0X1F][0Xb]((r[0B1][0B11111][12]((r[1][0X1F][0B100__1]((r[1][31][0x6](Z,p)))))))));continue;else if Z==0X3D then W=0X7;break;end;end;until false;i=(i[W]);W=r[0X001][31];local B;W=(W[F]);F=r[0x1][0x1f];Z=(0B110100);while true do if Z>3 then c=(0X8);F=(F[c]);Z=(-0x16__+((r[0X1][0x1f][0XB]((r[1][0x1f][0Xa](R[Q],R[Q]))==Z and Z or Z))-R[Q]));continue;else if Z<52 then c=r[1][31];break;end;end;end;local n=(0B1001);Z=(0x41);while true do if Z<0b11011 then if not(n)then else n=(R[Q]);end;break;elseif Z>0X3e then c=c[n];Z=-4294967123+(r[0X1][0X1F][0B101_0]((r[0X1__][0X1F][0X009]((r[1][0x1F][0B110](Z,p,Z))))-p,(p)));elseif Z>44 and Z<65 then B=(p);n=(n==B);Z=-0x3b+((r[0X1][0x1f][0B1100]((r[0B1][0X1F][0X6]((r[0X1_][31][13](p,(p))),p))))+Z);elseif Z<0b101100_ and Z>0X5 then B=R[Q];n-=B;Z=0X3C+(r[0B1][0b11111][0Xc]((r[0x1][0B11111][9]((r[0B1][0B11111][0b1110]((r[0x1][0X1F][0B1000](Z,R[Q],Z)),Z))))));else if not(Z>0X1b and Z<62)then else n=(p);Z=0X1B+(r[1][0b11111][0XB]((r[1][31][0Xf]((r[0X1][0b11111][0xe](R[Q]))+Z,R[Q]))));continue;end;end;end;Z=(0b110110);repeat if Z>0X3_6 then n=(p);F=F(c,n);break;else if Z>0X1d and Z<0X58 then if not(not n)then else n=w[Q];end;Z=-25+(r[1][0x1f][0Xe]((r[0X1][0X001F][8](Z-Z-R[Q])),Z));else if Z<0b110110 then c=c(n);Z=(11+((r[0X0__01][0X1f_][0XF](R[Q]+R[Q]+p,(Z)))+Z));continue;end;end;end;until false;Z=88;while true do if Z==88 then c=(R[Q]);Z=85+(r[0X1][0B11111][0b1_111]((r[0b1][31][11](R[Q]+p))>p and p or p,R[Q]));continue;elseif Z==0X57 then W=W(F,c);Z=(-0X100_0000C+((r[1][31][0b1101]((r[0b1][31][0X9](Z-Z)),(p)))+Z));else if Z~=0x4A then else F=(p);break;end;end;end;Z=(0B1001111);while true do if Z==0X4F then i=i(W,F);Z=73+(r[0X1__][31][0B1011]((r[0X1][31][0xD](R[Q]+R[Q],(p)))+Z));else if Z==0X62 then J=J(i);i=(p);J-=i;break;end;end;end;H+=J;m+=H;Z=0x68;repeat if Z>0B10011_1 then(w)[Q]=(m);Z=(-0XA9+(r[0B1_][0X001F][0XA]((Z-Z>=Z and Z or p)<p and Z or Z,R[Q])));else if Z<0B1101000 then m=L;break;end;end;until false;H=(q[Q]);m=(m[H]);Z=0X2e;repeat if Z<0b101110 then H=(H[J]);break;elseif Z>0x2E then J=(0X2);Z=0Xc+(R[Q]+Z-Z+Z<p and p or p);else if not(Z>0X1__0 and Z<0B110101)then else H=m;Z=0X7+(Z-R[Q]+Z-Z>Z and Z or Z);end;end;until false;J=(m);Z=0x7b;while true do if Z==123 then i=(1);Z=0X95+(((r[0b1][0X1F][0b1100](Z+p))~=R[Q]and p or Z)-Z);elseif Z==0X1E then J=J[i];Z=0X5_C+((r[1][0B11111][0x08](p,R[Q]))+Z+p-Z);else if Z~=0B1100101 then else H=H[J];break;end;end;end;J=(s[Q]);i=(G);W=(R[Q]);Z=(0X027);repeat if not(Z<90)then(H)[J]=(i);break;else i=i[W];Z=55+(((r[0x1][0x1F][8]((r[0X1][0x1F][0B1010](Z,(p))),Z))<=R[Q]and p or Z)-p);continue;end;until false;end;else if p~=0X6 then local m=R[Q];G[m]=G[m](r[1][0x10](m+0B1,G,y));y=(m);else if G[q[Q]]~=G[R[Q]]then Q=(E[Q]);end;end;end;end;else if p<0B1010 then if p<0x8 then G[E[Q]]=z[t[Q]];else if p~=9 then if not(not(G[R[Q]]<C[Q]))then else Q=(E[Q]);end;else G[R[Q]]=G[E[Q]]>=G[q[Q]];end;end;else if not(p>=0XC__)then if p~=11 then local m=R[Q];local J,z,H=A();if not(J)then else(G)[m+0B1]=z;G[m+0X02]=H;Q=(E[Q]);end;else(G)[q[Q]]=L[R[Q]][G[E[Q]]];end;else if p==0X0D then(L[E[Q]])[t[Q]]=(G[q[Q]]);else y=(q[Q]);(G)[y]=G[y]();end;end;end;end;end;else if not(p<0b101010)then if not(p>=0B110001)then if not(p>=0X2d)then if not(p>=43)then local m=L[R[Q]];m[0X2][m[0x1]]=G[E[Q]];else if p==0X2C then if G[E[Q]]~=G[q[Q]]then else Q=(R[Q]);end;else local m=(q[Q]);local J=(G[m]);local z=(E[Q]);r[0b100](G,m+0x1,m+R[Q],z+0X1,J);end;end;else if p>=0b101111 then if p==0X30 then A=_[0X4];M=_[1];N=(_[0X3__]);_=_[5];else G[q[Q]]=G[R[Q]]*G[E[Q]];end;elseif p==46 then local m=(L[q[Q]]);G[R[Q]]=m[2][m[0x1]][G[E[Q]]];else(G)[E[Q]]=G[R[Q]]%G[q[Q]];end;end;else if not(p>=0X34)then if p<0B110010 then local m,J,z,H,F=4503599627370495,0B1_1010__10_;while true do if J==0b1101010 then H=(-0x73E4);J=-4294967119+((r[0B1][0x1F][0x6]((r[1][31][0X9](R[Q])),J))-J+J);else if J~=0b001000001 then else z=(0X0);break;end;end;end;local W;z*=m;J=0x19;repeat if J==25 then m=(r[0X1][0x1F]);F=(0XA);J=0B100100__+(r[0X1][0B0011111__][0XC]((r[0b1][0x1__f][0b1100](J))-J>J and R[Q]or J));continue;else if J==0X24 then m=m[F];break;end;end;until false;F=(r[0B1][0x1F]);J=(7);repeat if J<0X03a then W=(0Xc);J=(0B1101101+(J-J+R[Q]-J-p));continue;elseif J>7 and J<0B101000_1 then F=(F[W]);J=-0X5D+(J+p+q[Q]+q[Q]+p);else if J>0X51 then W=(p);break;else if J>0B111010 and J<0X7c then W=(w[Q]);F=F(W);J=-0X13F_FFD5+((r[0X1][0B11111][0xf]((r[0b1][31][0XF](J>R[Q]and R[Q]or R[Q],R[Q])),R[Q]))+J);continue;end;end;end;until false;J=(0X6);while true do if J>26 then if J>40 then if J==0x2d then if F then F=R[Q];end;if not(not F)then else F=(p);end;J=0X54+((r[0B1][0X1F][0XD]((r[1][0X1F][0B1000]((r[1][31][12](q[Q])),R[Q],J)),R[Q]))-J);continue;else F+=W;J=2+(r[0X001][0B11111][0B1_011]((r[0X1][0X1_f][8]((r[0B1][31][0Xc](q[Q])),J))+J));continue;end;else W=p;J=94+(((r[1][0X1f][0X06](R[Q]-J,J,J))==J and J or R[Q])>p and J or q[Q]);continue;end;else if J==26 then W=(q[Q]);break;else F=F<W;J=0x26+(r[1][0X1F][0X6]((r[0x1][31][0b1110](J-p-J,p)),J));end;end;end;F+=W;W=R[Q];J=(0x1e);while true do if J>0b11110 then W=q[Q];break;else if J<0B1100101 then F-=W;J=(208+(J-q[Q]-J-p-p));end;end;end;m=m(F,W);J=5;while true do if J==0b101 then F=(p);J=(0X1F+(r[0x1][0b11111][6](((q[Q]>=q[Q]and q[Q]or J)<J and R[Q]or q[Q])-J,J)));else if J~=0X20 then else m+=F;break;end;end;end;F=w[Q];J=125;while true do if J==56 then z+=m;break;else m-=F;J=-0X3f+(r[1][0x1f__][0b1001__]((R[Q]+J~=p and R[Q]or J)-J));end;end;H+=z;w[Q]=H;H=(G);J=0X74_;repeat if J>0x46 and J<0X74 then m=R[Q];break;elseif J<0B1000110__ then H=(H[z]);J=-0X217FBa+(r[0X1][0X1f][0Xa]((r[1][0X1F][0X007]((q[Q]~=p and J or J)+J,q[Q])),R[Q]));else if J>0b1101101 then z=(q[Q]);J=(0X2F+(r[1][0B11111][0XB]((r[0X1][0X1F][0XE]((r[0X1][0X1f][0b11__1](p>J and q[Q]or J,R[Q])))))));else if not(J>0B001000011 and J<0X6d)then else z=(G);J=(0X009E+((r[0b1][0X1f_][0xA]((r[0X1][0x1f][0Xd]((r[0b1][31][0Xe_](J,J,R[Q])),R[Q])),R[Q]))-p));end;end;end;until false;z=(z[m]);H=(H<=z);J=(0B1011001);repeat if J<100 then H=(not H);J=(0X4_c+(r[0x1][0X1F][14]((r[0X1][0X1__f][0XB]((J<=J and J or q[Q])+J)))));continue;else if H then m=(nil);F=(0X79);while true do if F>=0B1111001 then F=(0X4);m=(E[Q]);continue;else Q=(m);break;end;end;end;break;end;until false;else if p==0B110011_ then local w=q[Q];G[w](r[0X1][0x10](w+0B1,G,y));y=w-1;else local w=q[Q];G[w](G[w+0X1]);y=w-0B1;end;end;else if p>=0B110110 then if p~=0X37 then(G)[E[Q]]=(G[R[Q]]+C[Q]);else G[q[Q]]=L[R[Q]][s[Q]];end;else if p==53 then(G)[R[Q]]=G[q[Q]]+G[E[Q]];else local w=q[Q];y=(w+E[Q]-0X1);(G)[w]=G[w](r[0x1][0X10](w+1,G,y));y=w;end;end;end;end;else if p<0B100_011 then if p>=0x01f then if not(p>=0X21)then if p~=0X20 then _=({[0X1]=M,[0B11]=N,[0X4]=A,[0X5]=_});local w=(R[Q]);N=(G[w+0X2]+0);M=(G[w+0x1]+0X0);A=G[w]-N;Q=q[Q];else(G)[q[Q]]=(u);end;else if p==0X22 then r[0B001][0X1F][q[Q]]=(G[R[Q]]);else _=({[0X1]=M,[3]=N,[0X4]=A,[5]=_});y=q[Q];local u=r[0X3](function(...)r[1][22]();for w,m in...do(r[0B1][22])(true,w,m);end;end);(u)(G[y],G[y+0X1],G[y+0X2]);A=(u);Q=(E[Q]);end;end;else if p<0X1D then if not(not(G[q[Q]]<=G[R[Q]]))then else Q=E[Q];end;else if p~=0x1e then(G)[q[Q]]=(t[Q]^G[E[Q]]);else if not(G[E[Q]]<=C[Q])then else Q=R[Q];end;end;end;end;else if p<0x26 then if not(p<36)then if p==0X25 then G[E[Q]]=(R);else(G)[E[Q]]=G[q[Q]]%t[Q];end;else local u=q[Q];(G)[u]=G[u](G[u+0X1],G[u+0X2]);y=(u);end;else if not(p>=40)then if p~=39 then if not(s[Q]<G[q[Q]])then Q=(R[Q]);end;else local u=(q[Q]);y=(u+E[Q]-0b1);G[u](r[0X1][16](u+0x001,G,y));y=u-0X0_01;end;else if p==0x29 then local p=E[Q];G[p]=G[p](G[p+0x01]);y=p;else(L[R[Q]])[G[q[Q]]]=(G[E[Q]]);end;end;end;end;end;end;end;Q+=0X001;end;end;return X;end);if not a[0xA3]then S=(-0B1__01_00010+(v.ub((v.zb(a[0X18E__f]<=a[0X5__004]and a[0x54d_C]or a[14979]))+a[0X72f5],a[20484])));(a)[0b10100011]=(S);else S=v:Jq(S,a);end;return S;end,Z=function(v,v,p)p=(v[0x1__677]);return p;end,r=function(v,v,p)v=(p[11367]);return v;end,zq=function(v,p,a,S,u)p=nil;local L=0x52;while true do if L>9 then p,L=v:rq(S,L,p);else if L<82 then(S[0b1][0X7])[p+0B1]=(u);break;end;end;end;(S[0B1][0B111])[p+2]=a;return p;end,Yq=function(v,v)v[0B1][0XF]={};end,sb=function(v,p,a)a=485324224+((v.Lb(p[7860],(p[0X5380])))+p[12511]-p[9000]-v.c[5]);p[13256]=(a);return a;end,R=string.gsub,N=function(v,p,a)p[23981]=-4294845202+(v.ub((v.mb((v.c[0X5]~=v.c[6]and p[21376]or p[4201])-v.c[1],(p[21376]))),p[18610]));a=(-2387050927+(v.rb((v.Lb((v.gb(v.c[2])),(p[21376])))==v.c[0X9]and v.c[0X6]or v.c[0X2],(p[21376]))));p[7686]=(a);return a;end,Qq=function(v,v,p,a,S,u)local L=0X72;repeat if L<0X72 then p[S]=(v);break;else if not(L>0X29)then else L=(0X29);(a[1][0XF])[u]=(v);end;end;until false;end,B=function(v,p,a,S)(p)[0X9]=select;if not a[7860]then(a)[14979]=(-6455590765+((v.gb(v.c[0x4],a[0X30Df]))-a[0X5380]+a[0X5380_]+v.c[0X6_]));S=-678914370+(v.Vb((v.vb(a[0X30df]-v.c[0B110],(S)))-v.c[0B111]));(a)[0x1EB4]=S;else S=(a[0X1eb4]);end;return S;end,b=function(...)(...)[...]=nil;end,nb=bit32.countrz,l=function(v,p,a,S)(p)[0X15]=v.i;if not S[761]then a=(-1707071000+(v.ub((v.Bb(S[0x7d_31]))+v.c[3]+S[0X72F5],S[27275])));(S)[761]=(a);else a=v:T(S,a);end;return a;end,K=function(v,v)v[0X1c]=nil;v[29]=(nil);(v)[0x1E]=nil;(v)[0X1f]=(nil);end,Rb=function(v,p,a,S,u)local L;(a)[0B1001__11]=nil;u=0B101__01;repeat if u>0x15 then if u>25 then if u==0X70 then(a)[0b100100]=function()local X,r,s={a};for C=61,272,50 do r,s=v:iq(s,X,C);if r==0X576e then continue;else if r~=nil then return v._(r);end;end;end;end;if not S[3666]then u=v:Gq(u,S);else u=(S[3666]);end;continue;else u=v:Iq(a,S,u);continue;end;else(a)[0b00_100111]=(function()local X,r,s,C,E,R={a,a[0X1]};R,E,s,C=v:aq(s,X,C,R,E);for w=0B1011__111,291,82 do if w==95 then for t=0X1,C,0B1 do local q=X[0X1][0B100010]();if X[0X1][0Xf][q]then(E)[t]=X[0b1][0xf][q];else local G,Q,y=(0b1_11001);while true do if G>0B111001 then y=v:oq(q,y,Q);break;else if G<68 then Q=q/0X4;G=(0X44);end;end;end;if X[2]==X[0X1][0B0011]then else v:Qq(y,E,X,t,q);end;end;end;else if w~=177 then else R=(X[0B1][34]()-0X1c79);break;end;end;end;C=X[0X1__][0X5](R);E=(nil);local w;for t=82,0Xf_f,108 do if t==0xbe_ then w=X[0B1][5](R);break;else if t~=0X52 then else E=v:Fq(R,X,E);continue;end;end;end;local t,q,G,Q,y=X[0x1][5](R),22;repeat q,y,G,r,Q=v:_q(q,R,Q,X,y,G);if r==12932 then break;else if r==20345 then continue;end;end;until false;if X[1][0X1b]==s then else q=(0X51);while true do r,q=v:Vq(q,s,w,t,C,E);if r==0xDD7_D then break;else if r~=30998 then else continue;end;end;end;end;for m=0X4d,140,0x1__6 do if m>0x4d then v:uq(X,y,Q,s);break;else if m<0B1100011 then(s)[8]=G;end;end;end;for m=0b1,R do local R,J,z;z,R,J=v:Lq(J,R,z);q=(nil);local H,F,W=93;while true do if H>23 then if H==0x5d then H=24;R=X[0B1][35]();J=R%0X8;continue;else z=X[0X1][0X23]();H=(0B10__111__);continue;end;elseif H==0x17 then q=z%0B1000;H=(0xa);else F=X[0X1][35]();W=X[0B1][0x23]();break;end;end;local N,_,M,A=W%0X8;for c=0X23,273,0B11101__11 do if c==35 then _=((R-J)/8);continue;else if c==0B10011__010 then M=((W-N)/0x8);continue;else if c~=273 then else A=(z-q)/0X8;end;end;end;end;E[m]=(A);H=(36);repeat if H>0B100100 then v:mq(_,m,C);break;else if H<0B00110011 then(y)[m]=(M);H=51;t[m]=(F);continue;end;end;until false;if J==0b100 then H=(nil);for t=57,212,0B110100 do r,H=v:gq(G,X,t,s,_,H,A,m);if r==17312 then break;else if r==nil then else return v._(r);end;end;end;elseif J==0B11 then(C)[m]=(_);else if J==0X5 then C[m]=m+_;else if J==0B0 then C[m]=(m-_);else if J~=0X6__ then else F=(#X[1][7]);for C=0B1000110,0XF4_,34 do if C==0X8_a then(X[0B1][0B111])[F+3]=_;break;elseif C==0X68 then v:Nq(m,F,X);else if C==0b1000110 then X[0b1][7][F+0X1]=(G);end;end;end;end;end;end;end;for C=0X44,0XB5,113 do if C==0X44_ then if q==0X4 then if X[0B001][0Xe__]then J=X[0X1][0X1D][A];R=#J;for t=8,107,0X48 do if t<=0b1000 then if X[1][0B11011]==A then else for t=0x79,239,0B110111__0 do if t<0xe7 then(J)[R+1]=(s);else(J)[R+0B0010]=(m);break;end;end;end;else v:tq(J,R);break;end;end;else w[m]=(X[0X1][0X1d][A]);end;elseif q==0x3 then if X[0b1][0X24]~=X[0X1][0x3]then(E)[m]=(A);end;elseif q==0X5 then(E)[m]=m+A;else if q==0B0 then E[m]=m-A;else if q==6 then H=(nil);H=v:zq(H,m,X,w);(X[0X1][0X7])[H+0x3]=A;end;end;end;else if C~=181 then else r,_=v:jq(s,_,X,Q,M,y,m,N);if r~=nil then return v._(r);end;end;end;end;end;for r=62,0XA_c,39 do if r>62 then return s;else if not(r<0X65)then else s[0XA]=X[1][34]();end;end;end;end);break;end;else L,u=v:qq(a,S,u);if L~=0xB__369 then else continue;end;end;until false;p=(function()local S,L,X,r={a,a[33]};L,X,r=v:Ub(S,r,X);if L~=nil then return v._(L);end;for a=1,#S[0B1][7],0B11 do S[1][0X7][a][S[0X1][0x7][a+0X1]]=(r[S[0B01][0X7][a+0X2]]);end;if X then L=(81);repeat if L~=0X7c then(S[0x1][0x1f])[0B101]=S[0B1][0B11_101];L=(0X7c);continue;else(S[0X1][0X1_F])[2]=r;break;end;until false;end;X=(r[S[0X1][34]()]);for a=94,0x163_,0X45 do if not(a<=0b1011110)then if a>0Xa3 then S[1][0B1111]=(nil);return X;else(S[1])[0X7]=(nil);continue;end;else v:Db(S);continue;end;end;end);return p,u;end,Aq=function(v,p,a)(p)[5460]=(0b110__01+((v.nb((v.gb(p[0X2328],p[0X106__9]))))+p[7686]-p[0X313d]));a=-482375030+(v.zb((v.Vb((v.mb(p[0X1069],(a)))))-p[0x2F9],v.c[0X5]));p[22921]=(a);return a;end,ob=function(v,p,a)p=-4294967154+(v.Vb((v.Bb((v.gb(v.c[0b101]~=a[0X3E6E]and a[0X03_e6E]or a[0X5Dad_],a[0X016a],a[0X1069__]))))));(a)[0X383a_]=(p);return p;end,V=function(v,p,a,S)(S)[0x6]=(nil);(S)[0X7]=(nil);a=0X2a;while true do if a<108 and a>0X2a then S[0B111]=(nil);break;elseif a<0X2A then S[0B101]=v.D;if not(not p[0x48__b2])then a=(p[18610]);else a=-1193525399+((v.Lb((v.mb(v.c[7]-v.c[0B0100_1],(p[21376]))),(a)))<v.c[1]and a or v.c[0x2]);p[0X48b2]=(a);end;else if a>0x1 and a<0b1011_011 then S[0B100]=(setfenv);if not p[21376]then p[0X30__DF]=(0B1_100110+(v.nb((v.vb((v.mb(v.c[3]-v.c[4],(0B10001))),(0B101_00))))));a=1864576208+((v.gb((v.nb(v.c[0X2]))))-v.c[0B111]-v.c[8]);(p)[0X5380]=a;else a=(p[21376]);end;else if a>0x5B then a=v:X(p,a,S);continue;end;end;end;end;S[0X008]=v.Nb;S[9]=(nil);(S)[10]=(nil);S[0XB]=(nil);return a;end,wq=function(v,p,a,S,u,L,X)local r,s,C=51;repeat r,s,S,C=v:lq(a,X,S,r,C,p);if s==0X2C8e then continue;elseif s==0X85fc then break;else if s~=nil then return{v._(s)},S;end;end;until false;X[1][0X7][C+2]=u;X[0x1][0B0111][C+3]=L;return nil,S;end,M=function(v,v,p,a)v,p=a[0X1][0X1_9]('<\z\u{69}\u{38}',a[0X1][0x1A],a[1][0b110]);return p,v;end,tq=function(v,v,p)(v)[p+0X3__]=(11);end,yb=(function(v)local p,a,S=({});S=v:W(S,p);local u;u=v:V(S,u,p);v:u(p);local L;L,u=v:y(u,p,S,L);local X;u,L,a,X=v:E(X,u,S,p,L);if a==nil then else return v._(a);end;u=v:P(u,X,p,S);v:K(p);u=v:Rq(p,S,u);X=(nil);X,u=v:Rb(X,p,S,u);a,u=v:Xb(X,L,u,S,p);return v._(a);end),n=function(v,v,p)v=(p[6383]);return v;end}):yb()(...);
+--// AUTO SAVE SYSTEM
+local HttpService = game:GetService("HttpService")
+local CONFIG_FILE = "Phantom_config.json"
+local Saved = {}
+
+if readfile and isfile and isfile(CONFIG_FILE) then
+    pcall(function()
+        Saved = HttpService:JSONDecode(readfile(CONFIG_FILE))
+    end)
+end
+
+local function SaveConfig()
+    if writefile then
+        writefile(CONFIG_FILE,HttpService:JSONEncode(Saved))
+    end
+end
+
+local UserInputService = game:GetService("UserInputService")
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local TweenService = game:GetService("TweenService")
+local CoreGui = game:GetService("CoreGui")
+local Workspace = game:GetService("Workspace")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+
+local lp = Players.LocalPlayer
+local ScreenGui = Instance.new("ScreenGui")
+ScreenGui.Name = "PhantomDuels_Official"
+ScreenGui.Parent = CoreGui
+ScreenGui.ResetOnSpawn = false
+
+--------------------------------------------------------------------------- Color Palette
+local COLORS = {
+    MainBG = Color3.fromRGB(11, 14, 20),
+    TabBG = Color3.fromRGB(15, 20, 28),
+    Border = Color3.fromRGB(35, 125, 255),
+    TextActive = Color3.fromRGB(35, 125, 255),
+    TextInactive = Color3.fromRGB(140, 140, 140),
+    RowBG = Color3.fromRGB(18, 24, 35)
+}
+
+-------------------------------------------------------------------------
+-- UI CORE ENGINE
+-------------------------------------------------------------------------
+local function create(class, props)
+    local obj = Instance.new(class)
+    for k, v in pairs(props) do if k ~= "Parent" then obj[k] = v end end
+    obj.Parent = props.Parent
+    return obj
+end-------------------------------------------------------------------------
+-- SAFE FOLLOW MODULE (Lock Target)
+-------------------------------------------------------------------------
+local SafeFollow = {
+    Enabled = false,
+    Locked = false,
+    FOLLOW_DISTANCE = 6,
+    lastMove = 0,
+    gui = nil,
+    btn = nil,
+    targetChar = nil,
+    heartbeatConn = nil,
+    charAddedConn = nil
+}
+
+-- Function to create the Safe Follow UI
+local function createSafeFollowUI()
+    SafeFollow.gui = Instance.new("ScreenGui")
+    SafeFollow.gui.Name = "SafeFollowUI"
+    SafeFollow.gui.ResetOnSpawn = false
+    SafeFollow.gui.Enabled = false
+    SafeFollow.gui.Parent = CoreGui
+
+    SafeFollow.btn = Instance.new("TextButton")
+    SafeFollow.btn.Size = UDim2.new(0, 120, 0, 40)
+    SafeFollow.btn.Position = UDim2.new(0.5, -60, 0.8, 0)
+    SafeFollow.btn.Text = "LOCK"
+    SafeFollow.btn.Font = Enum.Font.GothamBold
+    SafeFollow.btn.TextSize = 14
+    SafeFollow.btn.TextColor3 = Color3.new(1, 1, 1)
+    SafeFollow.btn.BackgroundColor3 = Color3.fromRGB(43, 160, 235)
+    SafeFollow.btn.AutoButtonColor = true
+    SafeFollow.btn.Parent = SafeFollow.gui
+
+    local uiCorner = Instance.new("UICorner")
+    uiCorner.CornerRadius = UDim.new(0, 8)
+    uiCorner.Parent = SafeFollow.btn
+
+    -- Dragging functionality
+    local dragging, dragInput, dragStart, startPos
+
+    local function update(input)
+        local delta = input.Position - dragStart
+        SafeFollow.btn.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+    end
+
+    SafeFollow.btn.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+            dragging = true
+            dragStart = input.Position
+            startPos = SafeFollow.btn.Position
+
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    dragging = false
+                end
+            end)
+        end
+    end)
+
+    SafeFollow.btn.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+            dragInput = input
+        end
+    end)
+
+    UserInputService.InputChanged:Connect(function(input)
+        if input == dragInput and dragging then
+            update(input)
+        end
+    end)
+
+    -- Toggle button functionality
+    SafeFollow.btn.MouseButton1Click:Connect(function()
+        SafeFollow.Locked = not SafeFollow.Locked
+        if SafeFollow.Locked then
+            SafeFollow.btn.Text = "LOCK"
+            SafeFollow.btn.BackgroundColor3 = Color3.fromRGB(255, 65, 65)
+        else
+            SafeFollow.btn.Text = "LOCK"
+            SafeFollow.btn.BackgroundColor3 = Color3.fromRGB(43, 160, 235)
+        end
+    end)
+
+    task.delay(1,function()
+        if active then
+            callback(true)
+        end
+    end)
+end
+
+-- Function to get nearest player
+local function getNearestPlayer(character, hrp)
+    local nearest, dist = nil, math.huge
+    for _, p in pairs(Players:GetPlayers()) do
+        if p ~= lp and p.Character and p.Character:FindFirstChild("HumanoidRootPart") then
+            local d = (p.Character.HumanoidRootPart.Position - hrp.Position).Magnitude
+            if d < dist then
+                dist = d
+                nearest = p.Character
+            end
+        end
+    end
+    return nearest
+end
+
+-- Function to start Safe Follow
+local function startSafeFollow()
+    if SafeFollow.heartbeatConn then
+        SafeFollow.heartbeatConn:Disconnect()
+    end
+
+    SafeFollow.heartbeatConn = RunService.Heartbeat:Connect(function()
+        if not SafeFollow.Enabled or not SafeFollow.Locked then
+            return
+        end
+
+        local character = lp.Character
+        if not character then return end
+
+        local hrp = character:FindFirstChild("HumanoidRootPart")
+        local hum = character:FindFirstChild("Humanoid")
+
+        if not hrp or not hum then return end
+
+        -- Aqui definimos a velocidade para 55
+        hum.Walk  = 55
+
+        if tick() - SafeFollow.lastMove < 0.15 then return end
+        SafeFollow.lastMove = tick()
+
+        -- If no target or target is invalid, get nearest
+        if not SafeFollow.targetChar or not SafeFollow.targetChar.Parent then
+            SafeFollow.targetChar = getNearestPlayer(character, hrp)
+            return
+        end
+
+        local trgHRP = SafeFollow.targetChar:FindFirstChild("HumanoidRootPart")
+        local trgHum = SafeFollow.targetChar:FindFirstChild("Humanoid")
+
+        if not trgHRP or not trgHum or trgHum.Health <= 0 then
+            SafeFollow.targetChar = getNearestPlayer(character, hrp)
+            return
+        end
+
+        local direction = (trgHRP.Position - hrp.Position)
+        direction = Vector3.new(direction.X, 0, direction.Z)
+
+        if direction.Magnitude > 0 then
+            local moveDistance = math.min(direction.Magnitude, SafeFollow.FOLLOW_DISTANCE)
+            local goalPos = hrp.Position + direction.Unit * moveDistance
+            hum:MoveTo(goalPos)
+        end
+    end)
+
+    task.delay(1,function()
+        if active then
+            callback(true)
+        end
+    end)
+end
+
+-- Function to enable Safe Follow
+local function enableSafeFollow()
+    if SafeFollow.Enabled then return end
+
+    SafeFollow.Enabled = true
+
+    -- Create UI if it doesn't exist
+    if not SafeFollow.gui then
+        createSafeFollowUI()
+    end
+
+    SafeFollow.gui.Enabled = true
+
+    -- Reset locked state
+    SafeFollow.Locked = false
+    if SafeFollow.btn then
+        SafeFollow.btn.Text = "LOCK"
+        SafeFollow.btn.BackgroundColor3 = Color3.fromRGB(43, 160, 235)
+    end
+
+    -- Start the follow logic
+    startSafeFollow()
+
+    -- Handle character added
+    SafeFollow.charAddedConn = lp.CharacterAdded:Connect(function(c)
+        local hum = c:WaitForChild("Humanoid", 5)
+        if hum then
+            hum.AutoRotate = true
+        end
+    end)
+
+    -- Set current character's auto rotate
+    if lp.Character and lp.Character:FindFirstChild("Humanoid") then
+        lp.Character.Humanoid.AutoRotate = true
+    end
+end
+
+-- Function to disable Safe Follow
+local function disableSafeFollow()
+    if not SafeFollow.Enabled then return end
+
+    SafeFollow.Enabled = false
+    SafeFollow.Locked = false
+
+    -- Hide UI
+    if SafeFollow.gui then
+        SafeFollow.gui.Enabled = false
+    end
+
+    -- Disconnect connections
+    if SafeFollow.heartbeatConn then
+        SafeFollow.heartbeatConn:Disconnect()
+        SafeFollow.heartbeatConn = nil
+    end
+
+    if SafeFollow.charAddedConn then
+        SafeFollow.charAddedConn:Disconnect()
+        SafeFollow.charAddedConn = nil
+    end
+
+    -- Reset target
+    SafeFollow.targetChar = nil
+
+    -- Reset auto rotate
+    if lp.Character and lp.Character:FindFirstChild("Humanoid") then
+        lp.Character.Humanoid.AutoRotate = true
+    end
+end
+
+
+local ToggleIcon = create("TextButton", {
+    Size = UDim2.new(0, 60, 0, 60),
+    Position = UDim2.new(0.05, 0, 0.2, 0),
+
+    BackgroundColor3 = Color3.fromRGB(43,160,235),
+    Text = "",
+
+    Parent = ScreenGui
+})
+
+create("UICorner", {
+    CornerRadius = UDim.new(0,6),
+    Parent = ToggleIcon
+})
+
+create("UIStroke", {
+    Color = Color3.fromRGB(255,255,255),
+    Thickness = 1.2,
+    Parent = ToggleIcon
+})
+
+-- Container das linhas
+local LineContainer = Instance.new("Frame")
+LineContainer.Size = UDim2.new(0.6,0,0.5,0)
+LineContainer.Position = UDim2.new(0.2,0,0.25,0)
+LineContainer.BackgroundTransparency = 1
+LineContainer.Parent = ToggleIcon
+
+local layout = Instance.new("UIListLayout")
+layout.FillDirection = Enum.FillDirection.Vertical
+layout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+layout.VerticalAlignment = Enum.VerticalAlignment.Center
+layout.Padding = UDim.new(0,4) -- espaço pequeno entre linhas
+layout.Parent = LineContainer
+
+-- função para criar linha
+local function createLine()
+    local line = Instance.new("Frame")
+    line.Size = UDim2.new(1,0,0,5) -- linhas grandes
+    line.BackgroundColor3 = Color3.fromRGB(255,255,255)
+    line.BorderSizePixel = 0
+    line.Parent = LineContainer
+
+    local corner = Instance.new("UICorner")
+    corner.CornerRadius = UDim.new(1,0)
+    corner.Parent = line
+end
+
+createLine()
+createLine()
+createLine()
+
+
+local MainFrame = create("Frame", {
+    Size = UDim2.new(0, 220, 0, 260), -- interface menor
+    Position = UDim2.new(0.04, 0, 0.40, 0), -- lado esquerdo mais centralizado
+    BackgroundColor3 = COLORS.MainBG,
+    BackgroundTransparency = 0.2,
+    Visible = false,
+    Parent = ScreenGui
+})
+
+create("UICorner", {
+    CornerRadius = UDim.new(0, 12),
+    Parent = MainFrame
+})
+
+-- SEM CONTORNO NA INTERFACE
+
+-- HEADER
+local Header = create("Frame", {
+    Size = UDim2.new(1,0,0,40),
+    BackgroundTransparency = 1,
+    Parent = MainFrame
+})
+
+create("TextLabel", {
+    Text = "PhantomDuels (.gg/va5UyRtssd)",
+    TextColor3 = Color3.fromRGB(85,170,255), -- azul claro igual botão
+    Font = "GothamBold",
+    TextSize = 16,
+    Size = UDim2.new(1,0,1,0),
+    BackgroundTransparency = 1,
+    Parent = Header
+})
+
+
+
+
+local TabContainer = create("Frame", {
+    Size = UDim2.new(0.92, 0, 0, 30), Position = UDim2.new(0.04, 0, 0.13, 0),
+    BackgroundColor3 = COLORS.TabBG, Parent = MainFrame
+})
+create("UICorner", {CornerRadius = UDim.new(0, 6), Parent = TabContainer})
+local TabList = create("UIListLayout", {FillDirection = "Horizontal", HorizontalAlignment = "Center", Parent = TabContainer})
+
+local PageContainer = create("Frame", {
+    Size = UDim2.new(1, 0, 0.75, 0), Position = UDim2.new(0, 0, 0.22, 0),
+    BackgroundTransparency = 1, Parent = MainFrame
+})
+
+local HttpService = game:GetService("HttpService")
+
+local Pages = {}
+local TabButtons = {}
+
+local function CreatePage(name)
+    local Page = create("ScrollingFrame", {
+        Size = UDim2.new(1, 0, 1, 0),
+        BackgroundTransparency = 1,
+        Visible = false,
+        ScrollBarThickness = 0,
+        AutomaticCanvasSize = "Y",
+        Parent = PageContainer
+    })
+
+    create("UIListLayout", {
+        HorizontalAlignment = "Center",
+        Padding = UDim.new(0, 8),
+        Parent = Page
+    })
+
+    Pages[name] = Page
+
+    local TabBtn = create("TextButton", {
+        Size = UDim2.new(0.25, 0, 1, 0),
+        BackgroundTransparency = 1,
+        Text = name,
+        TextColor3 = COLORS.TextInactive,
+        Font = "GothamBold",
+        TextSize = 10,
+        Parent = TabContainer
+    })
+
+    TabBtn.MouseButton1Click:Connect(function()
+        for _, p in pairs(Pages) do
+            p.Visible = false
+        end
+
+        for _, b in pairs(TabButtons) do
+            b.TextColor3 = COLORS.TextInactive
+        end
+
+        Page.Visible = true
+        TabBtn.TextColor3 = COLORS.TextActive
+    end)
+
+    TabButtons[name] = TabBtn
+end
+
+
+local function AddToggle(pageName, labelText, default, callback)
+    local active = Saved[labelText] ~= nil and Saved[labelText] or default
+
+    local Row = create("Frame", {
+        Size = UDim2.new(0.92, 0, 0, 50),
+        BackgroundColor3 = COLORS.RowBG,
+        BackgroundTransparency = 0.5,
+        Parent = Pages[pageName]
+    })
+
+    create("UICorner", {CornerRadius = UDim.new(0, 8), Parent = Row})
+    create("UIStroke", {Color = Color3.fromRGB(255,255,255), Thickness = 1, Transparency = 0, Parent = Row})
+
+    create("TextLabel", {
+        Text = labelText,
+        Size = UDim2.new(0.6, 0, 1, 0),
+        Position = UDim2.new(0.05, 0, 0, 0),
+        TextColor3 = Color3.new(1,1,1),
+        Font = "GothamBold",
+        TextSize = 13,
+        BackgroundTransparency = 1,
+        TextXAlignment = "Left",
+        Parent = Row
+    })
+
+    local TglBg = create("Frame", {
+        Size = UDim2.new(0, 42, 0, 20),
+        Position = UDim2.new(0.95, -42, 0.5, -10),
+        BackgroundColor3 = active and COLORS.Border or Color3.fromRGB(40,45,55),
+        Parent = Row
+    })
+
+    create("UICorner", {CornerRadius = UDim.new(1,0), Parent = TglBg})
+
+    local Circle = create("Frame", {
+        Size = UDim2.new(0,16,0,16),
+        Position = active and UDim2.new(0.55,0,0.1,0) or UDim2.new(0.1,0,0.1,0),
+        BackgroundColor3 = Color3.new(1,1,1),
+        Parent = TglBg
+    })
+
+    create("UICorner", {CornerRadius = UDim.new(1,0), Parent = Circle})
+
+    local Btn = create("TextButton", {
+        Size = UDim2.new(1,0,1,0),
+        BackgroundTransparency = 1,
+        Text = "",
+        Parent = Row
+    })
+
+    Btn.MouseButton1Click:Connect(function()
+        active = not active
+
+        TweenService:Create(TglBg, TweenInfo.new(0.2), {
+            BackgroundColor3 = active and COLORS.Border or Color3.fromRGB(40,45,55)
+        }):Play()
+
+        TweenService:Create(Circle, TweenInfo.new(0.2), {
+            Position = active and UDim2.new(0.55,0,0.1,0) or UDim2.new(0.1,0,0.1,0)
+        }):Play()
+
+        Saved[labelText]=active
+        SaveConfig()
+        callback(active)
+    end)
+
+    task.delay(1,function()
+        if active then
+            callback(true)
+        end
+    end)
+end
+
+
+-- CRIAR PÁGINAS
+for _, tab in ipairs({"Combat","Protect","Visual","Settings"}) do
+    CreatePage(tab)
+end
+
+TabButtons["Combat"].TextColor3 = COLORS.TextActive
+Pages["Combat"].Visible = true
+
+
+-- BOTÃO SAVE SETTINGS
+local SaveRow = create("Frame", {
+    Size = UDim2.new(0.92,0,0,50),
+    BackgroundColor3 = COLORS.RowBG,
+    BackgroundTransparency = 0.5,
+    Parent = Pages["Settings"]
+})
+
+create("UICorner",{CornerRadius = UDim.new(0,8),Parent = SaveRow})
+create("UIStroke",{Color = Color3.fromRGB(255,255,255),Thickness = 1,Parent = SaveRow})
+
+local SaveLabel = create("TextLabel",{
+    Text = "SAVE SETTINGS📸",
+    Size = UDim2.new(1,0,1,0),
+    BackgroundTransparency = 1,
+    TextColor3 = Color3.new(1,1,1),
+    Font = "GothamBold",
+    TextSize = 13,
+    Parent = SaveRow
+})
+
+local SaveBtn = create("TextButton",{
+    Size = UDim2.new(1,0,1,0),
+    BackgroundTransparency = 1,
+    Text = "",
+    Parent = SaveRow
+})
+
+SaveBtn.MouseButton1Click:Connect(function()
+
+    SaveLabel.Text = "SAVED✌🏼"
+
+    local data = {}
+
+    for name,page in pairs(Pages) do
+        data[name] = page.CanvasPosition.Y
+    end
+
+    local json = HttpService:JSONEncode(data)
+
+    if writefile then
+        writefile("hub_settings.json",json)
+    end
+
+    task.wait(3)
+
+    SaveLabel.Text = "SAVE SETTINGS📸"
+
+end)
+
+-- SAFE FOLLOW MODULE (Lock Target)
+
+local LOCK_RADIUS = 70
+local LOCK_SPEED = 50
+
+local SafeFollow = {
+Enabled = false,
+Locked = false,
+lastMove = 0,
+gui = nil,
+btn = nil,
+targetChar = nil,
+heartbeatConn = nil,
+charAddedConn = nil,
+
+att = nil,
+lv = nil,
+gyro = nil
+
+}
+
+-- Function to create the Safe Follow UI
+local function createSafeFollowUI()
+
+SafeFollow.gui = Instance.new("ScreenGui")
+SafeFollow.gui.Name = "SafeFollowUI"
+SafeFollow.gui.ResetOnSpawn = false
+SafeFollow.gui.Enabled = false
+SafeFollow.gui.Parent = CoreGui
+
+local savedPos = Saved.LockPos
+
+SafeFollow.btn = Instance.new("TextButton")
+SafeFollow.btn.Size = UDim2.new(0,120,0,40)
+
+if savedPos then
+    SafeFollow.btn.Position = UDim2.new(savedPos.XS,savedPos.XO,savedPos.YS,savedPos.YO)
+else
+    SafeFollow.btn.Position = UDim2.new(0.5,-60,0.8,0)
+end
+
+SafeFollow.btn.Text = "LOCK"
+SafeFollow.btn.Font = Enum.Font.GothamBold
+SafeFollow.btn.TextSize = 14
+SafeFollow.btn.TextColor3 = Color3.new(1,1,1)
+SafeFollow.btn.BackgroundColor3 = Color3.fromRGB(43,160,235)
+SafeFollow.btn.Parent = SafeFollow.gui
+
+local uiCorner = Instance.new("UICorner")
+uiCorner.CornerRadius = UDim.new(0,8)
+uiCorner.Parent = SafeFollow.btn
+
+
+-- seta ^
+local toggleBtn = Instance.new("TextButton")
+toggleBtn.Size = UDim2.new(0,18,0,18)
+toggleBtn.Position = UDim2.new(1,-20,0,2)
+toggleBtn.Text = "^"
+toggleBtn.Font = Enum.Font.GothamBold
+toggleBtn.TextSize = 14
+toggleBtn.TextColor3 = Color3.new(1,1,1)
+toggleBtn.BackgroundTransparency = 1
+toggleBtn.Parent = SafeFollow.btn
+
+
+-- botão Save
+local saveBtn = Instance.new("TextButton")
+saveBtn.Size = UDim2.new(0,120,0,25)
+saveBtn.Position = UDim2.new(0,0,1,4)
+saveBtn.Text = "Save"
+saveBtn.Visible = false
+saveBtn.Font = Enum.Font.Gotham
+saveBtn.TextSize = 13
+saveBtn.TextColor3 = Color3.new(1,1,1)
+saveBtn.BackgroundColor3 = Color3.fromRGB(50,50,50)
+saveBtn.Parent = SafeFollow.btn
+
+local corner3 = Instance.new("UICorner")
+corner3.Parent = saveBtn
+
+
+-- mostrar/esconder botão Save
+toggleBtn.MouseButton1Click:Connect(function()
+    saveBtn.Visible = not saveBtn.Visible
+end)
+
+
+-- salvar posição
+saveBtn.MouseButton1Click:Connect(function()
+
+    local pos = SafeFollow.btn.Position
+
+    Saved.LockPos = {
+        XS = pos.X.Scale,
+        XO = pos.X.Offset,
+        YS = pos.Y.Scale,
+        YO = pos.Y.Offset
+    }
+
+    SaveConfig()
+
+end)
+
+
+-- Drag system
+local dragging, dragInput, dragStart, startPos
+
+local function update(input)
+    local delta = input.Position - dragStart
+    SafeFollow.btn.Position =
+        UDim2.new(
+            startPos.X.Scale,
+            startPos.X.Offset + delta.X,
+            startPos.Y.Scale,
+            startPos.Y.Offset + delta.Y
+        )
+end
+
+SafeFollow.btn.InputBegan:Connect(function(input)
+
+    if input.UserInputType == Enum.UserInputType.MouseButton1
+    or input.UserInputType == Enum.UserInputType.Touch then
+
+        dragging = true
+        dragStart = input.Position
+        startPos = SafeFollow.btn.Position
+
+        input.Changed:Connect(function()
+
+            if input.UserInputState == Enum.UserInputState.End then
+                dragging = false
+            end
+
+        end)
+    end
+end)
+
+SafeFollow.btn.InputChanged:Connect(function(input)
+
+    if input.UserInputType == Enum.UserInputType.MouseMovement
+    or input.UserInputType == Enum.UserInputType.Touch then
+        dragInput = input
+    end
+
+end)
+
+UserInputService.InputChanged:Connect(function(input)
+
+    if input == dragInput and dragging then
+        update(input)
+    end
+
+end)
+
+
+-- Toggle button
+SafeFollow.btn.MouseButton1Click:Connect(function()
+
+    SafeFollow.Locked = not SafeFollow.Locked
+
+    if SafeFollow.Locked then
+        SafeFollow.btn.BackgroundColor3 = Color3.fromRGB(255,65,65)
+    else
+        SafeFollow.btn.BackgroundColor3 = Color3.fromRGB(43,160,235)
+    end
+
+end)
+
+end
+
+-- Get nearest player
+local function getNearestPlayer()
+
+local char = lp.Character
+if not char then return nil end
+
+local hrp = char:FindFirstChild("HumanoidRootPart")
+if not hrp then return nil end
+
+local nearest = nil
+local nearestDist = LOCK_RADIUS
+
+for _,p in pairs(Players:GetPlayers()) do
+
+    if p ~= lp then
+
+        local pc = p.Character
+        local phrp = pc and pc:FindFirstChild("HumanoidRootPart")
+
+        if phrp then
+
+            local d = (phrp.Position - hrp.Position).Magnitude
+
+            if d <= nearestDist then
+                nearest = pc
+                nearestDist = d
+            end
+
+        end
+    end
+end
+
+return nearest
+
+end
+
+-- Start follow logic
+local function startSafeFollow()
+
+if SafeFollow.heartbeatConn then
+    SafeFollow.heartbeatConn:Disconnect()
+end
+
+local char = lp.Character
+if not char then return end
+
+local hrp = char:FindFirstChild("HumanoidRootPart")
+if not hrp then return end
+
+SafeFollow.att = Instance.new("Attachment", hrp)
+
+SafeFollow.lv = Instance.new("LinearVelocity", hrp)
+SafeFollow.lv.Attachment0 = SafeFollow.att
+SafeFollow.lv.MaxForce = 50000
+SafeFollow.lv.RelativeTo = Enum.ActuatorRelativeTo.World
+SafeFollow.lv.Enabled = false
+
+SafeFollow.gyro = Instance.new("AlignOrientation", hrp)
+SafeFollow.gyro.Attachment0 = SafeFollow.att
+SafeFollow.gyro.MaxTorque = 50000
+SafeFollow.gyro.Responsiveness = 120
+SafeFollow.gyro.Enabled = false
+
+SafeFollow.heartbeatConn = RunService.Heartbeat:Connect(function()
+
+    if not SafeFollow.Enabled or not SafeFollow.Locked then
+        SafeFollow.lv.Enabled = false
+        SafeFollow.gyro.Enabled = false
+        return
+    end
+
+    local character = lp.Character
+    if not character then return end
+
+    local hrp = character:FindFirstChild("HumanoidRootPart")
+    if not hrp then return end
+
+    if not SafeFollow.targetChar or not SafeFollow.targetChar.Parent then
+        SafeFollow.targetChar = getNearestPlayer()
+        return
+    end
+
+    local trgHRP = SafeFollow.targetChar:FindFirstChild("HumanoidRootPart")
+
+    if not trgHRP then
+        SafeFollow.targetChar = getNearestPlayer()
+        return
+    end
+
+    SafeFollow.lv.Enabled = true
+    SafeFollow.gyro.Enabled = true
+
+    local frontPos = trgHRP.Position + trgHRP.CFrame.LookVector * 2.2
+    local dir = frontPos - hrp.Position
+
+    if dir.Magnitude > 0.5 then
+        SafeFollow.lv.VectorVelocity = dir.Unit * LOCK_SPEED
+    else
+        SafeFollow.lv.VectorVelocity = Vector3.zero
+    end
+
+    SafeFollow.gyro.CFrame = CFrame.lookAt(hrp.Position, frontPos)
+
+end)
+
+end
+
+-- Enable
+local function enableSafeFollow()
+
+if SafeFollow.Enabled then return end
+
+SafeFollow.Enabled = true
+
+if not SafeFollow.gui then
+    createSafeFollowUI()
+end
+
+SafeFollow.gui.Enabled = true
+SafeFollow.Locked = false
+
+if SafeFollow.btn then
+    SafeFollow.btn.BackgroundColor3 = Color3.fromRGB(43,160,235)
+end
+
+startSafeFollow()
+
+end
+
+-- Disable
+local function disableSafeFollow()
+
+if not SafeFollow.Enabled then return end
+
+SafeFollow.Enabled = false
+SafeFollow.Locked = false
+
+if SafeFollow.gui then
+    SafeFollow.gui.Enabled = false
+end
+
+if SafeFollow.heartbeatConn then
+    SafeFollow.heartbeatConn:Disconnect()
+    SafeFollow.heartbeatConn = nil
+end
+
+if SafeFollow.lv then
+    SafeFollow.lv:Destroy()
+    SafeFollow.lv = nil
+end
+
+if SafeFollow.gyro then
+    SafeFollow.gyro:Destroy()
+    SafeFollow.gyro = nil
+end
+
+if SafeFollow.att then
+    SafeFollow.att:Destroy()
+    SafeFollow.att = nil
+end
+
+SafeFollow.targetChar = nil
+
+end
+-------------------------------------------------------------------------
+-- IMPROVED ANTI-RAGDOLL MODULE (Replaced)
+-------------------------------------------------------------------------
+local AntiRagdoll = {
+    Enabled = false,
+    RAGDOLL_SPEED = 16,   -- movement speed while "ragdolled" (adjustable)
+
+    currentCharacter = nil,
+    ragdollRemoteConnection = nil,
+    moveConnection = nil,
+    playerModule = nil,
+    controls = nil
+}
+
+-- Safely load PlayerModule controls
+pcall(function()
+    AntiRagdoll.playerModule = require(lp:WaitForChild("PlayerScripts"):WaitForChild("PlayerModule"))
+    AntiRagdoll.controls = AntiRagdoll.playerModule:GetControls()
+end)
+
+-- ────────────────────────────────────────────────
+--  Cleanup functions
+-- ────────────────────────────────────────────────
+
+local function cleanupRagdoll()
+    if AntiRagdoll.currentCharacter then
+        local root = AntiRagdoll.currentCharacter:FindFirstChild("HumanoidRootPart")
+        if root then
+            local anchor = root:FindFirstChild("RagdollAnchor")
+            if anchor then
+                anchor:Destroy()
+            end
+        end
+    end
+
+    if AntiRagdoll.moveConnection then
+        AntiRagdoll.moveConnection:Disconnect()
+        AntiRagdoll.moveConnection = nil
+    end
+end
+
+local function disconnectRemote()
+    if AntiRagdoll.ragdollRemoteConnection then
+        AntiRagdoll.ragdollRemoteConnection:Disconnect()
+        AntiRagdoll.ragdollRemoteConnection = nil
+    end
+end
+
+-- ────────────────────────────────────────────────
+--  Core anti-ragdoll logic (intercepts remote "Make"/"Destroy")
+-- ────────────────────────────────────────────────
+
+local function setupAntiRagdoll(char)
+    AntiRagdoll.currentCharacter = char
+
+    cleanupRagdoll()
+    disconnectRemote()
+
+    local humanoid = char:WaitForChild("Humanoid", 5)
+    local root     = char:WaitForChild("HumanoidRootPart", 5)
+    local head     = char:WaitForChild("Head", 5)
+
+    if not (humanoid and root and head) then return end
+
+    -- Path to the ragdoll remote (game-specific)
+    local ragdollRemote = ReplicatedStorage:WaitForChild("Packages", 8)
+                             :WaitForChild("Ragdoll", 5)
+                             :WaitForChild("Ragdoll", 5)
+
+    if not ragdollRemote or not ragdollRemote:IsA("RemoteEvent") then
+        warn("[Anti-Ragdoll] Could not find Ragdoll remote")
+        return
+    end
+
+    -- Listen for ragdoll trigger from server
+    AntiRagdoll.ragdollRemoteConnection = ragdollRemote.OnClientEvent:Connect(function(arg1, arg2)
+        if not AntiRagdoll.Enabled then return end
+
+        -- Server wants to ragdoll → fake it and allow movement
+        if arg1 == "Make" or arg2 == "manualM" then
+            humanoid:ChangeState(Enum.HumanoidStateType.Freefall)
+            Workspace.CurrentCamera.CameraSubject = head
+            root.CanCollide = false
+
+            -- Re-enable controls so WASD still works
+            if AntiRagdoll.controls then
+                pcall(AntiRagdoll.controls.Enable, AntiRagdoll.controls)
+            end
+
+            cleanupRagdoll()
+
+            -- Anchor the player in place but allow controlled movement
+            local anchor = Instance.new("BodyPosition")
+            anchor.Name      = "RagdollAnchor"
+            anchor.MaxForce  = Vector3.new(1e6, 1e6, 1e6)
+            anchor.P         = 5000
+            anchor.D         = 1000
+            anchor.Position  = root.Position
+            anchor.Parent    = root
+
+            -- Smooth movement while anchored
+            AntiRagdoll.moveConnection = RunService.RenderStepped:Connect(function()
+                if not AntiRagdoll.Enabled or not anchor or not anchor.Parent then
+                    if AntiRagdoll.moveConnection then
+                        AntiRagdoll.moveConnection:Disconnect()
+                        AntiRagdoll.moveConnection = nil
+                    end
+                    return
+                end
+
+                local moveDir = humanoid.MoveDirection
+                if moveDir.Magnitude > 0 then
+                    anchor.Position = root.Position + moveDir.Unit * AntiRagdoll.RAGDOLL_SPEED
+                else
+                    anchor.Position = root.Position
+                end
+            end)
+        end
+
+        -- Server wants to un-ragdoll → clean up
+        if arg1 == "Destroy" or arg2 == "manualD" then
+            humanoid:ChangeState(Enum.HumanoidStateType.GettingUp)
+            Workspace.CurrentCamera.CameraSubject = humanoid
+            root.CanCollide = true
+
+            if AntiRagdoll.controls then
+                pcall(AntiRagdoll.controls.Enable, AntiRagdoll.controls)
+            end
+
+            cleanupRagdoll()
+        end
+    end)
+
+    task.delay(1,function()
+        if active then
+            callback(true)
+        end
+    end)
+end
+
+-- Character event connections
+lp.CharacterAdded:Connect(function(char)
+    if AntiRagdoll.Enabled then
+        setupAntiRagdoll(char)
+    end
+end)
+
+lp.CharacterRemoving:Connect(function()
+    cleanupRagdoll()
+    disconnectRemote()
+    AntiRagdoll.currentCharacter = nil
+end)
+
+-------------------------------------------------------------------------
+-- ANTI TURRET
+-------------------------------------------------------------------------
+local AntiTurret = { Enabled = false, Target = nil, Conn = nil, Dist = 60, Pull = -5 }
+local function getWeapon() return lp.Backpack:FindFirstChild("Bat") or (lp.Character and lp.Character:FindFirstChild("Bat")) end
+
+local function findTurret()
+    local char = lp.Character
+    if not char or not char:FindFirstChild("HumanoidRootPart") then return end
+    for _, obj in pairs(Workspace:GetChildren()) do
+        if obj.Name:find("Sentry") and not obj.Name:lower():find("bullet") then
+            local ownerId = obj.Name:match("Sentry_(%d+)")
+            if ownerId and tonumber(ownerId) == lp.UserId then continue end
+            local part = obj:IsA("BasePart") and obj or (obj:IsA("Model") and (obj.PrimaryPart or obj:FindFirstChildWhichIsA("BasePart")))
+            if part and (char.HumanoidRootPart.Position - part.Position).Magnitude <= AntiTurret.Dist then return obj end
+        end
+    end
+end
+
+-------------------------------------------------------------------------
+-- XRAY BASE MODULE
+-------------------------------------------------------------------------
+local XrayBase = {
+    Enabled = false,
+    OriginalTransparency = {},
+    Connections = {},
+    BaseKeywords = {"base", "claim"}
+}
+
+local function isPlayerBase(obj)
+    if not (obj:IsA("BasePart") or obj:IsA("MeshPart") or obj:IsA("UnionOperation")) then
+        return false
+    end
+    local n = obj.Name:lower()
+    local p = obj.Parent and obj.Parent.Name:lower() or ""
+    for _, keyword in ipairs(XrayBase.BaseKeywords) do
+        if n:find(keyword) or p:find(keyword) then
+            return true
+        end
+    end
+    return false
+end
+
+local function applyTransparency(obj)
+    if isPlayerBase(obj) then
+        if not XrayBase.OriginalTransparency[obj] then
+            XrayBase.OriginalTransparency[obj] = obj.LocalTransparencyModifier
+        end
+        obj.LocalTransparencyModifier = 0.8
+    end
+end
+
+local function restoreTransparency(obj)
+    if XrayBase.OriginalTransparency[obj] then
+        obj.LocalTransparencyModifier = XrayBase.OriginalTransparency[obj]
+        XrayBase.OriginalTransparency[obj] = nil
+    end
+end
+
+local function enableXrayBase()
+    if XrayBase.Enabled then return end
+    XrayBase.Enabled = true
+
+    -- Apply to existing parts
+    for _, obj in ipairs(Workspace:GetDescendants()) do
+        applyTransparency(obj)
+    end
+
+    -- Set up connections for new parts
+    XrayBase.Connections.descendantAdded = Workspace.DescendantAdded:Connect(function(obj)
+        applyTransparency(obj)
+    end)
+
+    XrayBase.Connections.characterAdded = lp.CharacterAdded:Connect(function()
+        task.wait(0.5)
+        for _, obj in ipairs(Workspace:GetDescendants()) do
+            applyTransparency(obj)
+        end
+    end)
+
+    task.delay(1,function()
+        if active then
+            callback(true)
+        end
+    end)
+end
+
+local function disableXrayBase()
+    if not XrayBase.Enabled then return end
+    XrayBase.Enabled = false
+
+    -- Disconnect connections
+    for _, conn in pairs(XrayBase.Connections) do
+        conn:Disconnect()
+    end
+    XrayBase.Connections = {}
+
+    -- Restore transparency
+    for obj, original in pairs(XrayBase.OriginalTransparency) do
+        obj.LocalTransparencyModifier = original
+    end
+    XrayBase.OriginalTransparency = {}
+end
+
+-------------------------------------------------------------------------
+-- NO ANIMATIONS MODULE
+-------------------------------------------------------------------------
+local NoAnim = {
+    Enabled = false,
+    CharacterConnections = {}
+}
+
+local function disableAnims(character)
+    local humanoid = character:FindFirstChildOfClass("Humanoid")
+    if not humanoid then return end
+
+    -- Stop all current animations
+    for _, track in pairs(humanoid:GetPlayingAnimationTracks()) do
+        track:Stop()
+    end
+
+    -- Prevent new animations from playing
+    if NoAnim.CharacterConnections[character] then
+        NoAnim.CharacterConnections[character]:Disconnect()
+    end
+
+    NoAnim.CharacterConnections[character] = humanoid.AnimationPlayed:Connect(function(track)
+        track:Stop()
+    end)
+
+    task.delay(1,function()
+        if active then
+            callback(true)
+        end
+    end)
+end
+
+local function enableNoAnim()
+    if NoAnim.Enabled then return end
+    NoAnim.Enabled = true
+
+    -- Run for current character
+    if lp.Character then
+        disableAnims(lp.Character)
+    end
+
+    -- Run for respawns
+    NoAnim.CharacterConnections.characterAdded = lp.CharacterAdded:Connect(function(char)
+        disableAnims(char)
+    end)
+
+    task.delay(1,function()
+        if active then
+            callback(true)
+        end
+    end)
+end
+
+local function disableNoAnim()
+    if not NoAnim.Enabled then return end
+    NoAnim.Enabled = false
+
+    -- Disconnect character added connection
+    if NoAnim.CharacterConnections.characterAdded then
+        NoAnim.CharacterConnections.characterAdded:Disconnect()
+        NoAnim.CharacterConnections.characterAdded = nil
+    end
+
+    -- Disconnect all per-character connections
+    for character, conn in pairs(NoAnim.CharacterConnections) do
+        if character ~= "characterAdded" then
+            conn:Disconnect()
+            NoAnim.CharacterConnections[character] = nil
+        end
+    end
+
+    -- Re-enable animations for current character
+    if lp.Character then
+        local humanoid = lp.Character:FindFirstChildOfClass("Humanoid")
+        if humanoid then
+            -- Remove the animation blocker connection
+            if NoAnim.CharacterConnections[lp.Character] then
+                NoAnim.CharacterConnections[lp.Character]:Disconnect()
+                NoAnim.CharacterConnections[lp.Character] = nil
+            end
+        end
+    end
+end
+
+-------------------------------------------------------------------------
+-- PLAYER ESP MODULE
+-------------------------------------------------------------------------
+local PlayerESP = {
+    Enabled = false,
+    ESP_COLOR = Color3.fromRGB(85, 170, 255),
+    Highlights = {},
+    Billboards = {},
+    Connections = {}
+}
+
+-- CREATE HIGHLIGHT
+local function createHighlight(character)
+    local h = Instance.new("Highlight")
+    h.Name = "Phantom_PlayerESP_Highlight"
+    h.Adornee = character
+    h.FillColor = PlayerESP.ESP_COLOR
+    h.FillTransparency = 0.25
+    h.OutlineColor = PlayerESP.ESP_COLOR
+    h.OutlineTransparency = 0
+    h.DepthMode = Enum.HighlightDepthMode.AlwaysOnTop
+    h.Parent = CoreGui
+    return h
+end
+
+-- CREATE NAME TAG
+local function createBillboard(character, player)
+    local hrp = character:WaitForChild("HumanoidRootPart", 5)
+    if not hrp then return nil end
+
+    local bb = Instance.new("BillboardGui")
+    bb.Name = "Phantom_PlayerESP_Name"
+    bb.Adornee = hrp
+    bb.AlwaysOnTop = true
+    bb.Size = UDim2.new(0, 100, 0, 20)
+    bb.StudsOffsetWorldSpace = Vector3.new(0, 3, 0)
+    bb.MaxDistance = 600
+    bb.Parent = CoreGui
+
+    local bg = Instance.new("Frame", bb)
+    bg.Size = UDim2.new(1, 0, 1, 0)
+    bg.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+    bg.BackgroundTransparency = 0.4
+    Instance.new("UICorner", bg).CornerRadius = UDim.new(0, 6)
+
+    local txt = Instance.new("TextLabel", bg)
+    txt.Size = UDim2.new(1, 0, 1, 0)
+    txt.BackgroundTransparency = 1
+    txt.Font = Enum.Font.GothamSemibold
+    txt.TextSize = 13
+    txt.TextColor3 = Color3.new(1, 1, 1)
+    txt.TextStrokeTransparency = 0.2
+    txt.Text = player.DisplayName
+
+    return bb
+end
+
+-- ATTACH ESP TO PLAYER
+local function attachESP(player)
+    if player == lp then return end
+
+    local function apply(character)
+        if PlayerESP.Highlights[player] then
+            pcall(function() PlayerESP.Highlights[player]:Destroy() end)
+        end
+        if PlayerESP.Billboards[player] then
+            pcall(function() PlayerESP.Billboards[player]:Destroy() end)
+        end
+
+        PlayerESP.Highlights[player] = createHighlight(character)
+        PlayerESP.Billboards[player] = createBillboard(character, player)
+    end
+
+    if player.Character then
+        apply(player.Character)
+    end
+
+    local conn = player.CharacterAdded:Connect(apply)
+    table.insert(PlayerESP.Connections, conn)
+end
+
+-- REMOVE ESP FROM PLAYER
+local function removeESP(player)
+    if PlayerESP.Highlights[player] then
+        pcall(function() PlayerESP.Highlights[player]:Destroy() end)
+        PlayerESP.Highlights[player] = nil
+    end
+    if PlayerESP.Billboards[player] then
+        pcall(function() PlayerESP.Billboards[player]:Destroy() end)
+        PlayerESP.Billboards[player] = nil
+    end
+end
+
+-- ENABLE ESP
+local function enableESP()
+    if PlayerESP.Enabled then return end
+    PlayerESP.Enabled = true
+
+    -- Apply ESP to all current players
+    for _, p in ipairs(Players:GetPlayers()) do
+        attachESP(p)
+    end
+
+    -- Set up connections for new players
+    table.insert(PlayerESP.Connections, Players.PlayerAdded:Connect(function(p)
+        attachESP(p)
+    end))
+
+    -- Set up connection for players leaving
+    table.insert(PlayerESP.Connections, Players.PlayerRemoving:Connect(function(p)
+        removeESP(p)
+    end))
+end
+
+-- DISABLE ESP
+local function disableESP()
+    if not PlayerESP.Enabled then return end
+    PlayerESP.Enabled = false
+
+    -- Remove all highlights and billboards
+    for _, h in pairs(PlayerESP.Highlights) do
+        pcall(function() h:Destroy() end)
+    end
+    for _, b in pairs(PlayerESP.Billboards) do
+        pcall(function() b:Destroy() end)
+    end
+
+    -- Disconnect all connections
+    for _, c in ipairs(PlayerESP.Connections) do
+        pcall(function() c:Disconnect() end)
+    end
+
+    -- Clear storage
+    PlayerESP.Highlights = {}
+    PlayerESP.Billboards = {}
+    PlayerESP.Connections = {}
+end
+-- SPEED CUSTOMIZER MODULE
+
+local SpeedCustomizer = {
+Enabled = false,
+SpeedUI = nil,
+SpeedValue = 58,
+StealValue = 29,
+JumpValue = 80,
+GravityValue = 196.2,
+HeartbeatConn = nil,
+JumpConn = nil,
+character = nil,
+hrp = nil,
+hum = nil
+}
+
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local UserInputService = game:GetService("UserInputService")
+local Workspace = game:GetService("Workspace")
+local lp = Players.LocalPlayer
+
+---
+
+-- LOAD SAVED VALUES
+
+if Saved and Saved.SpeedConfig then
+SpeedCustomizer.SpeedValue = Saved.SpeedConfig.Speed or 58
+SpeedCustomizer.StealValue = Saved.SpeedConfig.Steal or 29
+SpeedCustomizer.JumpValue = Saved.SpeedConfig.Jump or 80
+SpeedCustomizer.GravityValue = Saved.SpeedConfig.Gravity or 196.2
+Workspace.Gravity = SpeedCustomizer.GravityValue
+end
+
+---
+
+-- CHARACTER SETUP
+
+local function setupSpeedCharacter(char)
+SpeedCustomizer.character = char
+SpeedCustomizer.hrp = char:WaitForChild("HumanoidRootPart")
+SpeedCustomizer.hum = char:WaitForChild("Humanoid")
+end
+
+---
+
+-- CREATE UI
+
+local function createSpeedUI()
+
+local SpeedScreenGui = Instance.new("ScreenGui")
+SpeedScreenGui.Name = "Phantom_SpeedUI"
+SpeedScreenGui.ResetOnSpawn = false
+SpeedScreenGui.Parent = game:GetService("CoreGui")
+
+local MainFrame = Instance.new("Frame")
+MainFrame.Name = "SpeedMainFrame"
+MainFrame.Size = UDim2.new(0,200,0,180)
+
+if Saved and Saved.SpeedPos then
+MainFrame.Position = UDim2.new(
+Saved.SpeedPos.XS,
+Saved.SpeedPos.XO,
+Saved.SpeedPos.YS,
+Saved.SpeedPos.YO
+)
+else
+MainFrame.Position = UDim2.new(0.5,-100,0.4,0)
+end
+
+MainFrame.BackgroundColor3 = Color3.fromRGB(20,25,30)
+MainFrame.BackgroundTransparency = 0.2
+MainFrame.BorderSizePixel = 0
+MainFrame.Active = true
+MainFrame.Draggable = true
+MainFrame.Parent = SpeedScreenGui
+
+Instance.new("UICorner",MainFrame)
+
+local UIStroke = Instance.new("UIStroke")
+UIStroke.Color = Color3.fromRGB(50,150,250)
+UIStroke.Thickness = 2
+UIStroke.Parent = MainFrame
+
+---
+
+-- HEADER
+
+local Header = Instance.new("Frame")
+Header.Size = UDim2.new(1,-20,0,25)
+Header.Position = UDim2.new(0,10,0,5)
+Header.BackgroundTransparency = 1
+Header.Parent = MainFrame
+
+local CollapseBtn = Instance.new("TextButton")
+CollapseBtn.Size = UDim2.new(0,20,0,20)
+CollapseBtn.Position = UDim2.new(0,0,0,0)
+CollapseBtn.Text = "^"
+CollapseBtn.BackgroundTransparency = 1
+CollapseBtn.TextColor3 = Color3.new(1,1,1)
+CollapseBtn.Font = Enum.Font.GothamBold
+CollapseBtn.TextSize = 14
+CollapseBtn.Parent = Header
+
+local Title = Instance.new("TextLabel")
+Title.Size = UDim2.new(1,-40,1,0)
+Title.Position = UDim2.new(0,20,0,0)
+Title.BackgroundTransparency = 1
+Title.Text = "Speed Customizer"
+Title.TextColor3 = Color3.fromRGB(80,180,255)
+Title.TextSize = 14
+Title.TextXAlignment = Enum.TextXAlignment.Left
+Title.Font = Enum.Font.GothamBold
+Title.Parent = Header
+
+local ArrowBtn = Instance.new("TextButton")
+ArrowBtn.Size = UDim2.new(0,20,0,20)
+ArrowBtn.Position = UDim2.new(1,-20,0,0)
+ArrowBtn.Text = "^"
+ArrowBtn.BackgroundTransparency = 1
+ArrowBtn.TextColor3 = Color3.new(1,1,1)
+ArrowBtn.Font = Enum.Font.GothamBold
+ArrowBtn.TextSize = 14
+ArrowBtn.Parent = Header
+
+---
+
+-- SAVE BUTTON
+
+local SaveBtn = Instance.new("TextButton")
+SaveBtn.Size = UDim2.new(1,-20,0,25)
+SaveBtn.Position = UDim2.new(0,10,1,4)
+SaveBtn.Text = "Save"
+SaveBtn.Visible = false
+SaveBtn.BackgroundColor3 = Color3.fromRGB(50,50,50)
+SaveBtn.TextColor3 = Color3.new(1,1,1)
+SaveBtn.Font = Enum.Font.Gotham
+SaveBtn.TextSize = 13
+SaveBtn.Parent = MainFrame
+
+Instance.new("UICorner",SaveBtn)
+
+ArrowBtn.MouseButton1Click:Connect(function()
+SaveBtn.Visible = not SaveBtn.Visible
+end)
+
+---
+
+-- ON OFF BUTTON
+
+local ToggleBtn = Instance.new("TextButton")
+ToggleBtn.Size = UDim2.new(1,-20,0,25)
+ToggleBtn.Position = UDim2.new(0,10,0,35)
+ToggleBtn.Text = "ON"
+ToggleBtn.BackgroundColor3 = Color3.fromRGB(0,120,215)
+ToggleBtn.TextColor3 = Color3.new(1,1,1)
+ToggleBtn.Font = Enum.Font.GothamBold
+ToggleBtn.TextSize = 14
+ToggleBtn.Parent = MainFrame
+
+Instance.new("UICorner",ToggleBtn)
+
+---
+
+-- INPUT ROW FUNCTION
+
+local function createInputRow(text,value,pos)
+
+local label = Instance.new("TextLabel")
+label.Size = UDim2.new(0.6,0,0,20)
+label.Position = UDim2.new(0,10,0,pos)
+label.BackgroundTransparency = 1
+label.Text = text
+label.TextColor3 = Color3.fromRGB(200,200,200)
+label.TextSize = 12
+label.Font = Enum.Font.Gotham
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.Parent = MainFrame
+
+local box = Instance.new("TextBox")
+box.Size = UDim2.new(0,70,0,20)
+box.Position = UDim2.new(1,-80,0,pos)
+box.BackgroundColor3 = Color3.fromRGB(30,35,40)
+box.Text = tostring(value)
+box.TextColor3 = Color3.new(1,1,1)
+box.TextSize = 14
+box.Font = Enum.Font.GothamBold
+box.ClearTextOnFocus = false
+box.Parent = MainFrame
+
+Instance.new("UICorner",box)
+
+return box,label
+
+end
+
+local SpeedInput,SpeedLabel = createInputRow("Speed",SpeedCustomizer.SpeedValue,70)
+local StealInput,StealLabel = createInputRow("Steal Spd",SpeedCustomizer.StealValue,100)
+local JumpInput,JumpLabel = createInputRow("Jump",SpeedCustomizer.JumpValue,130)
+local GravityInput,GravityLabel = createInputRow("Gravity",SpeedCustomizer.GravityValue,160)
+
+---
+
+-- COLLAPSE
+
+local open = true
+
+CollapseBtn.MouseButton1Click:Connect(function()
+
+open = not open
+
+SpeedInput.Visible = open
+StealInput.Visible = open
+JumpInput.Visible = open
+GravityInput.Visible = open
+
+SpeedLabel.Visible = open
+StealLabel.Visible = open
+JumpLabel.Visible = open
+GravityLabel.Visible = open
+
+if open then
+MainFrame.Size = UDim2.new(0,200,0,180)
+else
+MainFrame.Size = UDim2.new(0,200,0,40)
+end
+
+end)
+
+---
+
+-- SAVE
+
+SaveBtn.MouseButton1Click:Connect(function()
+
+if not Saved then Saved = {} end
+
+Saved.SpeedConfig = {
+Speed = SpeedCustomizer.SpeedValue,
+Steal = SpeedCustomizer.StealValue,
+Jump = SpeedCustomizer.JumpValue,
+Gravity = SpeedCustomizer.GravityValue
+}
+
+local pos = MainFrame.Position
+
+Saved.SpeedPos = {
+XS = pos.X.Scale,
+XO = pos.X.Offset,
+YS = pos.Y.Scale,
+YO = pos.Y.Offset
+}
+
+if SaveConfig then
+SaveConfig()
+end
+
+end)
+
+---
+
+-- INPUT UPDATE
+
+SpeedInput.FocusLost:Connect(function()
+local n = tonumber(SpeedInput.Text)
+if n then SpeedCustomizer.SpeedValue = n end
+end)
+
+StealInput.FocusLost:Connect(function()
+local n = tonumber(StealInput.Text)
+if n then SpeedCustomizer.StealValue = n end
+end)
+
+JumpInput.FocusLost:Connect(function()
+local n = tonumber(JumpInput.Text)
+if n then SpeedCustomizer.JumpValue = n end
+end)
+
+GravityInput.FocusLost:Connect(function()
+local n = tonumber(GravityInput.Text)
+if n then
+SpeedCustomizer.GravityValue = n
+Workspace.Gravity = n
+end
+end)
+
+---
+
+-- TOGGLE BUTTON
+
+ToggleBtn.MouseButton1Click:Connect(function()
+
+SpeedCustomizer.Enabled = not SpeedCustomizer.Enabled
+
+ToggleBtn.Text = SpeedCustomizer.Enabled and "ON" or "OFF"
+
+ToggleBtn.BackgroundColor3 =
+SpeedCustomizer.Enabled and Color3.fromRGB(0,120,215)
+or Color3.fromRGB(150,40,40)
+
+end)
+
+return SpeedScreenGui
+
+end
+
+---
+
+-- ENABLE
+
+local function enableSpeedCustomizer()
+
+if not SpeedCustomizer.SpeedUI then
+SpeedCustomizer.SpeedUI = createSpeedUI()
+end
+
+SpeedCustomizer.Enabled = true
+
+if lp.Character then
+setupSpeedCharacter(lp.Character)
+end
+
+lp.CharacterAdded:Connect(setupSpeedCharacter)
+
+SpeedCustomizer.HeartbeatConn = RunService.Heartbeat:Connect(function()
+
+if not SpeedCustomizer.Enabled then return end
+if not SpeedCustomizer.hrp then return end
+if not SpeedCustomizer.hum then return end
+
+local moveDir = SpeedCustomizer.hum.MoveDirection
+
+if moveDir.Magnitude > 0 then
+
+SpeedCustomizer.hrp.AssemblyLinearVelocity = Vector3.new(
+moveDir.X * SpeedCustomizer.SpeedValue,
+SpeedCustomizer.hrp.AssemblyLinearVelocity.Y,
+moveDir.Z * SpeedCustomizer.SpeedValue
+)
+
+end
+
+end)
+
+end
+
+---
+
+-- DISABLE
+
+local function disableSpeedCustomizer()
+
+SpeedCustomizer.Enabled = false
+
+if SpeedCustomizer.SpeedUI then
+SpeedCustomizer.SpeedUI.Enabled = false
+end
+
+if SpeedCustomizer.HeartbeatConn then
+SpeedCustomizer.HeartbeatConn:Disconnect()
+SpeedCustomizer.HeartbeatConn = nil
+end
+
+end
+
+---
+
+-- HUB TOGGLE
+
+AddToggle("Movement","Speed Customizer",false,function(v)
+
+if v then
+enableSpeedCustomizer()
+else
+disableSpeedCustomizer()
+end
+
+end)
+-------------------------------------------------------------------------
+-- INFINITE JUMP MODULE
+-------------------------------------------------------------------------
+local InfiniteJump = {
+    Enabled = false,
+    JUMP_POWER = 50,       -- Standard Roblox jump height
+    COOLDOWN = 0.15,       -- Prevents "velocity stacking" which causes lag/kicks
+    lastJump = 0,
+    JumpConnection = nil
+}
+
+-- Function to handle the jump logic
+local function handleJumpRequest()
+    if not InfiniteJump.Enabled then return end
+
+    local character = lp.Character
+    local hrp = character and character:FindFirstChild("HumanoidRootPart")
+    local humanoid = character and character:FindFirstChildOfClass("Humanoid")
+
+    -- Check if character exists and is actually in the air
+    if hrp and humanoid then
+        if humanoid.FloorMaterial == Enum.Material.Air then
+            local now = tick()
+            if now - InfiniteJump.lastJump >= InfiniteJump.COOLDOWN then
+                InfiniteJump.lastJump = now
+                -- Set vertical velocity while maintaining horizontal momentum
+                hrp.Velocity = Vector3.new(hrp.Velocity.X, InfiniteJump.JUMP_POWER, hrp.Velocity.Z)
+            end
+        end
+    end
+end
+
+-- Enable Infinite Jump
+local function enableInfJump()
+    if InfiniteJump.Enabled then return end
+
+    InfiniteJump.Enabled = true
+
+    -- Connect to JumpRequest (fired when player presses Space/Jump Button)
+    InfiniteJump.JumpConnection = UserInputService.JumpRequest:Connect(handleJumpRequest)
+end
+
+-- Disable Infinite Jump
+local function disableInfJump()
+    if not InfiniteJump.Enabled then return end
+
+    InfiniteJump.Enabled = false
+
+    -- Disconnect the jump connection
+    if InfiniteJump.JumpConnection then
+        InfiniteJump.JumpConnection:Disconnect()
+        InfiniteJump.JumpConnection = nil
+    end
+end
+
+-------------------------------------------------------------------------
+-- UI TOGGLE CALLBACKS
+-------------------------------------------------------------------------
+
+-- COMBAT TAB
+local batConn = nil
+AddToggle("Combat", "Auto Bat", false, function(v)
+    if v then batConn = RunService.Heartbeat:Connect(function()
+        local c = lp.Character; local b = getWeapon()
+        if b and c and c:FindFirstChild("Humanoid") then if b.Parent ~= c then c.Humanoid:EquipTool(b) end b:Activate() end
+    end) else if batConn then batConn:Disconnect() batConn = nil end end
+end)
+
+local Cebo = { Conn = nil, Circle = nil, Align = nil, Attach = nil }
+AddToggle("Combat", "Melee Aimbot", false, function(active)
+    if active then
+        local char = lp.Character or lp.CharacterAdded:Wait()
+        local hrp = char:WaitForChild("HumanoidRootPart")
+        Cebo.Attach = Instance.new("Attachment", hrp)
+        Cebo.Align = Instance.new("AlignOrientation", hrp)
+        Cebo.Align.Attachment0, Cebo.Align.Mode, Cebo.Align.RigidityEnabled = Cebo.Attach, Enum.OrientationAlignmentMode.OneAttachment, true
+        Cebo.Circle = create("Part", {Shape = "Cylinder", Material = "Neon", Size = Vector3.new(0.05, 14.5, 14.5), Color = Color3.new(1,0,0), CanCollide = false, Massless = true, Parent = Workspace})
+        create("Weld", {Part0 = hrp, Part1 = Cebo.Circle, C0 = CFrame.new(0, -1, 0) * CFrame.Angles(0, 0, math.rad(90)), Parent = Cebo.Circle})
+        Cebo.Conn = RunService.RenderStepped:Connect(function()
+            local target, dmin = nil, 7.25
+            for _, p in ipairs(Players:GetPlayers()) do if p ~= lp and p.Character and p.Character:FindFirstChild("HumanoidRootPart") then local d = (p.Character.HumanoidRootPart.Position - hrp.Position).Magnitude if d <= dmin then target, dmin = p.Character.HumanoidRootPart, d end end end
+            if target then char.Humanoid.AutoRotate, Cebo.Align.Enabled, Cebo.Align.CFrame = false, true, CFrame.lookAt(hrp.Position, Vector3.new(target.Position.X, hrp.Position.Y, target.Position.Z)) local t = char:FindFirstChild("Bat") or char:FindFirstChild("Medusa") if t then t:Activate() end
+            else Cebo.Align.Enabled, char.Humanoid.AutoRotate = false, true end
+        end)
+    else if Cebo.Conn then Cebo.Conn:Disconnect() end if Cebo.Circle then Cebo.Circle:Destroy() end if Cebo.Align then Cebo.Align:Destroy() end if Cebo.Attach then Cebo.Attach:Destroy() end if lp.Character and lp.Character:FindFirstChild("Humanoid") then lp.Character.Humanoid.AutoRotate = true end end
+end)
+
+AddToggle("Combat", "Speed Customizer", false, function(v)
+    if v then
+        enableSpeedCustomizer()
+    else
+        disableSpeedCustomizer()
+    end
+end)
+
+AddToggle("Combat", "Inf Jump", false, function(v)
+    if v then
+        enableInfJump()
+    else
+        disableInfJump()
+    end
+end)
+
+-- PROTECT TAB
+AddToggle("Protect", "Optimizer", false, function(v)
+    if v then Workspace.Terrain.WaterWaveSize = 0; game:GetService("Lighting").GlobalShadows = false
+    for _, obj in pairs(game:GetDescendants()) do if obj:IsA("BasePart") then obj.Material = Enum.Material.Plastic elseif obj:IsA("Decal") then obj.Transparency = 1 end end end
+end)
+
+AddToggle("Protect", "Anti-Ragdoll", false, function(v)
+    AntiRagdoll.Enabled = v
+    if v and lp.Character then
+        setupAntiRagdoll(lp.Character)
+    else
+        cleanupRagdoll()
+        disconnectRemote()
+    end
+end)
+
+local AntiEffects = { Enabled = false, DisabledRemotes = {}, Watcher = nil, Keywords = {"effect", "vfx", "fx", "particle", "camera", "shake", "blur", "flash", "visual", "ui", "item"} }
+AddToggle("Protect", "Anti Bee & Disco", false, function(v)
+    AntiEffects.Enabled = v
+    if v then AntiEffects.Watcher = ReplicatedStorage.DescendantAdded:Connect(function(r) if AntiEffects.Enabled and r:IsA("RemoteEvent") then for _, k in pairs(AntiEffects.Keywords) do if r.Name:lower():find(k) then for _, c in pairs(getconnections(r.OnClientEvent)) do if c.Disable then c:Disable() end end break end end end end)
+    else if AntiEffects.Watcher then AntiEffects.Watcher:Disconnect() end end
+end)
+
+AddToggle("Protect", "Anti Turret", false, function(v)
+    AntiTurret.Enabled = v
+    if v then AntiTurret.Conn = RunService.Heartbeat:Connect(function()
+        if not AntiTurret.Enabled then return end
+        if AntiTurret.Target and AntiTurret.Target.Parent == Workspace then
+            local char = lp.Character; local root = char and char:FindFirstChild("HumanoidRootPart")
+            if root then for _, p in pairs(AntiTurret.Target:GetDescendants()) do if p:IsA("BasePart") then p.CanCollide = false end end
+            local main = AntiTurret.Target:IsA("Model") and (AntiTurret.Target.PrimaryPart or AntiTurret.Target:FindFirstChildWhichIsA("BasePart")) or AntiTurret.Target
+            if main then main.CFrame = root.CFrame * CFrame.new(0, 0, AntiTurret.Pull) end
+            local w = getWeapon(); if w then if w.Parent == lp.Backpack then char.Humanoid:EquipTool(w) end w:Activate() for _, r in pairs(w:GetDescendants()) do if r:IsA("RemoteEvent") then r:FireServer() end end end end
+        else AntiTurret.Target = findTurret() end
+    end) else if AntiTurret.Conn then AntiTurret.Conn:Disconnect() AntiTurret.Conn = nil end AntiTurret.Target = nil end
+end)
+
+-- VISUAL TAB
+local RunService = game:GetService("RunService")
+local Stats = game:GetService("Stats")
+
+local PerformanceGui
+local PerfConnection
+
+-- mesma cor do botão da interface
+local HUB_BLUE = Color3.fromRGB(85,170,255)
+
+AddToggle("Visual", "Xray Base", false, function(v)
+    if v then
+        enableXrayBase()
+    else
+        disableXrayBase()
+    end
+end)
+
+AddToggle("Visual", "No Anim", false, function(v)
+    if v then
+        enableNoAnim()
+    else
+        disableNoAnim()
+    end
+end)
+
+AddToggle("Visual", "Player ESP", false, function(v)
+    if v then
+        enableESP()
+    else
+        disableESP()
+    end
+end)
+
+AddToggle("Visual", "Show Performance", false, function(v)
+
+    if v then
+
+        if not PerformanceGui then
+
+            PerformanceGui = Instance.new("ScreenGui")
+            PerformanceGui.Name = "PhantomPerformance"
+            PerformanceGui.ResetOnSpawn = false
+            PerformanceGui.Parent = game.CoreGui
+
+            local Frame = Instance.new("Frame")
+            Frame.Size = UDim2.new(0,260,0,28) -- menor
+            Frame.Position = UDim2.new(0.5,-130,0.015,0)
+            Frame.BackgroundColor3 = Color3.fromRGB(0,0,0)
+            Frame.BackgroundTransparency = 0.45
+            Frame.BorderSizePixel = 0
+            Frame.Parent = PerformanceGui
+
+            local Corner = Instance.new("UICorner")
+            Corner.CornerRadius = UDim.new(0,10)
+            Corner.Parent = Frame
+
+            local Label = Instance.new("TextLabel")
+            Label.Size = UDim2.new(1,0,1,0)
+            Label.BackgroundTransparency = 1
+            Label.Font = Enum.Font.GothamBold
+            Label.TextSize = 14
+            Label.RichText = true
+            Label.TextColor3 = HUB_BLUE
+            Label.Text = "<font color='rgb(85,170,255)'>Phantom Duels | FPS 0 PING 0ms</font>"
+            Label.Parent = Frame
+
+            local frames = 0
+            local last = tick()
+
+            PerfConnection = RunService.RenderStepped:Connect(function()
+
+                frames += 1
+
+                if tick() - last >= 1 then
+
+                    local fps = frames
+                    frames = 0
+                    last = tick()
+
+                    local ping = math.floor(
+                        Stats.Network.ServerStatsItem["Data Ping"]:GetValue()
+                    )
+
+                    Label.Text = "<font color='rgb(85,170,255)'>Phantom Duels | FPS "..fps.." PING "..ping.."ms</font>"
+
+                end
+
+            end)
+
+        else
+            PerformanceGui.Enabled = true
+        end
+
+    else
+
+        if PerformanceGui then
+            PerformanceGui.Enabled = false
+        end
+
+        if PerfConnection then
+            PerfConnection:Disconnect()
+            PerfConnection = nil
+        end
+
+    end
+
+end)
+
+-- STATIC BUTTONS
+AddToggle("Combat", "", false, function(v) end)
+
+AddToggle("Combat", "Lock Target", false, function(v)
+    if v then
+        enableSafeFollow()
+    else
+        disableSafeFollow()
+    end
+end)
+
+AddToggle("Combat", "Auto Medusa", false, function(v) end)
+
+---------------------------------------------------------------------
+-- AUTO GRAB
+---------------------------------------------------------------------
+
+local AutoGrab = {
+    Enabled = false,
+    Radius = 13,
+    Delay = 0.3,
+    Conn = nil,
+    LastGrab = 0
+}
+
+local function getNearestGrabPrompt()
+    local char = lp.Character
+    if not char then return end
+    local hrp = char:FindFirstChild("HumanoidRootPart")
+    if not hrp then return end
+    local plots = workspace:FindFirstChild("Plots")
+    if not plots then return end
+
+    for _,plot in pairs(plots:GetChildren()) do
+        local podiums = plot:FindFirstChild("AnimalPodiums")
+        if podiums then
+            for _,pod in pairs(podiums:GetChildren()) do
+                local base = pod:FindFirstChild("Base")
+                local spawn = base and base:FindFirstChild("Spawn")
+                if spawn then
+                    local dist = (spawn.Position - hrp.Position).Magnitude
+                    if dist <= AutoGrab.Radius then
+                        local att = spawn:FindFirstChild("PromptAttachment")
+                        if att then
+                            for _,obj in pairs(att:GetChildren()) do
+                                if obj:IsA("ProximityPrompt") then
+                                    return obj
+                                end
+                            end
+                        end
+                    end
+                end
+            end
+        end
+    end
+end
+
+local function startAutoGrab()
+    if AutoGrab.Conn then
+        AutoGrab.Conn:Disconnect()
+    end
+
+    AutoGrab.Conn = RunService.Heartbeat:Connect(function()
+        if not AutoGrab.Enabled then return end
+
+        if os.clock() - AutoGrab.LastGrab < AutoGrab.Delay then
+            return
+        end
+
+        local prompt = getNearestGrabPrompt()
+        if prompt then
+            fireproximityprompt(prompt)
+            AutoGrab.LastGrab = os.clock()
+        end
+    end)
+
+    task.delay(1,function()
+        if active then
+            callback(true)
+        end
+    end)
+end
+
+local function stopAutoGrab()
+    if AutoGrab.Conn then
+        AutoGrab.Conn:Disconnect()
+        AutoGrab.Conn = nil
+    end
+end
+
+AddToggle("Combat", "Auto Grab", false, function(v)
+    AutoGrab.Enabled = v
+    if v then
+        startAutoGrab()
+    else
+        stopAutoGrab()
+    end
+end)
+
+-------------------------------------------------------------------------
+-- SETUP & DRAG
+-------------------------------------------------------------------------
+local function drag(f)
+    local d, ds, sp
+
+    f.InputBegan:Connect(function(i)
+        if i.UserInputType == Enum.UserInputType.MouseButton1 or i.UserInputType == Enum.UserInputType.Touch then
+            d, ds, sp = true, i.Position, f.Position
+        end
+    end)
+
+    UserInputService.InputChanged:Connect(function(i)
+        if d and (i.UserInputType == Enum.UserInputType.MouseMovement or i.UserInputType == Enum.UserInputType.Touch) then
+            local delta = i.Position - ds
+            f.Position = UDim2.new(
+                sp.X.Scale,
+                sp.X.Offset + delta.X,
+                sp.Y.Scale,
+                sp.Y.Offset + delta.Y
+            )
+        end
+    end)
+
+    f.InputEnded:Connect(function(i)
+        if i.UserInputType == Enum.UserInputType.MouseButton1 or i.UserInputType == Enum.UserInputType.Touch then
+            d = false
+        end
+    end)
+
+    task.delay(1,function()
+        if active then
+            callback(true)
+        end
+    end)
+end
+
+task.wait()
+
+if MainFrame then drag(MainFrame) end
+
+if ToggleIcon then
+    drag(ToggleIcon)
+
+    ToggleIcon.MouseButton1Click:Connect(function()
+        if MainFrame then
+            MainFrame.Visible = not MainFrame.Visible
+        end
+    end)
+
+    task.delay(1,function()
+        if active then
+            callback(true)
+        end
+    end)
+end
+-------------------------------------------------------------------------
+-- LOCK BUTTON
+-------------------------------------------------------------------------
+local SafeFollow = {
+    Enabled = false,
+    Locked = false,
+    FOLLOW_DISTANCE = 6,
+    lastMove = 0,
+    gui = nil,
+    btn = nil
+}
+
+local function createSafeFollowUI()
+    SafeFollow.gui = Instance.new("ScreenGui")
+    SafeFollow.gui.Name = "SafeFollowUI"
+    SafeFollow.gui.ResetOnSpawn = false
+    SafeFollow.gui.Enabled = false
+    SafeFollow.gui.Parent = CoreGui
+
+    SafeFollow.btn = Instance.new("TextButton")
+    SafeFollow.btn.Size = UDim2.new(0,120,0,40) -- MESMO TAMANHO
+    SafeFollow.btn.Position = UDim2.new(0.5,-60,0.8,0)
+    SafeFollow.btn.Text = "LOCK"
+    SafeFollow.btn.Font = Enum.Font.GothamBold
+    SafeFollow.btn.TextSize = 14
+    SafeFollow.btn.TextColor3 = Color3.new(1,1,1)
+    SafeFollow.btn.BackgroundColor3 = Color3.fromRGB(43,160,235) -- AZUL
+    SafeFollow.btn.Parent = SafeFollow.gui
+
+    local uiCorner = Instance.new("UICorner")
+    uiCorner.CornerRadius = UDim.new(0,8)
+    uiCorner.Parent = SafeFollow.btn
+
+    drag(SafeFollow.btn)
+
+    SafeFollow.btn.MouseButton1Click:Connect(function()
+        SafeFollow.Locked = not SafeFollow.Locked
+        SafeFollow.btn.BackgroundColor3 =
+            SafeFollow.Locked
+            and Color3.fromRGB(255,65,65)
+            or Color3.fromRGB(43,160,235)
+    end)
+
+    task.delay(1,function()
+        if active then
+            callback(true)
+        end
+    end)
+end
+
+createSafeFollowUI()
+
+-- TP BUTTON
+
+local TpEnabled = false
+local chosenRoute = nil
+
+local detectA = Vector3.new(-466.51,-7.81,113.79)
+local detectB = Vector3.new(-466.43,-7.89,6.55)
+
+local routeA = {
+    Vector3.new(-432.87,-7.98,54.04),
+    Vector3.new(-461.95,-7.98,97.28),
+    Vector3.new(-483.72,-6.08,94.77)
+}
+
+local routeB = {
+    Vector3.new(-447.12,-7.98,61.52),
+    Vector3.new(-463.56,-7.98,25.78),
+    Vector3.new(-486.73,-5.51,23.99)
+}
+
+local TpButton = Instance.new("TextButton")
+TpButton.Size = UDim2.new(0,120,0,40)
+
+local savedPos = Saved.TpPos
+
+if savedPos then
+    TpButton.Position = UDim2.new(savedPos.XS,savedPos.XO,savedPos.YS,savedPos.YO)
+else
+    TpButton.Position = UDim2.new(0.05,0,0.7,0)
+end
+
+TpButton.BackgroundColor3 = Color3.fromRGB(43,160,235)
+TpButton.Text = "TP"
+TpButton.TextColor3 = Color3.new(1,1,1)
+TpButton.Font = Enum.Font.GothamBold
+TpButton.TextSize = 14
+TpButton.Visible = false
+TpButton.Parent = ScreenGui
+Instance.new("UICorner",TpButton)
+
+-- seta ^
+local toggleBtn = Instance.new("TextButton")
+toggleBtn.Size = UDim2.new(0,18,0,18)
+toggleBtn.Position = UDim2.new(1,-20,0,2)
+toggleBtn.Text = "^"
+toggleBtn.Font = Enum.Font.GothamBold
+toggleBtn.TextSize = 14
+toggleBtn.TextColor3 = Color3.new(1,1,1)
+toggleBtn.BackgroundTransparency = 1
+toggleBtn.Parent = TpButton
+
+-- botão Save
+local saveBtn = Instance.new("TextButton")
+saveBtn.Size = UDim2.new(0,120,0,25)
+saveBtn.Position = UDim2.new(0,0,1,4)
+saveBtn.Text = "Save"
+saveBtn.Visible = false
+saveBtn.Font = Enum.Font.Gotham
+saveBtn.TextSize = 13
+saveBtn.TextColor3 = Color3.new(1,1,1)
+saveBtn.BackgroundColor3 = Color3.fromRGB(50,50,50)
+saveBtn.Parent = TpButton
+Instance.new("UICorner",saveBtn)
+
+toggleBtn.MouseButton1Click:Connect(function()
+    saveBtn.Visible = not saveBtn.Visible
+end)
+
+saveBtn.MouseButton1Click:Connect(function()
+
+    local pos = TpButton.Position
+
+    Saved.TpPos = {
+        XS = pos.X.Scale,
+        XO = pos.X.Offset,
+        YS = pos.Y.Scale,
+        YO = pos.Y.Offset
+    }
+
+    SaveConfig()
+
+end)
+
+drag(TpButton)
+
+AddToggle("Combat","TP Ragdoll",false,function(v)
+    TpEnabled = v
+    TpButton.Visible = v
+end)
+
+-- DETECÇÃO AUTOMÁTICA DA ROTA (igual ao script antiloser)
+
+task.spawn(function()
+    while not chosenRoute do
+        task.wait(.1)
+
+        local char = lp.Character
+        if char and char:FindFirstChild("HumanoidRootPart") then
+
+            local pos = char.HumanoidRootPart.Position
+
+            if (pos - detectA).Magnitude < 5 then
+                chosenRoute = routeB
+
+            elseif (pos - detectB).Magnitude < 5 then
+                chosenRoute = routeA
+            end
+
+        end
+    end
+end)
+
+-- TP FIXED
+
+TpButton.MouseButton1Click:Connect(function()
+
+    local char = lp.Character
+    if not char then return end
+
+    local root = char:FindFirstChild("HumanoidRootPart")
+    if not root then return end
+
+    if not chosenRoute then
+        repeat task.wait() until chosenRoute
+    end
+
+    for _,p in ipairs(chosenRoute) do
+        root.CFrame = CFrame.new(p)
+        task.wait(.2)
+    end
+
+end)
+-- DROP BUTTON
+
+local DropEnabled = false
+
+local DropButton = Instance.new("TextButton")
+DropButton.Size = UDim2.new(0,120,0,40)
+
+local savedPos = Saved.DropPos
+
+if savedPos then
+DropButton.Position = UDim2.new(savedPos.XS,savedPos.XO,savedPos.YS,savedPos.YO)
+else
+DropButton.Position = UDim2.new(0.05,0,0.78,0)
+end
+
+DropButton.BackgroundColor3 = Color3.fromRGB(43,160,235)
+DropButton.Text = "DROP"
+DropButton.TextColor3 = Color3.new(1,1,1)
+DropButton.Font = Enum.Font.GothamBold
+DropButton.TextSize = 14
+DropButton.Visible = false
+DropButton.Parent = ScreenGui
+Instance.new("UICorner",DropButton)
+
+-- seta ^
+local toggleBtn = Instance.new("TextButton")
+toggleBtn.Size = UDim2.new(0,18,0,18)
+toggleBtn.Position = UDim2.new(1,-20,0,2)
+toggleBtn.Text = "^"
+toggleBtn.Font = Enum.Font.GothamBold
+toggleBtn.TextSize = 14
+toggleBtn.TextColor3 = Color3.new(1,1,1)
+toggleBtn.BackgroundTransparency = 1
+toggleBtn.Parent = DropButton
+
+-- botão Save
+local saveBtn = Instance.new("TextButton")
+saveBtn.Size = UDim2.new(0,120,0,25)
+saveBtn.Position = UDim2.new(0,0,1,4)
+saveBtn.Text = "Save"
+saveBtn.Visible = false
+saveBtn.Font = Enum.Font.Gotham
+saveBtn.TextSize = 13
+saveBtn.TextColor3 = Color3.new(1,1,1)
+saveBtn.BackgroundColor3 = Color3.fromRGB(50,50,50)
+saveBtn.Parent = DropButton
+
+Instance.new("UICorner",saveBtn)
+
+toggleBtn.MouseButton1Click:Connect(function()
+saveBtn.Visible = not saveBtn.Visible
+end)
+
+saveBtn.MouseButton1Click:Connect(function()
+
+local pos = DropButton.Position
+
+Saved.DropPos = {
+    XS = pos.X.Scale,
+    XO = pos.X.Offset,
+    YS = pos.Y.Scale,
+    YO = pos.Y.Offset
+}
+
+SaveConfig()
+
+end)
+
+drag(DropButton)
+
+AddToggle("Combat","Drop Toggle",false,function(v)
+DropEnabled = v
+DropButton.Visible = v
+end)
+
+DropButton.MouseButton1Click:Connect(function()
+
+local char = lp.Character or lp.CharacterAdded:Wait()
+local hrp = char:WaitForChild("HumanoidRootPart")
+local startCF = hrp.CFrame
+
+hrp.AssemblyLinearVelocity = Vector3.new(0,120,0)
+
+task.wait(0.35)
+
+hrp.AssemblyLinearVelocity = Vector3.zero
+hrp.CFrame = startCF
+
+end)
+
+repeat task.wait() until game:IsLoaded()
+
+local Players = game:GetService("Players")
+local UIS = game:GetService("UserInputService")
+local RunService = game:GetService("RunService")
+
+local lp = Players.LocalPlayer
+
+local autoPlay = false
+local opened = false
+local saveOpened = false
+
+local SPEED_NO_STEAL = 56
+local SPEED_STEAL = 29
+
+if Saved and Saved.AutoPlayConfig then
+SPEED_NO_STEAL = Saved.AutoPlayConfig.NoSteal or 56
+SPEED_STEAL = Saved.AutoPlayConfig.Steal or 29
+end
+
+-- TRIGGERS
+local AUTO1_TRIGGER = Vector3.new(-466.43,-7.89,6.55)
+local AUTO2_TRIGGER = Vector3.new(-466.51,-7.81,113.79)
+
+-- POSIÇÕES AUTO PLAY 1
+local A1 = Vector3.new(-472.59,-7.30,94.43)
+local A2 = Vector3.new(-484.55,-5.33,95.05)
+local A3 = Vector3.new(-472.59,-7.30,94.43)
+local A4 = Vector3.new(-471.25,-6.83,7.08)
+
+-- POSIÇÕES AUTO PLAY 2
+local B1 = Vector3.new(-474.02,-7.30,25.55)
+local B2 = Vector3.new(-484.92,-5.13,24.53)
+local B3 = Vector3.new(-474.02,-7.30,25.55)
+local B4 = Vector3.new(-470.93,-6.83,113.38)
+
+local mode = nil
+
+local function hrp()
+local c = lp.Character
+return c and c:FindFirstChild("HumanoidRootPart")
+end
+
+local function go(pos,speed,cond)
+
+local r = hrp()
+if not r then return end
+
+while cond() and (r.Position - pos).Magnitude > 1 do
+
+    local dir = (pos - r.Position).Unit
+
+    r.AssemblyLinearVelocity = Vector3.new(
+        dir.X * speed,
+        r.AssemblyLinearVelocity.Y,
+        dir.Z * speed
+    )
+
+    task.wait()
+end
+
+end
+
+RunService.Heartbeat:Connect(function()
+
+if mode then return end
+
+local r = hrp()
+if not r then return end
+
+if (r.Position - AUTO1_TRIGGER).Magnitude < 4 then
+    mode = 1
+end
+
+if (r.Position - AUTO2_TRIGGER).Magnitude < 4 then
+    mode = 2
+end
+
+end)
+
+-- GUI
+local gui = Instance.new("ScreenGui")
+gui.Name = "AutoPlay_UI"
+gui.ResetOnSpawn = false
+gui.Parent = game:GetService("CoreGui")
+
+local main = Instance.new("Frame")
+main.Size = UDim2.new(0,210,0,60)
+
+if Saved and Saved.AutoPlayPos then
+main.Position = UDim2.new(
+Saved.AutoPlayPos.XS,
+Saved.AutoPlayPos.XO,
+Saved.AutoPlayPos.YS,
+Saved.AutoPlayPos.YO
+)
+else
+main.Position = UDim2.new(0.4,0,0.4,0)
+end
+
+main.BackgroundColor3 = Color3.fromRGB(20,25,30)
+main.BackgroundTransparency = 0.2
+main.BorderSizePixel = 0
+main.Active = true
+main.Draggable = true
+main.Parent = gui
+
+Instance.new("UICorner",main)
+
+local stroke = Instance.new("UIStroke")
+stroke.Color = Color3.fromRGB(50,150,250)
+stroke.Thickness = 2
+stroke.Parent = main
+
+-- HEADER
+local header = Instance.new("Frame")
+header.Size = UDim2.new(1,-20,0,25)
+header.Position = UDim2.new(0,10,0,5)
+header.BackgroundTransparency = 1
+header.Parent = main
+
+local arrowLeft = Instance.new("TextButton")
+arrowLeft.Size = UDim2.new(0,20,0,20)
+arrowLeft.Position = UDim2.new(0,0,0,0)
+arrowLeft.Text = "^"
+arrowLeft.BackgroundTransparency = 1
+arrowLeft.TextColor3 = Color3.new(1,1,1)
+arrowLeft.Font = Enum.Font.GothamBold
+arrowLeft.TextSize = 14
+arrowLeft.Parent = header
+
+local title = Instance.new("TextLabel")
+title.Size = UDim2.new(1,-40,1,0)
+title.Position = UDim2.new(0,20,0,0)
+title.BackgroundTransparency = 1
+title.Text = "Auto Play"
+title.TextColor3 = Color3.fromRGB(80,180,255)
+title.TextSize = 14
+title.TextXAlignment = Enum.TextXAlignment.Left
+title.Font = Enum.Font.GothamBold
+title.Parent = header
+
+local arrowRight = Instance.new("TextButton")
+arrowRight.Size = UDim2.new(0,20,0,20)
+arrowRight.Position = UDim2.new(1,-20,0,0)
+arrowRight.Text = "^"
+arrowRight.BackgroundTransparency = 1
+arrowRight.TextColor3 = Color3.new(1,1,1)
+arrowRight.Font = Enum.Font.GothamBold
+arrowRight.TextSize = 14
+arrowRight.Parent = header
+
+-- PLAY BUTTON
+local button = Instance.new("TextButton")
+button.Size = UDim2.new(1,-20,0,23)
+button.Position = UDim2.new(0,10,0,32)
+button.BackgroundColor3 = Color3.fromRGB(43,160,235)
+button.TextColor3 = Color3.new(1,1,1)
+button.Text = "PLAY"
+button.Font = Enum.Font.GothamBold
+button.TextSize = 14
+button.Parent = main
+Instance.new("UICorner",button)
+
+-- SAVE BUTTON
+local saveBtn = Instance.new("TextButton")
+saveBtn.Size = UDim2.new(1,-20,0,25)
+saveBtn.Position = UDim2.new(0,10,1,4)
+saveBtn.Text = "Save"
+saveBtn.Visible = false
+saveBtn.BackgroundColor3 = Color3.fromRGB(50,50,50)
+saveBtn.TextColor3 = Color3.new(1,1,1)
+saveBtn.Font = Enum.Font.Gotham
+saveBtn.TextSize = 13
+saveBtn.Parent = main
+Instance.new("UICorner",saveBtn)
+
+-- CONFIG GUI
+local speedGui = Instance.new("Frame")
+speedGui.Size = UDim2.new(0,210,0,90)
+speedGui.Position = main.Position + UDim2.new(0,0,0,65)
+speedGui.BackgroundColor3 = Color3.fromRGB(20,25,30)
+speedGui.BackgroundTransparency = 0.2
+speedGui.Visible = false
+speedGui.Parent = gui
+Instance.new("UICorner",speedGui)
+
+-- INPUTS
+local function createRow(text,val,pos)
+
+local label = Instance.new("TextLabel")
+label.Size = UDim2.new(0.6,0,0,20)
+label.Position = UDim2.new(0,10,0,pos)
+label.BackgroundTransparency = 1
+label.Text = text
+label.TextColor3 = Color3.fromRGB(200,200,200)
+label.Font = Enum.Font.Gotham
+label.TextSize = 13
+label.TextXAlignment = Enum.TextXAlignment.Left
+label.Parent = speedGui
+
+local box = Instance.new("TextBox")
+box.Size = UDim2.new(0,60,0,20)
+box.Position = UDim2.new(1,-70,0,pos)
+box.BackgroundColor3 = Color3.fromRGB(30,35,40)
+box.TextColor3 = Color3.new(1,1,1)
+box.Text = tostring(val)
+box.Font = Enum.Font.GothamBold
+box.TextSize = 13
+box.ClearTextOnFocus = false
+box.Parent = speedGui
+Instance.new("UICorner",box)
+
+return box
+
+end
+
+local noStealBox = createRow("Speed No Steal",SPEED_NO_STEAL,10)
+local stealBox = createRow("Speed Steal",SPEED_STEAL,40)
+
+noStealBox.FocusLost:Connect(function()
+local n = tonumber(noStealBox.Text)
+if n then SPEED_NO_STEAL = n end
+end)
+
+stealBox.FocusLost:Connect(function()
+local n = tonumber(stealBox.Text)
+if n then SPEED_STEAL = n end
+end)
+
+-- ARROWS
+arrowLeft.MouseButton1Click:Connect(function()
+opened = not opened
+speedGui.Visible = opened
+end)
+
+arrowRight.MouseButton1Click:Connect(function()
+saveOpened = not saveOpened
+saveBtn.Visible = saveOpened
+end)
+
+-- SAVE
+saveBtn.MouseButton1Click:Connect(function()
+
+if not Saved then Saved = {} end
+
+Saved.AutoPlayConfig = {
+NoSteal = SPEED_NO_STEAL,
+Steal = SPEED_STEAL
+}
+
+local pos = main.Position
+
+Saved.AutoPlayPos = {
+XS = pos.X.Scale,
+XO = pos.X.Offset,
+YS = pos.Y.Scale,
+YO = pos.Y.Offset
+}
+
+if SaveConfig then
+SaveConfig()
+end
+
+end)
+
+-- PLAY
+button.MouseButton1Click:Connect(function()
+
+autoPlay = not autoPlay
+
+if autoPlay then
+
+button.Text="STOP"
+button.BackgroundColor3=Color3.fromRGB(255,120,120)
+
+task.spawn(function()
+
+if mode == 1 then
+
+go(A1,SPEED_NO_STEAL,function()return autoPlay end)
+go(A2,SPEED_NO_STEAL,function()return autoPlay end)
+go(A3,SPEED_STEAL,function()return autoPlay end)
+go(A4,SPEED_STEAL,function()return autoPlay end)
+
+elseif mode == 2 then
+
+go(B1,SPEED_NO_STEAL,function()return autoPlay end)
+go(B2,SPEED_NO_STEAL,function()return autoPlay end)
+go(B3,SPEED_STEAL,function()return autoPlay end)
+go(B4,SPEED_STEAL,function()return autoPlay end)
+
+end
+
+autoPlay=false
+button.Text="PLAY"
+button.BackgroundColor3=Color3.fromRGB(43,160,235)
+
+end)
+
+else
+
+button.Text="PLAY"
+button.BackgroundColor3=Color3.fromRGB(43,160,235)
+
+end
+
+end)
